@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/benjaminstrumeyer/Personal-Portfolio#readme",
   "devDependencies": {
+    "bower": "^1.7.2",
     "gulp": "^3.9.1",
+    "gulp-inject": "^4.1.0",
     "wiredep": "^4.0.0"
   }
 }
