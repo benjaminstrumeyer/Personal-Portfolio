@@ -5,10 +5,6 @@ gulp.task('injectLib', function() {
     var inject = require('gulp-inject');
     
     var injectSrc = gulp.src(['./assets/css/*.css'], {read: false});
-    
-    var injectOptions = {
-      ignorePath: '/assets'  
-    }; 
         
     var options = {
         bowerJson: require('./bower.json'),
@@ -17,7 +13,7 @@ gulp.task('injectLib', function() {
     
     return gulp.src('./*.html')
         .pipe(wiredep(options))
-        .pipe(inject(injectSrc, injectOptions))
+        .pipe(inject(injectSrc))
         .pipe(gulp.dest('./')); 
 })
                      

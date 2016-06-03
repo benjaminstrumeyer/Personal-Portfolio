@@ -1,9 +1,48 @@
-#landing-screen {
+.full-screen {
+    background-color: #298D62;
+    display: block;
     height: 100%;
+    margin-top: -21px;
     width: 100%;
-    background-color: blue;
-/*
-    background-repeat: no-repeat;
-    background-size: cover;
-*/
+}
+
+#personal-pic {
+    background-color: 286D80;
+    height: 45%;
+}
+
+#about-me {
+    background-color: 298D62;
+    height: 45%;
+}
+
+#contact-info {
+    background-color: 064354;
+    height: 45%;
+}
+
+.container-table {
+    display: table;
+}
+
+.row-fluid {
+    display: table-cell;
+    height: 100%; 
+    vertical-align: middle;
+}
+ 
+.centering {
+  float:none;
+  margin:0 auto;
+}
+
+.container-fluid{
+  height:100%;
+  display:table;
+  width: 100%;
+  padding: 0;
+}
+
+#job-title {
+    margin-bottom: 200px;
 }
