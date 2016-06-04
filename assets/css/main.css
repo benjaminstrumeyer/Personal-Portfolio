@@ -7,17 +7,17 @@
 }
 
 #personal-pic {
-    background-color: 286D80;
+    background-color: #286D80;
     height: 45vh;
 }
 
 #about-me {
-    background-color: 298D62;
+    background-color: #298D62;
     height: 45vh;
 }
 
 #contact-info {
-    background-color: 064354;
+    background-color: #064354;
     height: 45vh;
 }
 
@@ -36,9 +36,9 @@
   margin:0 auto;
 }
 
-.container-fluid-top{
+.container-fluid-top {
   height:100%;
-  display:table;
+  display: table;
   width: 100%;
   padding: 0;
 }
