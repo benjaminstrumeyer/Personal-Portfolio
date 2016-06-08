@@ -21,5 +21,9 @@
     "gulp": "^3.9.1",
     "gulp-inject": "^4.1.0",
     "wiredep": "^4.0.0"
+  },
+  "dependencies": {
+    "gulp-inject": "^4.1.0",
+    "wiredep": "^4.0.0"
   }
 }
