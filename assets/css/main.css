@@ -63,3 +63,9 @@
 #project-description {
     font-size: 1.45em;
 }
+
+.project-card {
+    border-color: black;
+    height: 20px;
+    width: 20px;
+}

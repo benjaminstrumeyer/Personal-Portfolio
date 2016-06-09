@@ -5,10 +5,11 @@
 
 <body>
 <div>
-    <div id="landing-screen" class="full-screen">
+    <div ng-app="portfolio" id="landing-screen" class="full-screen">
         <div>
             <h1 id="title" class="text-center">Benjamin Strumeyer</h1>
         </div>
+        <project></project>
         <div class="container-fluid-top">
             <div class="row-fluid">
                 <div class="text-center centering">
@@ -90,9 +91,6 @@
     </div>
 </div>
     
-<link rel="stylesheet" href="assets/css/main.css" />
-
-<script src="app/app.module.js"></script>
 
 <!-- bower:css -->
 <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
@@ -104,5 +102,13 @@
 <script src="bower_components/jquery/dist/jquery.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 <!--endbower-->
+    
+<!-- css -->
+<link rel="stylesheet" href="assets/css/main.css" />
+    
+<!-- angularJS -->
+<script src="app/app.module.js"></script>
+<script src="app/components/home/projects/projectDirective.js"></script>
+    
 </body>
 
