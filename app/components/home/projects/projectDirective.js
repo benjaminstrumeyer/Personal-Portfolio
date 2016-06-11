@@ -3,6 +3,6 @@ angular.module('portfolio')
         return {
             restrict: 'E',
             transclude: true,
-            template: '<h2>Test</h2>'
+            templateUrl: '/app/components/home/projects/project.html'
     }
 });
