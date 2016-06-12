@@ -1,9 +1,9 @@
 <div class="project-card round-border">
     <h3 class="text-center">{{project.name}}</h3>
     <hr>
-    <h4 ng-repeat="n in project.technologies">
-        <div class="text-box">
-            <div>{{n}}</div>
+    <div id="tool-box" class="row">
+        <div ng-repeat="n in project.technologies">
+            <img class="technology-icon" ng-src="{{parentPath + n}}.png" alt="{{n}}"></img>
         </div>
-    </h4>
+    </div>
 </div>

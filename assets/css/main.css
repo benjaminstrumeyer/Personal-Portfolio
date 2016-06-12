@@ -65,7 +65,7 @@
 }
 
 .project-card {
-    width: 150px;
+    width: 270px;
     margin: 0px 0px 8px 0px
 }
 
@@ -86,6 +86,15 @@
     border-style: solid;
 }
 
-.inline {
-    display: inline;
+.technology-icon {
+    float: left;
+    height: 30px;
+    margin: 3;
+    padding: 0;
+    text-align: center;
+    width: 30px;
+}
+
+#tool-box {
+    margin: auto;
 }
