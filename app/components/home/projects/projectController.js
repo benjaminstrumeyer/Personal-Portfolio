@@ -4,6 +4,8 @@ angular.module('portfolio')
     .success(function(data, status, headers, config) {
         $scope.projects = data;
         console.log($scope.projects);
+        $scope.parentPath = "/assets/img/";
+        
     })
     .error(function(data, status, headers, config) {
        // Log here. 

@@ -79,3 +79,13 @@
     border-radius: 12px;
     border-style: solid;
 }
+
+.text-box {
+    border-color: black;
+    border-radius: 6px;
+    border-style: solid;
+}
+
+.inline {
+    display: inline;
+}

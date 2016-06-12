@@ -3,28 +3,28 @@
         "name": "Hero HQ",
         "description": "Hero Headquarters is a Create Your Own Adventure themed comic book web application created to fulfill a semester-long team project in Stony Brook University's Software Engineering course. You can browse the site in a number of ways to read comics published by other users, and even design your own comics using our own content creator. Other functionalities include the ability to sign in with your google account, which lets us tailor your custom homepage based on your comic history, and subscriptions of your choice.",
         "imgsrc": "assets/img/herohq.jpg",
-        "technologies": ["HTML5", "CSS", "Javascript", "JQuery", "Spring", "Cloud Datastore"],
+        "technologies": ["HTML5", "CSS3", "Javascript", "JQuery", "Spring", "Cloud Datastore"],
         "members": 4
     },
     {
         "name": "Paws for a Cause",
         "description": "Website to promote a family owned thrift store called Paws For A Cause. Displays information about the store, including how to donate, and contact us. Admin users are able to post updates and pictures to the homepage regarding sales and new arrivals.",
         "imgsrc": "assets/img/pawsForACause.jpg",
-        "technologies": ["HTML5", "CSS", "Javascript", "AngularJS"],
+        "technologies": ["HTML5", "CSS3", "Javascript", "AngularJS"],
         "members": 1
     },
     {
         "name": "Natural Language Processing Steam Reviews",
         "description": "NLP Steam Reviews is a sentiment analyzer web application created as a final project for the Natural Language Processing elective at Stony Brook University. My partner and I scrape ~75,000 reviews from the Steam website along with their recommended/not recommended rating. We use this information to predict the recommended value for other games using the Turney algorithm.",
         "imgsrc": "assets/img/steamReviews.jpg",
-        "technologies": ["HTML", "CSS", "Javascript", "AngularJS", "NodeJS", "MongoDB"],
+        "technologies": ["HTML5", "CSS3", "Javascript", "AngularJS", "NodeJS", "MongoDB"],
         "members": 2
     },
     {
         "name": "Personal Portfolio",
         "description": "Simple angular app to display projects",
         "imgsrc": "assets/img/meta.jpg",
-        "technologies": ["HTML", "CSS", "Javascript", "AngularJS"],
+        "technologies": ["HTML5", "CSS3", "Javascript", "AngularJS"],
         "members": 1
     }
 ]
