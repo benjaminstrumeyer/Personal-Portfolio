@@ -15,7 +15,7 @@
     },
     {
         "name": "Natural Language Processing Steam Reviews",
-        "description": "NLP Steam Reviews is a sentiment analyzer created to fulfill a final project requirement for the natural langauge processing elective at Stony Brook University. My partner and I scrape ~75,000 reviews from the Steam website along with their recommended/not recommended rating. We use this information to predict the recommended value for other games using the Turney algorithm.",
+        "description": "NLP Steam Reviews is a sentiment analyzer web application created as a final project for the Natural Language Processing elective at Stony Brook University. My partner and I scrape ~75,000 reviews from the Steam website along with their recommended/not recommended rating. We use this information to predict the recommended value for other games using the Turney algorithm.",
         "imgsrc": "assets/img/steamReviews.jpg",
         "technologies": ["HTML", "CSS", "Javascript", "AngularJS", "NodeJS", "MongoDB"],
         "members": 2
