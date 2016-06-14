@@ -30,27 +30,29 @@
         <div class="container-fluid">
             <div class="col-md-2 col-md-offset-1">
                 <div class="container-fluid" ng-repeat="project in projects">
-                  <project></project>
+                  <project ng-click="viewProject({{project.name}})"></project>
                 </div>
             </div>
-            <div class="col-md-8 round-border">
-                <div class="row">
-                    <div class="col-md-5">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <h1>Project Title</h1>
+            <div class="col-md-8 round-border" ng-switch-on="projectName">
+                <div ng-switch-default="Hero HQ">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <h1>{{projects[0].name}}</h1>
+                                </div>
+                                <div class="row">
+                                    <h1>Technologies Used</h1>
+                                </div>
+                            </div>
                         </div>
-                        <div class="row">
-                            <h1>Technologies Used</h1>
-                        </div>
-                    </div>
-                    </div>
                     <div class="col-md-7">
                         <h1 class="black-border">Project Image</h1>
                     </div>
+                    </div>
+                        <h1>Description</h1>
+                        <p id="project-description">{{projects[0].description}}</p>
                 </div>
-                    <h1>Description</h1>
-                    <p id="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
         </div>
                 </div>
