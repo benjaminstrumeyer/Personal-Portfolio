@@ -1,5 +1,8 @@
 angular.module('portfolio')
     .config(function($stateProvider, $urlRouterProvider) {
+        $urlRouterProvider
+            .otherwise('/');
+    
         $stateProvider 
             .state('projects', {
                 url: '/projects',

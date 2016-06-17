@@ -25,12 +25,13 @@
                     <div class="container-fluid">
             <div class="col-md-offset-1">
                 <h1>Projects</h1>
+                <a ui-sref="projects">click here</a>
             </div>
         </div>
         <div class="container-fluid">
             <div class="col-md-2 col-md-offset-1">
                 <div class="container-fluid" ng-repeat="project in projects">
-                  <project ng-click="viewProject({{project.name}})"></project>
+                  <project></project>
                 </div>
             </div>
             <div class="col-md-8 round-border">
