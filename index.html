@@ -33,26 +33,8 @@
                   <project ng-click="viewProject({{project.name}})"></project>
                 </div>
             </div>
-            <div class="col-md-8 round-border" ng-switch-on="projectName">
-                <div ng-switch-default="Hero HQ">
-                    <div class="row">
-                        <div class="col-md-5">
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <h1>{{projects[0].name}}</h1>
-                                </div>
-                                <div class="row">
-                                    <h1>Technologies Used</h1>
-                                </div>
-                            </div>
-                        </div>
-                    <div class="col-md-7">
-                        <h1 class="black-border">Project Image</h1>
-                    </div>
-                    </div>
-                        <h1>Description</h1>
-                        <p id="project-description">{{projects[0].description}}</p>
-                </div>
+            <div class="col-md-8 round-border">
+                <projectInfo></projectInfo>
             </div>
         </div>
                 </div>
@@ -111,7 +93,6 @@
 <script src="app/components/home/projects/project/projectController.js"></script>
     
 <script src="app/components/home/projects/projectInfo/projectInfoDirective.js"></script>
-<script src="app/components/home/projects/projectInfo/projectInfoController.js"></script>
     
 </body>
 
