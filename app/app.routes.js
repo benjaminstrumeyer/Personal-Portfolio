@@ -4,8 +4,8 @@ angular.module('portfolio')
             .otherwise('/');
     
         $stateProvider 
-            .state('projects', {
-                url: '/projects',
+            .state('viewProject', {
+                url: '/projects/:name',
                 templateUrl: '/app/components/home/projects/projectInfo/projectInfo.html',
             });
 });
