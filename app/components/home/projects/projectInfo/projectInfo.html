@@ -7,6 +7,9 @@
                 </div>
                 <div class="row">
                     <h1>Technologies Used</h1>
+                    <div ng-repeat="technology in currentProject.technologies">
+                        {{technology}}
+                    </div>
                 </div>
             </div>
     </div>
@@ -15,5 +18,5 @@
     </div>
 </div>
     <h1>Description</h1>
-    <p id="project-description">Project Description</p>
+    <p id="project-description">{{currentProject.description}}</p>
 </div>
