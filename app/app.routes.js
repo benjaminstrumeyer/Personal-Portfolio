@@ -7,5 +7,6 @@ angular.module('portfolio')
             .state('viewProject', {
                 url: '/projects/:name',
                 templateUrl: '/app/components/home/projects/projectInfo/projectInfo.html',
+                controller: 'ProjectCtrl'
             });
 });

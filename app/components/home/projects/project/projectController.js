@@ -9,11 +9,12 @@ angular.module('portfolio')
             $scope.projects = data;
             $scope.parentPath = "/assets/img/";
             
-            alert($stateParams.name);
+            var projectName = $stateParams.name;
             
-            $scope.currentProject = getProject($stateParams.name, $scope.projects);
+            $scope.currentProject = getProject(projectName, data);
             
-//            console.log($scope.currentProject);
+            console.log('Current Project: ', $scope.currentProject.name);
+            
             
             
         })
@@ -24,17 +25,17 @@ angular.module('portfolio')
         function getProject(projectName, projects) {
             var project = null;
             
-            switch(projectName) {
-                case "Hero HQ":
+            switch(projectName.toLowerCase()) {
+                case "hero hq":
                     project = projects[0];
                     break;
-                case "Paws For a Cause": 
+                case "paws for a cause": 
                     project = projects[1];
                     break;
-                case "Natural Language Processing Steam Reviews":
+                case "natural language processing steam reviews":
                     project = projects[2];
                     break;
-                case "Personal Portfolio": 
+                case "personal portfolio": 
                     project = projects[3];
                     break;
                 default: 
