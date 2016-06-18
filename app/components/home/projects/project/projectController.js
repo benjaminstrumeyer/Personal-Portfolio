@@ -23,7 +23,7 @@ angular.module('portfolio')
         });
     
         function getProject(projectName, projects) {
-            var project = null;
+            var project = projects[0];
             
             switch(projectName.toLowerCase()) {
                 case "hero hq":
