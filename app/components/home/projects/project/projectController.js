@@ -24,24 +24,7 @@ angular.module('portfolio')
     
         function getProject(projectName, projects) {
             var project = projects[0];
-            
-            switch(projectName.toLowerCase()) {
-                case "hero hq":
-                    project = projects[0];
-                    break;
-                case "paws for a cause": 
-                    project = projects[1];
-                    break;
-                case "natural language processing steam reviews":
-                    project = projects[2];
-                    break;
-                case "personal portfolio": 
-                    project = projects[3];
-                    break;
-                default: 
-                    project = null;
-            }
-            
+            project = projects.filter(x => x.name.toLowerCase() === projectName.toLowerCase())[0];
             return project;
         }
     
