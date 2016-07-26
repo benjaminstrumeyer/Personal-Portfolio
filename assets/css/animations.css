@@ -1,17 +1,9 @@
-@keyframe fade-in {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+.project-container.ng-enter {
+    transition: 0.4s linear all;
+    opacity: 0;
 }
 
-@keyframe fade-out {
-    0% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
+.project-container.ng-enter-active {
+    transition: 0.4s linear all;
+    opacity: 1;
 }
