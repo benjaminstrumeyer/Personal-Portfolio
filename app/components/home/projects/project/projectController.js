@@ -15,8 +15,6 @@ angular.module('portfolio')
             
             console.log('Current Project: ', $scope.currentProject.name);
             
-            
-            
         })
         .error(function(data, status, headers, config) {
         // Log here. 

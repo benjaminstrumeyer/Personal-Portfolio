@@ -18,7 +18,10 @@
         </div>
     </div>
     
-        <div class="container-fluid">
+    <div id="projects" class="project-section full-screen" ng-controller="ProjectCtrl">
+        
+    </div>
+    <div class="container-fluid">
         <div class="row">
             <div id="personal-pic-section" class="col-md-6">
                 <h1 class="text-center">Personal Picture Here</h1>
@@ -29,31 +32,7 @@
         </div>
     </div>
     
-    <div id="projects" class="project-section full-screen" ng-controller="ProjectCtrl">
-        
-        <div class="container-fluid-top">
-            <div class="row-fluid">
-                <div class="centering">
-                    <div class="container-fluid">
-            <div class="col-md-offset-1">
-                <h1>Projects</h1>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="col-md-2 col-md-offset-1">
-                <div class="container-fluid" ng-repeat="project in projects">
-                  <project></project>
-                </div>
-            </div>
-            <div class="col-md-8 round-border">
-                <div class="project-container" ui-view></div>
-            </div>
-        </div>
-                </div>
-            </div>
-        </div>
-    </div>
-        <div id="contact-info" class="container-fluid">
+    <div id="contact-info" class="container-fluid">
         <div class="row">
             <div class="col-md-4 col-md-offset-4">
             <h2>benjamin.strumeyer@gmail.com</h2>

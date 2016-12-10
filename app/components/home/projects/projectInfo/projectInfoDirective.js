@@ -7,6 +7,6 @@ angular.module('portfolio')
             templateUrl: '/app/components/home/projects/projectInfo/projectInfo.html',
             link: function(scope, elem, attrs) {
                 console.log(scope.projects);
-        }
+            }
     };
 });

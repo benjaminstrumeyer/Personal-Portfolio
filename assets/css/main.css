@@ -19,16 +19,18 @@ body {
 }
 
 #personal-pic-section {
+/*    background-color: hsl(28,52%,65%);*/
+    background-color: hsl(177,14%,60%);
     height: 50.2vh;
 }
 
 #about-me-section {
-    background-color:  hsl(177,14%,62%);
+    background-color: hsl(177,14%,62%);
     height: 50.2vh;
 }
 
 #contact-info {
-    background: hsl(28,52%,65%);
+    background-color: hsl(177,14%,62%);
     height: 38.8vh;
 }
 
@@ -42,10 +44,6 @@ body {
     vertical-align: middle;
 }
  
-.centering {
-  float:none;
-  margin:0 auto;
-}
 
 .container-fluid-top {
   height:100%;
@@ -76,18 +74,6 @@ body {
 .project-card hr {
     width: 80%;
     border-color: black;
-}
-
-.round-border {
-    border-color: black;
-    border-radius: 12px;
-    border-style: solid;
-}
-
-.text-box {
-    border-color: black;
-    border-radius: 6px;
-    border-style: solid;
 }
 
 .technology-icon {
