@@ -1,7 +1,10 @@
-app.component('project', {
+app.component('projectComponent', {
+    scope: {
+      projectName: "@"  
+    },
     restrict: 'E',
-    controller: 'ProjectCtrl',
-    templateUrl: '/app/components/home/projects/project/project.html',
+    controller: 'ProjectController',
+    templateUrl: '/app/components/home/projects/projectComponent/project.html',
     link: function(scope, elem, attrs) {
 //                var technologies = scope.technologies;
         console.log(scope.projects);

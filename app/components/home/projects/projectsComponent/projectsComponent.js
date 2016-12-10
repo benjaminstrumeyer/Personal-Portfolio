@@ -1,5 +1,5 @@
 app.component('projectsComponent', {
     restrict: 'E',
-    controller: 'projectsController',
+    controller: 'ProjectsController',
     templateUrl: 'app/components/home/projects/projectsComponent/projects.html'
 });

@@ -1,6 +1,11 @@
 
 <head>
     <title>Personal Portfolio</title>
+    
+<!-- bower:css -->
+<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css" />
+<!-- endbower --> 
 </head>
 
 <body ng-app="portfolio">
@@ -18,11 +23,11 @@
         </div>
     </div>
     
-    <div id="projects" class="project-section full-screen" ng-controller="ProjectCtrl">
+    <div id="projects" class="project-section full-screen">
         <div class="title-container text-center">
             <h1>Projects</h1>
         </div>
-        <div class="projects-container" ui-view>
+        <div class="projects-view" ui-view>
             <!--TODO: Insert projects component here -->
             <projects-component></projects-component>
         </div>
@@ -54,11 +59,6 @@
 </div>
     
 
-<!-- bower:css -->
-<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
-<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css" />
-<!-- endbower --> 
-
 <!--bower:js-->
 <script src="bower_components/angular/angular.js"></script>
 <script src="bower_components/jquery/dist/jquery.js"></script>
@@ -75,12 +75,14 @@
 <script src="app/app.module.js"></script>
 <script src="app/app.routes.js"></script>
     
-<script src="app/components/home/projects/projectsComponent/projectsComponent.js"></script>
-<script src="app/components/home/projects/projectsComponent/projectsController.js"></script>
-<script src="app/components/home/projects/projectComponent/projectComponent.js"></script>
+<script src="app/components/home/projects/projectsComponent/projectsController.js"></script>    
 <script src="app/components/home/projects/projectComponent/projectController.js"></script>
-    
 <script src="app/components/home/projects/projectInfo/projectInfoDirective.js"></script>
+    
+    
+<script src="app/components/home/projects/projectsComponent/projectsComponent.js"></script>
+<script src="app/components/home/projects/projectComponent/projectComponent.js"></script>
+    
     
 </body>
 

@@ -1,19 +1,14 @@
-angular.module('portfolio')
-    .controller("ProjectCtrl", function ($scope, $http, $stateParams) {
+app
+    .controller("ProjectController", function ($scope, $http) {
         $http({
             url: 'data/projects.json',
-            method: 'get',
-            params: {name: $stateParams.name}
+            method: 'get'
         })
         .success(function(data, status, headers, config) { 
             $scope.projects = data;
             $scope.parentPath = "/assets/img/";
             
-            var projectName = $stateParams.name;
-            
 //            $scope.currentProject = getProject(projectName, data);
-            
-            console.log('Current Project: ', $scope.currentProject.name);
             
         })
         .error(function(data, status, headers, config) {

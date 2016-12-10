@@ -1,4 +1,4 @@
-angular.module('portfolio')
+app
     .directive('projectInfo', function() {
         return {
             restrict: 'E',
