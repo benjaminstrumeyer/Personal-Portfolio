@@ -5,13 +5,13 @@ angular.module('portfolio')
             method: 'get',
             params: {name: $stateParams.name}
         })
-        .success(function(data, status, headers, config) {
+        .success(function(data, status, headers, config) { 
             $scope.projects = data;
             $scope.parentPath = "/assets/img/";
             
             var projectName = $stateParams.name;
             
-            $scope.currentProject = getProject(projectName, data);
+//            $scope.currentProject = getProject(projectName, data);
             
             console.log('Current Project: ', $scope.currentProject.name);
             

@@ -22,6 +22,10 @@
         <div class="title-container text-center">
             <h1>Projects</h1>
         </div>
+        <div class="projects-container" ui-view>
+            <!--TODO: Insert projects component here -->
+            <projects-component></projects-component>
+        </div>
     </div>
     <div class="container-fluid">
         <div class="row">
@@ -71,8 +75,10 @@
 <script src="app/app.module.js"></script>
 <script src="app/app.routes.js"></script>
     
-<script src="app/components/home/projects/project/projectDirective.js"></script>
-<script src="app/components/home/projects/project/projectController.js"></script>
+<script src="app/components/home/projects/projectsComponent/projectsComponent.js"></script>
+<script src="app/components/home/projects/projectsComponent/projectsController.js"></script>
+<script src="app/components/home/projects/projectComponent/projectComponent.js"></script>
+<script src="app/components/home/projects/projectComponent/projectController.js"></script>
     
 <script src="app/components/home/projects/projectInfo/projectInfoDirective.js"></script>
     
