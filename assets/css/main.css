@@ -9,23 +9,26 @@
     background-color: hsl(28,52%,82%);
 }
 
+body {
+    background-color: hsl(28,52%,82%)
+}
+
 .full-screen {
     height: 100vh;
     width: 100wh;
 }
 
-#personal-pic {
-    background-color: #E3F8FF;
+#personal-pic-section {
     height: 50.2vh;
 }
 
-#about-me {
-    background-color: #62DAFF;
+#about-me-section {
+    background-color:  hsl(177,14%,62%);
     height: 50.2vh;
 }
 
 #contact-info {
-    background-color: #004B62;
+    background: hsl(28,52%,65%);
     height: 38.8vh;
 }
 
