@@ -1,13 +1,8 @@
 app.component('projectComponent', {
-    scope: {
-      projectName: "@"  
-    },
-    restrict: 'E',
+    restrict: 'EA',
     controller: 'ProjectController',
     templateUrl: '/app/components/home/projects/projectComponent/project.html',
-    link: function(scope, elem, attrs) {
-//                var technologies = scope.technologies;
-        console.log(scope.projects);
+    bindings: { 
+        name: '@' 
     }
 });
-               
