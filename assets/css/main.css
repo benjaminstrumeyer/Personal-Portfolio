@@ -1,18 +1,17 @@
 #landing-screen {
     margin-top: -20px;
-    background-image: url('/assets/img/road.png');
+    background-image: url('/assets/img/Wave%20OSX.jpg');
     background-size: 100%;
     background-attachment: fixed;
 }
 
-.full-screen {
-    display: block;
-    height: 100vh;
-    width: 100wh;
+.project-section {
+    background-color: hsl(28,52%,82%);
 }
 
-.temp {
-    background-color: #00A2D4;
+.full-screen {
+    height: 100vh;
+    width: 100wh;
 }
 
 #personal-pic {

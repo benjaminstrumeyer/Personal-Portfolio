@@ -23,8 +23,7 @@ angular.module('portfolio')
         });
     
         function getProject(projectName, projects) {
-            var project = projects[0];
-            project = projects.filter(x => x.name.toLowerCase() === projectName.toLowerCase())[0];
+            var project = projects.filter(x => x.name.toLowerCase() === projectName.toLowerCase())[0];
             return project;
         }
     
