@@ -117,10 +117,16 @@ body {
 .project-information-popup {
     position: absolute;
     bottom: 0;
-    left: 1vw;
-    width: 94.7%;
+    left: 0;
+    right: 0;
     z-index: 1;
     height: 15vh;
-    background: grey;
-    
+    background: black;
+    opacity: .4;
+}
+
+.project-container-parent {
+    position: relative; 
+    left: 0;
+    right: 0;
 }
