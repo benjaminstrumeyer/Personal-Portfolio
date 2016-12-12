@@ -24,9 +24,19 @@ body {
     height: 50.2vh;
 }
 
+#personal-pic-section h1 {
+    margin: 0;
+    padding: 20px;
+}
+
 #about-me-section {
     background-color: hsl(177,14%,62%);
     height: 50.2vh;
+}
+
+#about-me-section h1 {
+    margin: 0;
+    padding: 20px;
 }
 
 #contact-info {
@@ -42,14 +52,6 @@ body {
     display: table-cell;
     height: 100%; 
     vertical-align: middle;
-}
- 
-
-.container-fluid-top {
-  height:100%;
-  display: table;
-  width: 100%;
-  padding: 0;
 }
 
 .job-title-container  {
