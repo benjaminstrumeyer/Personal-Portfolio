@@ -125,7 +125,7 @@ body {
     opacity: .4;
 }
 
-.project-container-parent {
+.project-container-wrapper {
     position: relative; 
     left: 0;
     right: 0;
