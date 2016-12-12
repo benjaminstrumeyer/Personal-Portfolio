@@ -104,8 +104,22 @@ body {
     height: 50%;
     border: 2px solid black;
     box-shadow: 4px 4px 4px #888888;
+/*
+    background-image: url('/assets/img/Wave%20OSX.jpg');
+    background-size: 100% 100%;
+*/
 }
 
 .title-container h1 {
     margin: 2vh 0 0 0;
+}
+
+.project-information-popup {
+    position: absolute;
+    bottom: 0;
+    width: 94.5%;
+    z-index: 1;
+    height: 15vh;
+    background: grey;
+    
 }

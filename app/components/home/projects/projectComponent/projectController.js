@@ -20,4 +20,5 @@ app
 //            return project;
 //        }
 //    
+        this.projectInfo = false;
     });
