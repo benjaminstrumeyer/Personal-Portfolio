@@ -52,8 +52,11 @@ body {
   padding: 0;
 }
 
+.job-title-container  {
+    position: relative;
+    top: 4vh;
+}
 #job-title {
-    margin-bottom: 700px;
     font-size: 5em;
 }
 
