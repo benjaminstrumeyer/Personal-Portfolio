@@ -20,5 +20,5 @@ app
 //            return project;
 //        }
 //    
-        this.projectInfo = false;
+        this.projectInfo = true;
     });

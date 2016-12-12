@@ -117,7 +117,8 @@ body {
 .project-information-popup {
     position: absolute;
     bottom: 0;
-    width: 94.5%;
+    left: 1vw;
+    width: 94.7%;
     z-index: 1;
     height: 15vh;
     background: grey;
