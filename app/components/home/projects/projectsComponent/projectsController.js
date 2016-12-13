@@ -1,4 +1,8 @@
 app
-    .controller('ProjectsController', function() {
+    .controller('ProjectsController', function(projectService) {
         
+    var init = function() {
+        
+    }
+
 });
