@@ -1,16 +1,19 @@
 app
-.service('projectService', function($http, $q) {
+.service('projectService', function($http) {
     var self = this;
     
-    var projects = [];
+    self.projects = [];
     
     var getProjectInformation = function() {
         $http.get('data/projects.json')
         .success(function(result) {
             self.projects = result;
-            console.log(self.projects);
         });
     }
     
     getProjectInformation();
+    
+    self.getProjectInfo = function() {
+        return self.projects;
+    }
 });
