@@ -142,10 +142,13 @@ body {
 }
 
 .project-information-container .technology-container {
-    font-size: 1.4em;
     color: white;
     border: 1px solid white;
-    padding: 4px;
+    padding:  7px 4px 4px 4px;
     border-radius: 3px;
     margin: 0 .3vw 0 0;
+}
+
+.project-information-container .technology-text {
+    font-size: 1.4em;
 }
