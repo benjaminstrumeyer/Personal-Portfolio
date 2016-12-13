@@ -3,6 +3,6 @@ app.component('projectComponent', {
     controller: 'ProjectController',
     templateUrl: '/app/components/home/projects/projectComponent/project.html',
     bindings: { 
-        name: '='
+        project: '<'
     }
 });
