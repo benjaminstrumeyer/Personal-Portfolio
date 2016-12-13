@@ -131,8 +131,21 @@ body {
     right: 0;
 }
 
-.project-information-popup .project-name h1{
+.project-information-container {
+    margin: 0 0 0 .9vw;
+}
+
+.project-information-container .project-name h1{
     font-size: 2em;
     color: white;
-    margin: 2vh 0 0 1vh;
+    margin: 2.5vh 0 2.5vh 0;
+}
+
+.project-information-container .technology-container {
+    font-size: 1.4em;
+    color: white;
+    border: 1px solid white;
+    padding: 4px;
+    border-radius: 3px;
+    margin: 0 .3vw 0 0;
 }

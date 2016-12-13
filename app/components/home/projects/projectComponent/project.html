@@ -1,10 +1,12 @@
 <div class="project-container" ng-mouseenter="projectInfo = true" ng-mouseleave="projectInfo = false" class="text-center">
     <div class="project-information-popup" ng-show="true">
-        <div class="project-name">
-            <h1>{{$ctrl.project.name}}</h1>
+        <div class="project-information-container">
+            <div class="project-name">
+                <h1>{{$ctrl.project.name}}</h1>
+            </div>
+            <span ng-repeat="technology in $ctrl.project.technologies">
+                <technology-component technology="{{technology}}"></technology-component>
+            </span>
         </div>
-        <span ng-repeat="technology in $ctrl.project.technologies">
-            <technology-component technology="{{technology}}"></technology-component>
-        </span>
     </div>
 </div>
