@@ -173,4 +173,10 @@ body {
     left: 0;
 }
 
+.expanded-project-container .back-button-container {
+    position: absolute;
+    border: 1px solid black;
+    
+}
+
 

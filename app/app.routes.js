@@ -8,5 +8,9 @@ app
                 url: '/project/:name',
                 template: "<project-information-directive></project-information-directive>",
                 controller: 'ProjectInformationController'
+            })
+            .state('mainProjectPage', {
+                url: '/',
+                template: "<projects-component></projects-component>"
             });
     });
