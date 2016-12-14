@@ -6,7 +6,7 @@ app
         $stateProvider 
             .state('viewProject', {
                 url: '/project/:name',
-                templateUrl: '/app/components/home/projects/projectInformationDirective/projectInformation.html',
+                template: "<project-information-directive></project-information-directive>",
                 controller: 'ProjectInformationController'
             });
     });
