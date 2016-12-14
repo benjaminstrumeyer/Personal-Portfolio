@@ -1,16 +1,27 @@
 <div class="expanded-project-container">
-    <div class="col-md-4">
-        <h1>{{project.name}}</h1>
-        <h2><u>Technologies Used</u></h2>
-        <div class="container-fluid">
-        <div ng-repeat="technology in project.technologies">
-            <span>
-                <img class="technology-icon" src="/assets/img/{{technology}}.png" height="30px" width="45px"/>
-            </span>
-            <technology-component technology="{{technology}}"></technology-component>
+    <div class="col-md-12">
+        <div class="project-title-container">
+            <h1 class="text-center">{{project.name}}</h1>
         </div>
-        </div>
-    </div>
-    <div class="col-md-6">
     </div>
 </div>
+
+
+<!--
+<div class="col-md-4">
+    <h2><u>Technologies Used</u></h2>
+    <div class="container-fluid">
+        <div ng-repeat="technology in project.technologies">
+            <div class="row">
+                <div class="col-md-2">
+                     <span>
+                        <img class="technology-icon" src="/assets/img/{{technology}}.png" height="30px" width="45px"/>
+                     </span>
+                </div>
+                <div class="col-md-5">
+                    <technology-component technology="{{technology}}"></technology-component>
+                </div>
+             </div>
+        </div>
+    </div>
+</div>-->

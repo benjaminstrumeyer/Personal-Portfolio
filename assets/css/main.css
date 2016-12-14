@@ -130,7 +130,7 @@ body {
 .expanded-project-container {
     border: 2px solid black;
     height: 88vh;
-    margin: 2vh 10vh 0 10vh;
+    margin: 2vh 11vw 0 11vw;
 /*    padding: 10px;*/
 }
 
@@ -140,16 +140,23 @@ body {
 
 .expanded-project-container .technology-container {
     border: 2px solid black;
-    margin: 0 .3vw 3vh .3vw;
+    margin: 0 0 3vh -1.7vw;
     padding: 1.3vh .3vw .7vh .3vw;
+    border-radius: 3px;
+}
+
+.expanded-project-container .col-md-12 {
+    padding: 0;
+}
+.expanded-project-container .project-title-container {
+    border-bottom: 1px solid black;
 }
 
 .expanded-project-container .technology-text {
     font-size: 2em;
 }
 
-.expanded-projeect-container .technology-icon {
-    height: 1vh;
-    width: 1vw;
+.expanded-project-container .technology-icon {
+    margin-top: .375vh;
 }
 
