@@ -5,8 +5,8 @@ app
     
         $stateProvider 
             .state('viewProject', {
-                url: '/projects/:name',
-                templateUrl: '/app/components/home/projects/projectInfo/projectInfo.html',
-                controller: 'ProjectCtrl'
+                url: '/project/:name',
+                templateUrl: '/app/components/home/projects/projectInformationDirective/projectInformation.html',
+                controller: 'ProjectInformationController'
             });
-});
+    });

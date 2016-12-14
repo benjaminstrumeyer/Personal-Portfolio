@@ -104,10 +104,6 @@ body {
     height: 50%;
     border: 2px solid black;
     box-shadow: 4px 4px 4px #888888;
-/*
-    background-image: url('/assets/img/Wave%20OSX.jpg');
-    background-size: 100% 100%;
-*/
 }
 
 .title-container h1 {
@@ -132,7 +128,7 @@ body {
 }
 
 .project-information-container {
-    margin: 0 0 0 .9vw;
+    margin: 0 0 0 .8vw;
 }
 
 .project-information-container .project-name h1{

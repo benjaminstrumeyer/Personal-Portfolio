@@ -1,4 +1,5 @@
-<div class="project-container" ng-mouseenter="projectInfo = true" ng-mouseleave="projectInfo = false">
+<div class="project-container" ng-mouseenter="projectInfo = true" ng-mouseleave="projectInfo = false" 
+     ui-sref="viewProject({ name: $ctrl.project.name})">
     <div class="project-information-popup" ng-show="true">
         <div class="project-information-container">
             <div class="project-name">
