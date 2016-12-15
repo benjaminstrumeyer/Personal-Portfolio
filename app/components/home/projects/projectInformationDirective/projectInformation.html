@@ -1,4 +1,4 @@
-<div class="expanded-project-container">
+<div class="expanded-project-container" ng-controller="ProjectInformationController as $ctrl">
     <div class="back-button-container" ui-sref="mainProjectPage">
         <div class="back-button">
         </div>
@@ -39,7 +39,7 @@
                 </h1>
             </div>
             <div class="container-fluid project-description-container">
-                <div class="project-description">
+                <div class="project-description" ng-class="$ctrl.descriptionClass">
                     {{project.description}}
                 </div>
             </div>

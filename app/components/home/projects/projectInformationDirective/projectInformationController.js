@@ -2,14 +2,19 @@ app
     .controller('ProjectInformationController', function($stateParams) {
         
         var self = this;
+    
+        var getDescriptionClass = function() {
+            var state = $stateParams.name.replace(/\s/g,'').toLowerCase();
+            var descriptionClass = state + "Description";
+            return descriptionClass;
+        }
         
-        // Gets the projectName from stateParams and adds it as an attribute for this directive in app.routes.js 
-//        self.projectName = $stateParams.name;
-    
-//        console.log('StateParams.name: ', $stateParams.name);
-    
-    
+        var init = function() {
+            self.descriptionClass = getDescriptionClass();
+            console.log(self.descriptionClass);
+        }
         
-    
+        init();
     
 });
+        

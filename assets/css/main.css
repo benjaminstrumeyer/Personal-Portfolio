@@ -273,6 +273,21 @@ body {
 }
 
 .project-description-container .project-description {
-    font-size: 1.5em;
+/*    font-size: 1.5em;*/
 }
 
+.pawsforacauseDescription {
+    font-size: 1.8em;
+}
+
+.herohqDescription{
+    font-size: 1.25em;
+}
+
+.personalportfolioDescription{
+    font-size: 1.8em;
+}
+
+.naturallanguageprocessingsteamreviewsDescription {
+    font-size: 1.45em;
+}
