@@ -11,7 +11,6 @@ app
         
         var init = function() {
             self.descriptionClass = getDescriptionClass();
-            console.log(self.descriptionClass);
         }
         
         init();

@@ -191,7 +191,7 @@ body {
 }
 */
 
-.expanded-project-container .col-md-4 {
+.expanded-project-container .col-md-2 {
     border-right: 1px solid black;
 }
 
@@ -202,7 +202,7 @@ body {
 
 .tools-title-container {
     position: relative;
-    left: 13%;
+    left: 6.5%;
     margin: -1.6vh 0 0 0;
 }
 
@@ -223,28 +223,27 @@ body {
 .expanded-project-container .tool-items-container {
     position: relative; 
 /*    margin: 0 0 0 -3vw;*/
-    left:9.5%;
+    left:2%;
 }
 
 .expanded-project-container .tool-image-icon-container {
     display: inline-flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
     height: 23vh;
+    margin-top: -20vh;
 }
 
 .tool-image-icon-container .tool-image {
     flex-grow: 1;
     height: 30px;
     width: 30px;
-    margin-top: -1vh;
+    margin: -.5vh 0 .56vh 0;
 }
 
 .expanded-project-container .tool-name-container {
     display: inline-flex;
     flex-direction: column;
-    justify-content: space-around;
     height: 23vh;
 }
 
@@ -268,12 +267,8 @@ body {
 
 .expanded-project-container .project-description-container {
     margin-left: -20vw;
-    width: 42vw;
+    width: 56vw;
     height: 30vh;
-}
-
-.project-description-container .project-description {
-/*    font-size: 1.5em;*/
 }
 
 .pawsforacauseDescription {
@@ -281,7 +276,7 @@ body {
 }
 
 .herohqDescription{
-    font-size: 1.25em;
+    font-size: 1.5em;
 }
 
 .personalportfolioDescription{
@@ -289,5 +284,5 @@ body {
 }
 
 .naturallanguageprocessingsteamreviewsDescription {
-    font-size: 1.45em;
+    font-size: 1.6em;
 }
