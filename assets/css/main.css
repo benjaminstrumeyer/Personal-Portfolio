@@ -131,6 +131,7 @@ body {
     border: 2px solid black;
     height: 85vh;
     margin: 2vh 11vw 0 11vw;
+    box-shadow: 4px 4px 4px #888888;
 /*    padding: 10px;*/
 }
 
@@ -151,6 +152,7 @@ body {
 }
 .expanded-project-container .project-title-container {
     border-bottom: 1px solid black;
+    height: 6.3vh;
 }
 
 .expanded-project-container .carousel-container {
@@ -164,13 +166,6 @@ body {
 
 .expanded-project-container .technology-icon {
     margin-top: .375vh;
-}
-
-.expanded-project-container .project-tools-container {
-    border-right: 1px solid black;
-    position: relative;
-    bottom: 0;
-    left: 0;
 }
 
 .expanded-project-container .back-button-container {
@@ -203,4 +198,19 @@ body {
 }
 */
 
+/*
+.expanded-project-container .col-md-4 {
+    border-right: 1px solid black;
+    height: 100%;
+}
+*/
+
+.expanded-project-container .col-md-4 {
+    border-right: 1px solid black;
+}
+
+.tools-description-container {
+    display: inline-flex;
+    height: 28.9vh;
+}
 
