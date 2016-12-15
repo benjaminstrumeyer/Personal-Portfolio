@@ -202,7 +202,7 @@ body {
 
 .tools-title-container {
     position: relative;
-    left: 13.5%;
+    left: 13%;
     margin: -1.6vh 0 0 0;
 }
 
@@ -221,8 +221,9 @@ body {
 }
 
 .expanded-project-container .tool-items-container {
-    display: relative; 
-    margin: 0 0 0 -3vw;
+    position: relative; 
+/*    margin: 0 0 0 -3vw;*/
+    left:9.5%;
 }
 
 .expanded-project-container .tool-image-icon-container {
@@ -249,10 +250,29 @@ body {
 
 .tool-name-container .technology-container {
     padding: 6px 6px 2px 3px;
+    font-style: italic;
 }
 
 .tool-name-container .technology-text {
     font-size: 1.5em;
 }
 
+.expanded-project-container .project-description-container {
+    position: relative;
+    left: 20vw;
+}
+
+.project-description-container .project-description-title {
+    margin-top: .425%;
+}
+
+.expanded-project-container .project-description-container {
+    margin-left: -20vw;
+    width: 42vw;
+    height: 30vh;
+}
+
+.project-description-container .project-description {
+    font-size: 1.5em;
+}
 

@@ -15,35 +15,34 @@
         <div class="container project-tools-container">
             <div class="tools-title-container">
                 <h3 class="tools-title"><u>Tools</u></h3>
-                <div class="tool-items-container">
-                    <div class="tool-image-icon-container">
-                        <div ng-repeat="technology in project.technologies">
-                            <img class="tool-image text-center" src="/assets/img/{{technology}}.png"/>
-                        </div>
-                            
+            </div>
+            <div class="tool-items-container">
+                <div class="tool-image-icon-container">
+                    <div ng-repeat="technology in project.technologies">
+                        <img class="tool-image text-center" src="/assets/img/{{technology}}.png"/>
                     </div>
-                    <div class="tool-name-container">
-                        <div ng-repeat="technology in project.technologies">
-                            <technology-component technology="{{technology}}"></technology-component>
-                        </div>
-                    </div>
-<!--
-                        <div class="col-md-1 col-xs-1">
-                        <span>
-                            <img class="technology-icon" src="/assets/img/{{technology}}.png" height="30px" width="45px"/>
-                        </span>
-                        </div>
-                        <div class="col-md-2 col-xs-1">
-                            <technology-component technology="{{technology}}"></technology-component>
-                        </div>
-                        </div>
--->
+
                 </div>
+                <div class="tool-name-container">
+                    <div ng-repeat="technology in project.technologies">
+                        <technology-component technology="{{technology}}"></technology-component>
+                    </div>
+                </div>
+            </div>
             </div> 
-        </div>
     </div>
     <div class="col-md-8">
         <div class="project-description-container">
+            <div class="project-description-title-container">
+                <h3 class="project-description-title">
+                    <u>Description</u>
+                </h1>
+            </div>
+            <div class="container-fluid project-description-container">
+                <div class="project-description">
+                    {{project.description}}
+                </div>
+            </div>
         </div>
     </div>
     </div>
