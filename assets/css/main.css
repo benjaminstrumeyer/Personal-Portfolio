@@ -140,13 +140,6 @@ body {
     margin: 1.4vh 0 1.4vh 0;
 }
 
-.expanded-project-container .technology-container {
-    border: 2px solid black;
-    margin: 0 0 3vh -1.7vw;
-    padding: 1.3vh .3vw .7vh .3vw;
-    border-radius: 3px;
-}
-
 .expanded-project-container .col-md-12 {
     padding: 0;
 }
@@ -160,14 +153,6 @@ body {
     height: 48vh;
 }
 
-.expanded-project-container .technology-text {
-    font-size: 2em;
-}
-
-.expanded-project-container .technology-icon {
-    margin-top: .375vh;
-}
-
 .expanded-project-container .back-button-container {
     position: absolute;
     border: 2px solid black;
@@ -176,6 +161,7 @@ body {
     height: 4.5vh;
     width: 4.5vh;
     z-index: 1;
+    box-shadow: 1px 1px 1px #888888;
 }
 .expanded-project-container .back-button {
     height: 2vh;
@@ -213,4 +199,60 @@ body {
     display: inline-flex;
     height: 28.9vh;
 }
+
+.tools-title-container {
+    position: relative;
+    left: 13.5%;
+    margin: -1.6vh 0 0 0;
+}
+
+.expanded-project-container .technology-container {
+    border: 2px solid black;
+    border-radius: 3px;
+    height: 2.3vh;
+}
+
+.expanded-project-container .technology-text {
+    font-size: 1.7em;
+}
+
+.expanded-project-container .technology-icon {
+    margin-top: .375vh;
+}
+
+.expanded-project-container .tool-items-container {
+    display: relative; 
+    margin: 0 0 0 -3vw;
+}
+
+.expanded-project-container .tool-image-icon-container {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 23vh;
+}
+
+.tool-image-icon-container .tool-image {
+    flex-grow: 1;
+    height: 30px;
+    width: 30px;
+    margin-top: -1vh;
+}
+
+.expanded-project-container .tool-name-container {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 23vh;
+}
+
+.tool-name-container .technology-container {
+    padding: 6px 6px 2px 3px;
+}
+
+.tool-name-container .technology-text {
+    font-size: 1.5em;
+}
+
 
