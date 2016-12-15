@@ -175,8 +175,32 @@ body {
 
 .expanded-project-container .back-button-container {
     position: absolute;
-    border: 1px solid black;
+    border: 2px solid black;
+    margin: 1.2vh 0 0 1.3vh;
+    border-radius: 100px;
+    height: 4.5vh;
+    width: 4.5vh;
+    z-index: 1;
+}
+.expanded-project-container .back-button {
+    height: 2vh;
+    width: 2vh;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+    transform: rotate(-45deg);
+    margin: 1.1vh 0 0 .65vw;
+    position: absolute;
+    z-index: 2;
+}
+
+/*
+.expanded-project-container .back-button::after {
+    width: 5vh;
+    z-index: 2;
+    border-top: 6px solid black; 
+    margin: 6vh;
     
 }
+*/
 
 
