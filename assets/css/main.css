@@ -149,7 +149,6 @@ body {
 }
 
 .expanded-project-container .carousel-container {
-    border-bottom: 1px solid black;
     height: 48vh;
 }
 
@@ -174,6 +173,13 @@ body {
     z-index: 2;
 }
 
+.expanded-project-container .tools-container {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    height: 6vh;
+    width: 100%;
+}
+
 /*
 .expanded-project-container .back-button::after {
     width: 5vh;
@@ -191,6 +197,7 @@ body {
 }
 */
 
+/*
 .expanded-project-container .col-md-2 {
     border-right: 1px solid black;
 }
@@ -222,7 +229,7 @@ body {
 
 .expanded-project-container .tool-items-container {
     position: relative; 
-/*    margin: 0 0 0 -3vw;*/
+    margin: 0 0 0 -3vw;
     left:2%;
 }
 
@@ -255,6 +262,7 @@ body {
 .tool-name-container .technology-text {
     font-size: 1.5em;
 }
+*/
 
 .expanded-project-container .project-description-container {
     position: relative;
