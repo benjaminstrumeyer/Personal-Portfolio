@@ -3,6 +3,7 @@ app.component('technologyComponent', {
     templateUrl: 'app/components/home/projects/technologyComponent/technology.html',
     controller: 'technologyController',
     bindings: {
-        technology: '@'
+        technology: '@',
+        image: '='
     }
 });

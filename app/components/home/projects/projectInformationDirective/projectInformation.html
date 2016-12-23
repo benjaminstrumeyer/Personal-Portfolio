@@ -10,17 +10,11 @@
         <div class="carousel-container container">
         </div>
         <div class="tools-container container">
-            
+            <span ng-repeat="technology in project.technologies">
+                <technology-component technology="{{technology}}" image="true"></technology-component>
+            </span>
         </div>
-    </div>
-<!--
-    <div class="tools-description-container">
-        <div class="project-description-container">
-            <div class="project-description-title-container">
-                <h3 class="project-description-title">
-                    <u>Description</u>
-                </h1>
-            </div>
+        <div class="tools-description-container">
             <div class="container-fluid project-description-container">
                 <div class="project-description" ng-class="$ctrl.descriptionClass">
                     {{project.description}}
@@ -28,7 +22,6 @@
             </div>
         </div>
     </div>
--->
 </div>
 
 
