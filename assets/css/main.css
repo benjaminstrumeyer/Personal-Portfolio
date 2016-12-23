@@ -219,6 +219,14 @@ body {
 .project-carousel-container .carousel-control.left {
 }
 
+.about-me-container {
+    height: 38vh;
+}
+
+.about-me-container p {
+    font-size: 3vh;
+    text-indent: 3vw;
+}
 
 
 
