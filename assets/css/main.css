@@ -231,6 +231,13 @@ body {
 }
 
 
+.personal-picture-container .personal-picture {
+    margin: 6.5vh 0 0 15vw;
+    height: 36vh;
+    border-radius: 200px;
+}
+
+
 
 /*
 .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
