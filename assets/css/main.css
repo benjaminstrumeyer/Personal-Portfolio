@@ -214,22 +214,32 @@ body {
     background-image: none !important;
     filter: none !important;
     outline: 0;
-    visibility: hidden;
- }
+}
 
+.project-carousel-container .carousel-control.left {
+}
+
+
+
+
+/*
 .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
     right: -3vw;
     visibility: visible;
+    color: black;
 }
 .carousel-control .glyphicon-chevron-left, .carousel-control .icon-next {
     left: -3vw;
     visibility: visible;
+    color: black;
 }
 
-/*
+
 .carousel .carousel-control {
-    visibility: hidden;
+    visibility: visible;
 }
 .carousel:hover .carousel-control {
     visibility: visible;
-}*/
+    display: 
+}
+*/
