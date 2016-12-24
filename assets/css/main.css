@@ -129,8 +129,6 @@ body {
 
 .expanded-project-container {
     border: 2px solid black;
-    height: 85vh;
-    margin: 2vh 11vw 0 11vw;
     box-shadow: 4px 4px 4px #888888;
 /*    padding: 10px;*/
 }
@@ -140,16 +138,9 @@ body {
     margin: 1.4vh 0 1.4vh 0;
 }
 
-.expanded-project-container .col-md-12 {
-    padding: 0;
-}
 .expanded-project-container .project-title-container {
     border-bottom: 1px solid black;
     height: 6.3vh;
-}
-
-.expanded-project-container .project-carousel-container {
-    height: 48vh;
 }
 
 .expanded-project-container .back-button-container {
@@ -190,24 +181,24 @@ body {
     box-shadow: 1px 1px 1px #888888;
 }
 
-.tools-description-container .project-description-container {
-    width: 76vw;
-    height: 23vh;
+.expanded-project-container .project-description-container {
+    min-height: 23%;
     padding: 10px;
 }
 
-.tools-description-container .project-description {
-    font-size: 2.9vh;
+.expanded-project-container .project-description {
+    font-size: 23px;
 }
 
 .project-carousel-container {
     padding-top: 10px;
+    max-width: 40vw;
+    margin: auto;
+    height: auto;
 }
 
 .project-carousel-container #myCarousel {
     margin: auto;
-    height: 47.5vh;
-    width: 40vw;
 }
 
 .project-carousel-container .carousel-control.left, .carousel-control.right {
@@ -236,6 +227,8 @@ body {
     height: 36vh;
     border-radius: 200px;
 }
+
+
 
 
 
