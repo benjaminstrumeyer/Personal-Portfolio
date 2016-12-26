@@ -11,6 +11,10 @@
     height: auto;
 }
 
+.me-section {
+    background-color: hsl(177,14%,60%);
+}
+
 body {
     background-color: hsl(28,52%,82%)
 }
@@ -81,6 +85,14 @@ body {
     height: 41%;
     border: 2px solid black;
     box-shadow: 4px 4px 4px #888888;
+}
+
+.project-container .technologies-container {
+    margin: -1vh 5px 0 0px;
+}
+
+.project-container .technology-text {
+    line-height: 35px;
 }
 
 .title-container h1 {
