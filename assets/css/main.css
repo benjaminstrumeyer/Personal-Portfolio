@@ -78,7 +78,7 @@ body {
 }
 
 .project-container {
-    height: 50%;
+    height: 41%;
     border: 2px solid black;
     box-shadow: 4px 4px 4px #888888;
 }
@@ -127,6 +127,7 @@ body {
 }
 
 .expanded-project-container {
+    margin-top: 3vh;
     border: 2px solid black;
     box-shadow: 4px 4px 4px #888888;
 /*    padding: 10px;*/
@@ -172,7 +173,7 @@ body {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    padding: 10px 0 10px 0;
+    padding: 5px 0 5px 0;
     line-height: 45px;
 }
 
