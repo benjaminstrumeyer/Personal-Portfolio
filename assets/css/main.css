@@ -8,6 +8,7 @@
 
 .project-section {
     background-color: hsl(28,52%,82%);
+    height: auto;
 }
 
 body {
@@ -15,7 +16,7 @@ body {
 }
 
 .full-screen {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 #personal-pic-section {
@@ -69,8 +70,6 @@ body {
 
 .projects-container {
     width: 80%;
-    height: 87vh;
-    margin: 0vh auto 80vh auto;
     padding: 2.5vh;
 }
 
@@ -167,11 +166,14 @@ body {
 .expanded-project-container .tools-container {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
-    height: 6vh;
+    height: auto;
     width: 100%;
     display: inline-flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 0 10px 0;
+    line-height: 45px;
 }
 
 .tools-container .technology-container {
