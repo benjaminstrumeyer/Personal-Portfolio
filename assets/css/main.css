@@ -135,6 +135,7 @@ body {
     flex-wrap: wrap;
 }
 
+/*
 .project-information-container .technology-container {
     color: white;
     border: 1px solid white;
@@ -142,6 +143,7 @@ body {
     border-radius: 4px;
     margin: 0 .3vw 0 0;
 }
+*/
 
 .project-information-container .technology-text {
     font-size: 1.4em;
@@ -194,12 +196,52 @@ body {
     line-height: 45px;
 }
 
+.technology-container .label-HTML5 {
+/*    background: hsl(12,90%,32%);*/
+    background: hsl(30,90%,50%);
+}
+
+
+.technology-container .label-CSS3 {
+    background-color: hsl(200,90%,45%);
+}
+
+.technology-container .label-Javascript {
+     background-color: hsl(40,90%,50%);
+}
+
+.technology-container .label-JQuery {
+    background-color: hsl(180,90%,33%);
+}
+
+.technology-container .label-Spring {
+    background-color: hsl(100,90%,22%);
+}
+
+.technology-container .label-CloudDatastore {
+    background: hsl(0,90%,40%);
+}
+
+.technology-container .label-AngularJS {
+    background: hsl(0,90%,37%);
+}
+
+.technology-container .label-NodeJS {
+    background-color: hsl(135,90%,18%);
+}
+
+.technology-container .label-MongoDB {
+     background-color: hsl(28,35%,18%);
+}
+
+/*
 .tools-container .technology-container {
     border: 2px solid black;
     padding: 8px;
     border-radius: 4px;
     box-shadow: 1px 1px 1px #888888;
 }
+*/
 
 .expanded-project-container .project-description-container {
     min-height: 23%;
@@ -269,10 +311,6 @@ body {
     height: 36vh;
     border-radius: 200px;
 }
-
-
-
-
 
 /*
 .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {

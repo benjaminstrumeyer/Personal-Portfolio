@@ -1,12 +1,14 @@
-<span class="technology-container">
-    <span ng-show="{{$ctrl.image}}">
-        <img class="technology-icon" src="/assets/img/{{$ctrl.technology}}.png" height="30px" width="30px"/>
-    </span>
-    <span class="technology-text-container">
-        <span class="technology-text text-center">
-            {{$ctrl.technology}}
+<div class="technology-container">
+    <span class="label label-primary label-{{$ctrl.cssClass}}">
+        <span ng-show="{{$ctrl.image}}">
+            <img class="technology-icon" src="/assets/img/{{$ctrl.technology}}.png" height="30px" width="30px"/>
+        </span>
+        <span class="technology-text-container">
+            <span class="technology-text text-center">
+                {{$ctrl.technology}}
+            </span>
         </span>
     </span>
-</span>
+</div>
 
 <!--<span class="tag tag-default">New</span>-->
