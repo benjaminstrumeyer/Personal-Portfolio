@@ -139,16 +139,6 @@ body {
     flex-wrap: wrap;
 }
 
-/*
-.project-information-container .technology-container {
-    color: white;
-    border: 1px solid white;
-    padding:  7px 4px 4px 4px;
-    border-radius: 4px;
-    margin: 0 .3vw 0 0;
-}
-*/
-
 .project-information-container .technology-text {
     font-size: 1.5em;
 }
