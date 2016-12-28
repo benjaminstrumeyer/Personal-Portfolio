@@ -268,18 +268,13 @@ body {
     outline: 0;
 }
 
-/*
-@media screen and (min-width: 480px) {
-    .project-carousel-container #myCarousel {
-       width: 100%;
-    }
-}
-*/
-
-/*
 .project-carousel-container .carousel-control.left {
+    margin-left: -6vw;
 }
-*/
+
+.project-carousel-container .carousel-control.right {
+    margin-right: -6vw;
+}
 
 .about-me-container {
     height: auto;
@@ -290,31 +285,18 @@ body {
     text-indent: 3vw;
 }
 
-
 .personal-picture-container .personal-picture {
     margin-top: 6vh;
     height: 36vh;
     border-radius: 200px;
 }
 
-/*
+
 .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
-    right: -3vw;
     visibility: visible;
     color: black;
 }
 .carousel-control .glyphicon-chevron-left, .carousel-control .icon-next {
-    left: -3vw;
     visibility: visible;
     color: black;
 }
-
-
-.carousel .carousel-control {
-    visibility: visible;
-}
-.carousel:hover .carousel-control {
-    visibility: visible;
-    display: 
-}
-*/
