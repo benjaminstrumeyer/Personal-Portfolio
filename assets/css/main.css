@@ -8,7 +8,6 @@
 
 .project-section {
     background-color: hsl(28,52%,82%);
-    height: auto;
 }
 
 .me-section {
@@ -111,7 +110,12 @@ body {
     z-index: 1; 
     padding-bottom: 15px;
     background: black;
-    opacity: .4;
+/*    opacity: .4;*/
+    background-color: hsl(0,0%,20%);
+}
+
+.project-information-popup .technology-container .label {
+    padding: 7px 4.5px 6px 4.5px;
 }
 
 .project-container-wrapper {
@@ -127,7 +131,7 @@ body {
 .project-information-container .project-name h1{
     font-size: 2em;
     color: white;
-    margin: 2.5vh 0 2.5vh 0;
+    margin: 2.2vh 0 2.5vh 0;
 }
 
 .project-information-container .technologies-container {
@@ -146,7 +150,7 @@ body {
 */
 
 .project-information-container .technology-text {
-    font-size: 1.4em;
+    font-size: 1.5em;
 }
 
 .expanded-project-container {
@@ -233,15 +237,6 @@ body {
 .technology-container .label-MongoDB {
      background-color: hsl(28,35%,18%);
 }
-
-/*
-.tools-container .technology-container {
-    border: 2px solid black;
-    padding: 8px;
-    border-radius: 4px;
-    box-shadow: 1px 1px 1px #888888;
-}
-*/
 
 .expanded-project-container .project-description-container {
     min-height: 23%;
