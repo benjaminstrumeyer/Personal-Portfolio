@@ -307,7 +307,7 @@ body {
 }
 
 .image-viewer .project-title-container {
-    margin-left: 2vw;
+    margin-left: 4vw;
 }
 
 .image-viewer .project-title {
@@ -316,4 +316,11 @@ body {
 
 .image-viewer .exit-button-container {
     margin: -6vh 0 0 2vw;
+}
+
+.image-viewer .carousel-container {
+    min-height: 64vh;
+    max-width: 65vw;
+    margin: 2vh auto 0 auto;
+    border: 1px solid black;
 }

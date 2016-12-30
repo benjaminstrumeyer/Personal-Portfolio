@@ -1,4 +1,4 @@
-<div class="expanded-project-container container" ng-show="!imageViewer">
+<div class="expanded-project-container container" ng-show="false">
     <div class="back-button-container" ui-sref="mainProjectPage">
         <div class="btn btn-default back-button">
             <i class="fa fa-long-arrow-left fa-2x" aria-hidden="true"></i>
@@ -58,7 +58,7 @@
             </div>
         </div>
 </div>
-<div class="image-viewer container-fluid" ng-show="imageViewer">
+<div class="image-viewer container-fluid" ng-show="true">
     <div class="row">
         <div class="col-xs-11 text-center project-title-container">
             <div class="project-title">
@@ -71,7 +71,11 @@
             </div>
         </div>
     </div>
-    <div class="row carousel-container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="carousel-container">
+            </div>
+        </div>
     </div>
     <div class="project-images-container">
     </div>
