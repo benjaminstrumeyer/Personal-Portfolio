@@ -1,4 +1,4 @@
-<div class="expanded-project-container container" ng-show="false">
+<div class="expanded-project-container container" ng-show="!imageViewer">
     <div class="back-button-container" ui-sref="mainProjectPage">
         <div class="btn btn-default back-button">
             <i class="fa fa-long-arrow-left fa-2x" aria-hidden="true"></i>
@@ -60,21 +60,19 @@
 </div>
 <div class="image-viewer container-fluid" ng-show="true">
     <div class="row">
-        <div class="col-xs-11 text-center project-title-container">
+        <div class="col-xs-12 text-center project-title-container">
             <div class="project-title">
                 <h1>{{project.name}}</h1>
             </div>
         </div>
-        <div class="col-xs-1 pull-right">
-            <div class="exit-button-container">
-                <btn class="btn btn-default exit-button" ng-click="imageViewer = !imageViewer">Exit</btn>
-            </div>
+        <div class="exit-button-container pull-right" ng-click="imageViewer = !imageViewer">
+            <span class="glyphicon glyphicon-remove exit-button"></span>
         </div>
     </div>
     <div class="row">
         <div class="col-md-12">
             <div class="carousel-container">
-                <div id="imageViewer-myCarousel" class="carousel slide" data-ride="carousel" data-interval="false" ng-click="imageViewer = !imageViewer">
+                <div id="imageViewer-myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
                       <!-- Indicators -->
                       <ol class="carousel-indicators">
                         <!--    TODO: ng-repeat over pictures in JSON file. Set Index to data-slide-to="index"-->

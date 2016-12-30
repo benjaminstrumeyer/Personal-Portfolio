@@ -306,18 +306,27 @@ body {
     margin-bottom: -100vh;
 }
 
-.image-viewer .project-title-container {
-    margin: -1vh 0 -1.5vh 4vw;
-}
 
 .image-viewer .project-title {
     font-size: 2em;
 }
 
+
 .image-viewer .exit-button-container {
-    margin: -4.5vh 0 0 2vw;
+    position: absolute;
+    right: 1vw;
+    top: 1.3vh;
+    padding: 10px;
 }
 
+.image-viewer .exit-button {
+    background: transparent;
+    border: none;
+}
+
+.image-viewer .exit-button-container:active .exit-button {
+    color: white;
+}
 .image-viewer .carousel-container {
     min-height: 20vh;
     max-width: 59vw;
@@ -338,4 +347,8 @@ body {
     background-image: none !important;
     filter: none !important;
     outline: 0;
+}
+
+.glyphicon-remove:before {
+    font-size: 33px;
 }
