@@ -9,8 +9,11 @@
 </head>
 
 <body ng-app="portfolio">
-<div>
-    <navbar-component></navbar-component>
+<!--
+    <div data-spy="scroll">
+        <navbar-directive data-target="#myNavBar"></navbar-directive>
+    <div>
+-->
     <div id="landing-screen" class="full-screen">
         <div>
             <h1 id="title" class="text-center">Benjamin Strumeyer</h1>
@@ -29,7 +32,7 @@
                 <projects-component></projects-component>
         </div>
     </div>
-    <div class="container-fluid">
+    <div id="about-me-section" class="container-fluid">
         <div class="row me-section">
             <div id="personal-pic-section" class="col-md-6">
                 <div class="title-container">
@@ -52,6 +55,7 @@
         </div>
     </div>
 </div>
+    </div>
     
 
 <!--bower:js-->
@@ -80,6 +84,7 @@
 <script src="app/components/home/about/aboutMeComponent/aboutMeController.js"></script>
 <script src="app/components/home/about/personalPictureComponent/personalPictureController.js"></script>
 <script src="app/components/home/contact/contactController.js"></script>
+<script src="app/components/home/navbar/navbarController.js"></script>
     
 <script src="app/components/home/projects/projectsDirective/projectsDirective.js"></script>
 <script src="app/components/home/projects/projectComponent/projectComponent.js"></script>
@@ -88,7 +93,7 @@
 <script src="app/components/home/about/aboutMeComponent/aboutMeComponent.js"></script>
 <script src="app/components/home/about/personalPictureComponent/personalPictureComponent.js"></script>
 <script src="app/components/home/contact/contactComponent.js"></script>
-<script src="app/components/home/navbar/navbarComponent.js"></script>
+<script src="app/components/home/navbar/navbarDirective.js"></script>
      
 </body>
 

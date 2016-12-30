@@ -15,7 +15,8 @@
 }
 
 body {
-    background-color: hsl(28,52%,82%)
+    background-color: hsl(28,52%,82%);
+    position: relative;
 }
 
 .full-screen {
