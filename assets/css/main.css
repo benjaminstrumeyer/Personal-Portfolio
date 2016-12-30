@@ -352,3 +352,7 @@ body {
 .glyphicon-remove:before {
     font-size: 33px;
 }
+
+.contact-section {
+    width: 100%;
+}
