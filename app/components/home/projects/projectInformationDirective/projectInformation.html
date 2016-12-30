@@ -1,19 +1,16 @@
-<div class="expanded-project-container container" ng-controller="ProjectInformationController as $ctrl">
+<div class="expanded-project-container container" ng-show="!imageViewer">
     <div class="back-button-container" ui-sref="mainProjectPage">
         <div class="btn btn-default back-button">
             <i class="fa fa-long-arrow-left fa-2x" aria-hidden="true"></i>
         </div>
-    </div>
-     
-    
+    </div> 
     <div class="row">
         <div class="col-xs-12">
             <div class="project-title-container">
                 <h1 class="text-center">{{project.name}}</h1>
             </div>
-
             <div class="project-carousel-container">
-                <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false" ng-click="imageViewer = !imageViewer">
                       <!-- Indicators -->
                       <ol class="carousel-indicators">
                         <!--    TODO: ng-repeat over pictures in JSON file. Set Index to data-slide-to="index"-->
@@ -62,6 +59,6 @@
 <!--                </div>-->
             </div>
         </div>
-    
-    
+</div>
+<div class="image-viewer" ng-show="imageViewer">
 </div>

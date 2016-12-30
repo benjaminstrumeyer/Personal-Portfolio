@@ -252,12 +252,6 @@ body {
     width: 100%;
 }
 
-/*
-.project-carousel-container .carousel-inner {
-    min-height: 20vh;
-}
-*/
-
 .project-carousel-container .carousel-image {
     min-height: 40vh;
 }
@@ -276,8 +270,8 @@ body {
     margin-right: -6vw;
 }
 
-.about-me-container {
-    height: auto;
+.project-carousel-container #myCarousel .carousel-indicators {
+    z-index: 1;
 }
 
 .about-me-container p {
@@ -299,4 +293,15 @@ body {
 .carousel-control .glyphicon-chevron-left, .carousel-control .icon-next {
     visibility: visible;
     color: black;
+}
+
+.image-viewer {
+    position: absolute;
+    top: 100vh;
+    right: 0;
+    bottom: -5vh;
+    left: 0;
+    background-color: grey;
+    z-index: 2;
+    margin-bottom: -100vh;
 }

@@ -11,6 +11,7 @@ app
         
         var init = function() {
             self.descriptionClass = getDescriptionClass();
+//            self.imageViewer = false;
         }
         
         init();

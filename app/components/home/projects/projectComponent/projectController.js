@@ -19,6 +19,12 @@ app
 //            var project = projects.filter(x => x.name.toLowerCase() === projectName.toLowerCase())[0];
 //            return project;
 //        }
-//    
-        this.projectInfo = true;
+    var self = this;
+    
+    var init = function() {
+        
+        self.projectInfo = true;
+    }
+    
+    init();
     });
