@@ -52,13 +52,27 @@
         </div>
         <div class="row">
             <div class="col-xs-12 project-description-container">
-<!--                <div class="project-description-container container-fluid">-->
-                    <div class="project-description" ng-class="$ctrl.descriptionClass">
-                        {{project.description}}
-                    </div>
-<!--                </div>-->
+                <div class="project-description" ng-class="$ctrl.descriptionClass">
+                    {{project.description}}
+                </div>
             </div>
         </div>
 </div>
-<div class="image-viewer" ng-show="imageViewer">
+<div class="image-viewer container-fluid" ng-show="imageViewer">
+    <div class="row">
+        <div class="col-xs-11 text-center project-title-container">
+            <div class="project-title">
+                <h1>{{project.name}}</h1>
+            </div>
+        </div>
+        <div class="col-xs-1 pull-right">
+            <div class="exit-button-container">
+                <btn class="btn btn-default exit-button" ng-click="imageViewer = !imageViewer">Exit</btn>
+            </div>
+        </div>
+    </div>
+    <div class="row carousel-container">
+    </div>
+    <div class="project-images-container">
+    </div>
 </div>

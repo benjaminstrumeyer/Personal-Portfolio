@@ -305,3 +305,15 @@ body {
     z-index: 2;
     margin-bottom: -100vh;
 }
+
+.image-viewer .project-title-container {
+    margin-left: 2vw;
+}
+
+.image-viewer .project-title {
+    font-size: 3em;
+}
+
+.image-viewer .exit-button-container {
+    margin: -6vh 0 0 2vw;
+}
