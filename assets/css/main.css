@@ -307,20 +307,35 @@ body {
 }
 
 .image-viewer .project-title-container {
-    margin-left: 4vw;
+    margin: -1vh 0 -1.5vh 4vw;
 }
 
 .image-viewer .project-title {
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .image-viewer .exit-button-container {
-    margin: -6vh 0 0 2vw;
+    margin: -4.5vh 0 0 2vw;
 }
 
 .image-viewer .carousel-container {
-    min-height: 64vh;
-    max-width: 65vw;
+    min-height: 20vh;
+    max-width: 59vw;
+    min-width: 500px;
     margin: 2vh auto 0 auto;
     border: 1px solid black;
+}
+
+.image-Viewer .carousel-control.left {
+    margin-left: -8vw;
+}
+
+.image-Viewer .carousel-control.right {
+    margin-right: -8vw;
+}
+
+.image-Viewer .carousel-control.left, .carousel-control.right {
+    background-image: none !important;
+    filter: none !important;
+    outline: 0;
 }
