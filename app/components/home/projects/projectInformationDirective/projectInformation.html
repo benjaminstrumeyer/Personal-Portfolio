@@ -10,7 +10,7 @@
                 <h1 class="text-center">{{project.name}}</h1>
             </div>
             <div class="project-carousel-container">
-                <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false" ng-click="imageViewer = !imageViewer">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
                       <!-- Indicators -->
                       <ol class="carousel-indicators">
                         <!--    TODO: ng-repeat over pictures in JSON file. Set Index to data-slide-to="index"-->
@@ -19,7 +19,7 @@
                       </ol>
 
                       <!-- Wrapper for slides -->
-                      <div class="carousel-inner" role="listbox">
+                      <div class="carousel-inner" role="listbox" ng-click="imageViewer = !imageViewer">
                         <!--                      TODO: ng-repeat over classes. Apply active class to first. -->
                         <div class="item active">
                           <img class="carousel-image" src="assets/img/Wave OSX.jpg">
@@ -58,7 +58,7 @@
             </div>
         </div>
 </div>
-<div class="image-viewer container-fluid" ng-show="true">
+<div class="image-viewer container-fluid" ng-show="imageViewer">
     <div class="row">
         <div class="col-xs-12 text-center project-title-container">
             <div class="project-title">

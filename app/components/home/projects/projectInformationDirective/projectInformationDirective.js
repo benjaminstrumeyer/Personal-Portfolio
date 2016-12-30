@@ -12,7 +12,8 @@ app.directive('projectInformationDirective', function (projectService, $statePar
             });
 
             $('.carousel-control.right').click(function() {
-              $('#imageViewer-myCarousel').carousel('next');
+                $('#myCarousel').carousel('next');
+                $('#imageViewer-myCarousel').carousel('next');
             });
 
         }   
