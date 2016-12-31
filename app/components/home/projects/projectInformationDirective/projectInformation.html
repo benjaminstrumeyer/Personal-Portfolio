@@ -90,7 +90,10 @@
         </div>
     </div>
     <div class="row">
-        <div class="project-images-container col-xs-12">
+        <div class="col-xs-12">
+            <div class="project-images-container">
+                <img ng-repeat="imgSrc in project.imgsrcs" src="{{imgSrc}}" class="project-image"/>
+            </div>
         </div>
     </div>
 </div>
