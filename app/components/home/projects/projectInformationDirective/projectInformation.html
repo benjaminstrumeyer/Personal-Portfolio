@@ -13,12 +13,12 @@
                 <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
                       <!-- Indicators -->
                         <ol class="carousel-indicators">
-                            <li ng-repeat="imageSrc in project.imgsrcs" ng-class="{active:$first}" data-target="imageViewer-myCarousel" data-slide-to="$index"></li>
+                            <li ng-repeat="imageSrc in project.imgSrcs" ng-class="{active:$first}" data-target="imageViewer-myCarousel" data-slide-to="$index"></li>
                         </ol>
 
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox" ng-click="imageViewer = !imageViewer">                          
-                            <div ng-repeat="imageSrc in project.imgsrcs" ng-class="{active:$first}" class="item">
+                            <div ng-repeat="imageSrc in project.imgSrcs" ng-class="{active:$first}" class="item">
                               <img class="carousel-image" src="{{imageSrc}}">
                             </div>
                         </div>
@@ -51,7 +51,7 @@
             </div>
         </div>
 </div>
-<div class="image-viewer container-fluid" ng-show="imageViewer">
+<div class="image-viewer container-fluid" ng-show="true">
     <div class="row">
         <div class="col-xs-12 text-center project-title-container">
             <div class="project-title">
@@ -68,12 +68,12 @@
                 <div id="imageViewer-myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
-                        <li ng-repeat="imageSrc in project.imgsrcs" ng-class="{active:$first}" data-target="imageViewer-myCarousel" data-slide-to="$index"></li>
+                        <li ng-repeat="imageSrc in project.imgSrcs" ng-class="{active:$first}" data-target="imageViewer-myCarousel" data-slide-to="$index"></li>
                     </ol>
 
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">                          
-                        <div ng-repeat="imageSrc in project.imgsrcs" ng-class="{active:$first}" class="item">
+                        <div ng-repeat="imageSrc in project.imgSrcs" ng-class="{active:$first}" class="item">
                           <img class="carousel-image" src="{{imageSrc}}">
                         </div>
                     </div>
@@ -92,7 +92,11 @@
     <div class="row">
         <div class="col-xs-12">
             <div class="project-images-container">
-                <img ng-repeat="imgSrc in project.imgsrcs" src="{{imgSrc}}" class="project-image"/>
+                
+<!--                <img ng-repeat="imgSrc in project.imgSrcs" src="{{imgSrc}}" class="project-image"/>-->
+                
+                    <image-selector-directive imgSrc="{{imgSrc}}" index="{{$index}}" ng-repeat="imgSrc in project.imgSrcs">
+                    </image-selector-directive>
             </div>
         </div>
     </div>

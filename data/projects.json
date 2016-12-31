@@ -2,28 +2,28 @@
     {
         "name": "Hero HQ",
         "description": "Hero Headquarters is a \"Create Your Own Adventure\" themed comic book web app created to fulfill a semester-long team project in Stony Brook University's Software Engineering course. You can browse the site in a number of ways to read comics published by other users, and even design your own comics using our own content creator. We also include a Google sign in feature, which lets us tailor your custom homepage based on your comic history, and subscriptions of your choice.",
-        "imgsrcs":              ["assets/img/Hero%20HQ/Front%20Page%201.png","assets/img/Hero%20HQ/Front%20Page%202.png","assets/img/Hero%20HQ/Search%20Page.png","assets/img/Hero%20HQ/Comic%20Index.png"],
+        "imgSrcs":              ["assets/img/Hero%20HQ/Front%20Page%201.png","assets/img/Hero%20HQ/Front%20Page%202.png","assets/img/Hero%20HQ/Search%20Page.png","assets/img/Hero%20HQ/Comic%20Index.png"],
         "technologies": ["HTML5", "CSS3", "Javascript", "JQuery", "Spring", "Cloud Datastore"],
         "members": 4
     },
     {
         "name": "Startpage",
         "description": "Personal homepage created to quickly navigate to frequently visited websites more easily. Hotkeys can be viewed by hovering on each of the 8 icon categories. Pressing a hotkey will queue the correlating website and 'Enter' will open websites in order. 'Backspace' removes all hotkeys from the queue.",
-        "imgsrcs": ["assets/img/Startpage/home.png","assets/img/Startpage/hotkeys.png", "assets/img/Startpage/Opened%20Windows.png"],
+        "imgSrcs": ["assets/img/Startpage/home.png","assets/img/Startpage/hotkeys.png", "assets/img/Startpage/Opened%20Windows.png"],
         "technologies": ["HTML5", "CSS3", "Javascript", "AngularJS"],
         "members": 1
     },
     {
         "name": "Natural Language Processing Steam Reviews",
         "description": "NLP Steam Reviews is a sentiment analyzer web app created as a final project for the Natural Language Processing elective at Stony Brook University. My partner and I scrape ~75,000 reviews from the Steam website along with their recommended/not recommended rating. We use this information to predict the recommended value for other games using the Turney algorithm.",
-        "imgsrcs": [],
+        "imgSrcs": [],
         "technologies": ["HTML5", "CSS3", "Javascript", "AngularJS", "NodeJS", "MongoDB"],
         "members": 2
     },
     {
         "name": "Personal Portfolio",
         "description": "Simple angular app to display projects.",
-        "imgsrcs": [],
+        "imgSrcs": [],
         "technologies": ["HTML5", "CSS3", "Javascript", "AngularJS"],
         "members": 1
     }
