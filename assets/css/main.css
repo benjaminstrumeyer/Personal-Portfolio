@@ -300,11 +300,10 @@ body {
     position: absolute;
     top: 100vh;
     right: 0;
-    bottom: -5vh;
     left: 0;
     background-color: grey;
     z-index: 2;
-    margin-bottom: -100vh;
+    bottom: 100vh;
 }
 
 
@@ -356,4 +355,9 @@ body {
 
 .contact-section {
     width: 100%;
+}
+
+.image-Viewer .project-images-container{
+/*    min-height: 31.2vh;*/
+    border: 1px solid black;
 }
