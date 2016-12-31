@@ -8,6 +8,7 @@
 
 .project-section {
     background-color: hsl(28,52%,82%);
+    position: relative;
 }
 
 .me-section {
@@ -298,12 +299,12 @@ body {
 
 .image-viewer {
     position: absolute;
-    top: 100vh;
+    top: -2vh;
     right: 0;
     left: 0;
+    bottom: 0;
     background-color: grey;
     z-index: 2;
-    bottom: 100vh;
 }
 
 
