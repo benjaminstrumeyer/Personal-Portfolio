@@ -370,6 +370,7 @@ body {
     padding: 32px 20px;
     margin: auto;
     width: 100%;
+    background-color: grey;
 }
 
 .image-Viewer .project-image {
