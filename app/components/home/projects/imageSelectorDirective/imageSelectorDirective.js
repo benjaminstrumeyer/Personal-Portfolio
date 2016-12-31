@@ -8,7 +8,7 @@ app
             index: '@'
         },
         link: function(scope, elem, attr){
-            
+            scope.imageSource = attr.imgSrc;
         }
     }
 });
