@@ -1,6 +1,8 @@
 <div class="project-container" ng-mouseenter="projectInfo = true" ng-mouseleave="projectInfo = false" 
      ui-sref="viewProject({ name: $ctrl.project.name})">
-    <div class="project-information-popup" ng-show="true">
+    
+    <img class="project-first-image" src="{{$ctrl.project.imgSrcs[0]}}"/>
+    <div class="project-information-popup" ng-show="projectInfo">
         <div class="project-information-container">
             <div class="project-name">
                 <h1>{{$ctrl.project.name}}</h1>
@@ -11,5 +13,5 @@
                 </span>
             </div>
         </div>
-    </div>
+    </div> 
 </div>

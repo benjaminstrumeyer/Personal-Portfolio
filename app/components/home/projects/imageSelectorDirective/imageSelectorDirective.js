@@ -7,8 +7,10 @@ app
             imgSrc: '@',
             index: '@'
         },
+        controllerAs: "$ctrl",
+        transclude: true,
         link: function(scope, elem, attr){
-            scope.imageSource = attr.imgSrc;
+            
         }
     }
 });

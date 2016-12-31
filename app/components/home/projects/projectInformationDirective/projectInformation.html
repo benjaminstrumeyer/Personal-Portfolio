@@ -93,10 +93,12 @@
         <div class="col-xs-12">
             <div class="project-images-container">
                 
-<!--                <img ng-repeat="imgSrc in project.imgSrcs" src="{{imgSrc}}" class="project-image"/>-->
+                <img ng-repeat="imgSrc in project.imgSrcs" ng-src="{{imgSrc}}" class="project-image"/>
+<!--
                 
                     <image-selector-directive imgSrc="{{imgSrc}}" index="{{$index}}" ng-repeat="imgSrc in project.imgSrcs">
                     </image-selector-directive>
+-->
             </div>
         </div>
     </div>

@@ -90,6 +90,7 @@ body {
     height: 41%;
     border: 2px solid black;
     box-shadow: 4px 4px 4px #888888;
+    position: relative;
 }
 
 .project-container .technologies-container {
@@ -98,6 +99,11 @@ body {
 
 .project-container .technology-text {
     line-height: 35px;
+}
+
+.project-container .project-first-image {
+    height: 100%;
+    width: 100%;
 }
 
 .title-container h1 {
@@ -121,7 +127,6 @@ body {
 }
 
 .project-container-wrapper {
-    position: relative; 
     left: 0;
     right: 0;
 }
@@ -378,4 +383,8 @@ body {
     height: 175px;
     width: 300px;
     margin: 0 8px;
+}
+
+.image-Viewer .project-image:hover {
+    border: 2px solid white;
 }
