@@ -12,23 +12,16 @@
             <div class="project-carousel-container">
                 <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
                       <!-- Indicators -->
-                      <ol class="carousel-indicators">
-                        <!--    TODO: ng-repeat over pictures in JSON file. Set Index to data-slide-to="index"-->
-                        <li data-target="myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="myCarousel" data-slide-to="1"></li>
-                      </ol>
+                        <ol class="carousel-indicators">
+                            <li ng-repeat="imageSrc in project.imgsrcs" ng-class="{active:!$index}" data-target="imageViewer-myCarousel" data-slide-to="$index"></li>
+                        </ol>
 
-                      <!-- Wrapper for slides -->
-                      <div class="carousel-inner" role="listbox" ng-click="imageViewer = !imageViewer">
-                        <!--                      TODO: ng-repeat over classes. Apply active class to first. -->
-                        <div class="item active">
-                          <img class="carousel-image" src="assets/img/Wave OSX.jpg">
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox" ng-click="imageViewer = !imageViewer">                          
+                            <div ng-repeat="imageSrc in project.imgsrcs" ng-class="{active:!$index}" class="item">
+                              <img class="carousel-image" src="{{imageSrc}}">
+                            </div>
                         </div>
-
-                        <div class="item">
-                          <img class="carousel-image" src="assets/img/Wave OSX.jpg">
-                        </div>
-                      </div>
 
                       <!-- Left and right controls -->
                       <a class="left carousel-control" role="button">
@@ -73,32 +66,25 @@
         <div class="col-md-12">
             <div class="carousel-container">
                 <div id="imageViewer-myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
-                      <!-- Indicators -->
-                      <ol class="carousel-indicators">
-                        <!--    TODO: ng-repeat over pictures in JSON file. Set Index to data-slide-to="index"-->
-                        <li data-target="imageViewer-myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="imageViewer-myCarousel" data-slide-to="1"></li>
-                      </ol>
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li ng-repeat="imageSrc in project.imgsrcs" ng-class="{active:!$index}" data-target="imageViewer-myCarousel" data-slide-to="$index"></li>
+                    </ol>
 
-                      <!-- Wrapper for slides -->
-                      <div class="carousel-inner" role="listbox">
-                        <!--                      TODO: ng-repeat over classes. Apply active class to first. -->
-                        <div class="item active">
-                          <img class="carousel-image" src="assets/img/Wave OSX.jpg">
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">                          
+                        <div ng-repeat="imageSrc in project.imgsrcs" ng-class="{active:!$index}" class="item">
+                          <img class="carousel-image" src="{{imageSrc}}">
                         </div>
+                    </div>
 
-                        <div class="item">
-                          <img class="carousel-image" src="assets/img/Wave OSX.jpg">
-                        </div>
-                      </div>
-
-                      <!-- Left and right controls -->
-                      <a class="left carousel-control" role="button">
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" role="button">
                         <span class="glyphicon glyphicon-chevron-left"></span>
-                      </a>
-                      <a class="right carousel-control" role="button">
+                    </a>
+                    <a class="right carousel-control" role="button">
                         <span class="glyphicon glyphicon-chevron-right"></span>
-                      </a>
+                    </a>
                 </div>
             </div>
         </div>
