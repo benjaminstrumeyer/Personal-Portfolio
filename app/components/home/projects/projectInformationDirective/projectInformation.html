@@ -13,12 +13,12 @@
                 <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
                       <!-- Indicators -->
                         <ol class="carousel-indicators">
-                            <li ng-repeat="imageSrc in project.imgsrcs" ng-class="{active:!$index}" data-target="imageViewer-myCarousel" data-slide-to="$index"></li>
+                            <li ng-repeat="imageSrc in project.imgsrcs" ng-class="{active:$first}" data-target="imageViewer-myCarousel" data-slide-to="$index"></li>
                         </ol>
 
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox" ng-click="imageViewer = !imageViewer">                          
-                            <div ng-repeat="imageSrc in project.imgsrcs" ng-class="{active:!$index}" class="item">
+                            <div ng-repeat="imageSrc in project.imgsrcs" ng-class="{active:$first}" class="item">
                               <img class="carousel-image" src="{{imageSrc}}">
                             </div>
                         </div>
@@ -68,12 +68,12 @@
                 <div id="imageViewer-myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
-                        <li ng-repeat="imageSrc in project.imgsrcs" ng-class="{active:!$index}" data-target="imageViewer-myCarousel" data-slide-to="$index"></li>
+                        <li ng-repeat="imageSrc in project.imgsrcs" ng-class="{active:$first}" data-target="imageViewer-myCarousel" data-slide-to="$index"></li>
                     </ol>
 
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">                          
-                        <div ng-repeat="imageSrc in project.imgsrcs" ng-class="{active:!$index}" class="item">
+                        <div ng-repeat="imageSrc in project.imgsrcs" ng-class="{active:$first}" class="item">
                           <img class="carousel-image" src="{{imageSrc}}">
                         </div>
                     </div>
