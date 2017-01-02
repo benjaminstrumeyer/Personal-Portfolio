@@ -17,14 +17,14 @@
                 </div>
             </div>
             <div class="project-carousel-container">
-                <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false" ng-mouseover="carouselNotification = true" ng-mouseleave="carouselNotification = false">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
                       <!-- Indicators -->
                         <ol class="carousel-indicators">
                             <li ng-repeat="imageSrc in project.imgSrcs" ng-class="{active:$first}" data-target="imageViewer-myCarousel" data-slide-to="$index"></li>
                         </ol>
 
                         <!-- Wrapper for slides -->
-                        <div class="carousel-inner" role="listbox" ng-click="imageViewer = !imageViewer">                          
+                        <div class="carousel-inner" role="listbox" ng-click="imageViewer = !imageViewer" ng-mouseover="carouselNotification = true" ng-mouseleave="carouselNotification = false">                          
                             <div ng-repeat="imageSrc in project.imgSrcs" ng-class="{active:$first}" class="item">
                               <img class="carousel-image" src="{{imageSrc}}">
                             </div>
