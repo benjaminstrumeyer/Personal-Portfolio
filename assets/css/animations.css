@@ -9,15 +9,6 @@
     opacity: 1;
 }*/
 
-@keyframes fade {
-    before: {
-        opacity: 0;
-    }
-    after: {
-        opacity: 1;
-    }
-}
-
 
 .project-information-popup.ng-hide-add {
     animation: fadeOut .1s ease;
@@ -25,4 +16,20 @@
 
 .project-information-popup.ng-hide-remove {
     animation: fadeIn .1s ease;
+}
+
+.bounce.ng-enter, .bounce.ng-leave {
+    position: absolute;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.bounce.ng-enter {
+   -webkit-animation-name: bounceInDown;
+   animation-name: bounceInDown;
+}
+
+.bounce.ng-leave {
+   -webkit-animation-name: bounceOutDown;
+   animation-name: bounceOutDown;
 }

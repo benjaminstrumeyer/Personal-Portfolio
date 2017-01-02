@@ -1,16 +1,14 @@
 app
 .directive('imageSelectorDirective', function() {
     return {
-        restrict: 'E',
-        templateUrl: 'app/components/home/projects/imageSelectorDirective/imageSelector.html',
+        restrict: 'A',
         scope: {
-            imgSrc: '@',
             index: '@'
         },
         controllerAs: "$ctrl",
         transclude: true,
         link: function(scope, elem, attr){
-            
+            console.log(attr.index);
         }
     }
 });
