@@ -9,9 +9,15 @@
             <div class="project-title-container">
                 <h1 class="text-center">{{project.name}}</h1>
             </div>
-            <carousel-notification-component></carousel-notification-component>
+            <div class="carousel-popup-container-parent" ng-show="carouselNotification">
+                <div class="carousel-popup-container">
+                    <div class="carousel-popup">
+                        {{$ctrl.notificationMessage}}
+                    </div>
+                </div>
+            </div>
             <div class="project-carousel-container">
-                <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false" ng-mouseover="carouselNotification = true" ng-mouseleave="carouselNotification = false">
                       <!-- Indicators -->
                         <ol class="carousel-indicators">
                             <li ng-repeat="imageSrc in project.imgSrcs" ng-class="{active:$first}" data-target="imageViewer-myCarousel" data-slide-to="$index"></li>
