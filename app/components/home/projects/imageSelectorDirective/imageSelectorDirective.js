@@ -8,7 +8,10 @@ app
         controllerAs: "$ctrl",
         transclude: true,
         link: function(scope, elem, attr){
-            console.log(attr.index);
+            $(elem).click(function() {
+                $('#myCarousel').carousel(parseInt(attr.index));
+                $('#imageViewer-myCarousel').carousel(parseInt(attr.index));
+            });
         }
     }
 });
