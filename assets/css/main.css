@@ -47,7 +47,7 @@ body {
 
 #contact-info {
     background-color: hsl(177,14%,62%);
-    height: 38.8vh;
+    height: 34.8vh;
 }
 
 .container-table {
@@ -412,4 +412,56 @@ body {
 
 .contact-information-container ul {
     list-style-type: none;
+}
+
+.contact-section .motive-description-container {
+    margin-top: 3vh;
+}
+
+.contact-section p {
+    font-size: 2em;
+}
+
+.contact-section .row {
+    margin-right: 0;
+}
+
+.contact-section .contact-information-container {
+    position: relative;
+    left: 30%;
+    margin: 3vh 26vw 0 0;
+}
+
+.contact-section .contact-container {
+    background-color: hsl(177,14%,62%);
+}
+
+.contact-section .contact-text {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.contact-section .contact-icon {
+    margin-bottom: 13px;
+}
+
+
+.contact-information-container .fa-envelope-o:before {
+    position: relative;
+    top: 2px;
+    margin-right: 2px;
+}
+
+.contact-information-container .fa-github:before {
+    position: relative;
+    top: 2.5px;
+    left: 1.5px;
+    margin-right: 5px;
+}
+
+.contact-information-container .fa-file-text-o:before {
+    position: relative;
+    top: 3px;
+    left: 1.5px;
+    margin-right: 5px;
 }
