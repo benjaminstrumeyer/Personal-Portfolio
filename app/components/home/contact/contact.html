@@ -1,6 +1,26 @@
 <div class="col-md-12">
     <h1 class="text-center">Shoot me an Email</h1>
 </div>
+<div class="col-md-6">
+    <div class="motive-description-container text-center">
+        <p>{{$ctrl.motiveDescription}}</p>
+    </div>
+</div>
+<div class="col-md-6">
+    <div class="contact-information-container text-center">
+        <ul>
+            <li><i class="fa fa-envelope-o fa-3x" aria-hidden="true"></i>
+                {{$ctrl.email}}
+            </li>
+            <li><i class="fa fa-github fa-3x" aria-hidden="true"></i>
+                {{$ctrl.github}}
+            </li>
+            <li><i class="fa fa-file-text-o fa-3x" aria-hidden="true"></i>
+                {{$ctrl.resume}}
+            </li>
+        </ul>
+    </div>
+</div>
 
 <!--
 <div class="col-md-12">

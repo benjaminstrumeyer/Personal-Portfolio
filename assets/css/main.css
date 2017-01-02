@@ -409,3 +409,7 @@ body {
     margin-top: 0;
     padding-top: 10px;
 }
+
+.contact-information-container ul {
+    list-style-type: none;
+}
