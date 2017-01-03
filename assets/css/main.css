@@ -184,6 +184,13 @@ body {
     box-shadow: 1px 1px 1px #888888;
 }
 
+.expanded-project-container .github-link-container {
+    position: absolute;
+    top: 9.6vh;
+    right: 12vw;
+    padding: 0 5px;
+}
+
 .expanded-project-container .tools-container {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
@@ -420,6 +427,7 @@ body {
 
 .contact-section p {
     font-size: 2em;
+    font-style: italic;
 }
 
 .contact-section .row {
