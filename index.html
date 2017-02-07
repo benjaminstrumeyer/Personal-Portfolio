@@ -15,7 +15,7 @@
         <navbar-directive data-target="#myNavBar"></navbar-directive>
     <div>
 -->
-    <div id="landing-screen" class="full-screen">
+    <div id="landing-screen" class="full-screen section-container">
         <div>
             <h1 id="title" class="text-center">Benjamin Strumeyer</h1>
         </div>
@@ -24,16 +24,13 @@
         </div>
     </div>
     
-    <div id="projects" class="project-section full-screen">
-        <div class="title-container text-center">
-            <h1>Projects</h1>
-        </div>
+    <div id="projects" class="project-section full-screen section-container">
         <div class="projects-view" ui-view>
-            <!--TODO: Insert projects component here -->
-                <projects-component></projects-component>
+            <projects-component></projects-component>
         </div>
     </div>
-    <div id="about-me-section" class="container-fluid">
+    
+    <div id="about-me-section" class="container-fluid section-container-alt">
         <div class="row me-section">
             <div id="personal-pic-section" class="col-md-6">
                 <div class="title-container">
@@ -50,10 +47,9 @@
             </div>
         </div>
     </div>
-    <div class="contact-section">
-        <div id="contact-info">
-            <contact-component></contact-component>
-        </div>
+    
+    <div class="section-container-alt">
+        <contact-component></contact-component>
     </div>
 </div>
     </div>
@@ -85,7 +81,6 @@
 <script src="app/components/home/about/personalPictureComponent/personalPictureController.js"></script>
 <script src="app/components/home/contact/contactController.js"></script>
 <script src="app/components/home/navbar/navbarController.js"></script>
-<script src="app/components/home/projects/carouselNotificationComponent/carouselNotificationController.js"></script>
     
 <script src="app/components/home/projects/projectsDirective/projectsDirective.js"></script>
 <script src="app/components/home/projects/projectComponent/projectComponent.js"></script>
@@ -96,7 +91,6 @@
 <script src="app/components/home/contact/contactComponent.js"></script>
 <script src="app/components/home/navbar/navbarDirective.js"></script>
 <script src="app/components/home/projects/imageSelectorDirective/imageSelectorDirective.js"></script>
-<script src="app/components/home/projects/carouselNotificationComponent/carouselNotificationComponent.js"></script>
-     
+
 </body>
 

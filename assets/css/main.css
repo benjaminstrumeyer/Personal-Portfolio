@@ -1,3 +1,7 @@
+html, body {
+    background-color: hsl(28,52%,82%);
+}
+
 #landing-screen {
     margin-top: -20px;
     background-image: url('/assets/img/Wave%20OSX.jpg');
@@ -6,17 +10,12 @@
     background-repeat:no-repeat;
 }
 
-.project-section {
-    background-color: hsl(28,52%,82%);
+.section-container {
+/*    transparent bg*/
     position: relative;
 }
-
-.me-section {
+.section-container-alt {
     background-color: hsl(177,14%,60%);
-}
-
-body {
-    background-color: hsl(28,52%,82%);
     position: relative;
 }
 
@@ -26,7 +25,6 @@ body {
 
 #personal-pic-section {
 /*    background-color: hsl(28,52%,65%);*/
-    background-color: hsl(177,14%,60%);
     height: 50.2vh;
 }
 
@@ -36,7 +34,6 @@ body {
 }
 
 #about-me-section {
-    background-color: hsl(177,14%,62%);
     min-height: 50.2vh;
 }
 
@@ -45,10 +42,6 @@ body {
     padding: 20px;
 }
 
-#contact-info {
-    background-color: hsl(177,14%,62%);
-    height: 34.8vh;
-}
 
 .container-table {
     display: table;
@@ -91,6 +84,8 @@ body {
     border: 2px solid black;
     box-shadow: 4px 4px 4px #888888;
     position: relative;
+    overflow: hidden;
+    margin: 15px 0;
 }
 
 .project-container .technologies-container {
@@ -386,10 +381,6 @@ body {
     font-size: 33px;
 }
 
-.contact-section {
-    width: 100%;
-}
-
 .image-Viewer .project-images-container {
     display: inline-flex;
     justify-content: center;
@@ -412,47 +403,41 @@ body {
 }
 
 
-.contact-section h1 {
-    margin-top: 0;
-    padding-top: 10px;
+.contact-container {
+    background-color: rgba(255,255,255,0.1);
 }
 
 .contact-information-container ul {
     list-style-type: none;
 }
 
-.contact-section .motive-description-container {
+.contact-container .motive-description-container {
     margin-top: 3vh;
 }
 
-.contact-section p {
+.contact-container p {
     font-size: 2em;
     font-style: italic;
 }
 
-.contact-section .row {
+.contact-container .row {
     margin-right: 0;
 }
 
-.contact-section .contact-information-container {
+.contact-container .contact-information-container {
     position: relative;
     left: 30%;
     margin: 3vh 26vw 0 0;
 }
 
-.contact-section .contact-container {
-    background-color: hsl(177,14%,62%);
-}
-
-.contact-section .contact-text {
+.contact-container .contact-text {
     font-size: 1.5em;
     margin-bottom: 20px;
 }
 
-.contact-section .contact-icon {
+.contact-container .contact-icon {
     margin-bottom: 13px;
 }
-
 
 .contact-information-container .fa-envelope-o:before {
     position: relative;
