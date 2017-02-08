@@ -1,5 +1,6 @@
 html, body {
-    background-color: hsl(28,52%,82%);
+/*    background-color: hsl(28,52%,82%);*/
+    background-color: hsl(15,98%,90%);
 }
 
 #landing-screen {
@@ -15,7 +16,8 @@ html, body {
     position: relative;
 }
 .section-container-alt {
-    background-color: hsl(177,14%,60%);
+/*    background-color: hsl(177,14%,60%);*/
+    background-color: hsl(15,98%,30%);
     position: relative;
 }
 
