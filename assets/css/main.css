@@ -5,7 +5,8 @@ html, body {
 
 #landing-screen {
     margin-top: -20px;
-    background-image: url('/assets/img/Dusk.jpg');
+    background-image: url('/assets/img/Dusk_purple.jpg')
+        ;
     background-size: 100% 100%;
 /*    background-attachment: fixed;*/
     background-repeat:no-repeat;
