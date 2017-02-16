@@ -296,11 +296,6 @@ html, body {
     z-index: 1;
 }
 
-.about-me-container p {
-    font-size: 3vh;
-    text-indent: 3vw;
-}
-
 .personal-picture-container .personal-picture {
     margin-top: 6vh;
     height: 36vh;
