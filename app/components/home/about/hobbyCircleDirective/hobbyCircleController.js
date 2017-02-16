@@ -1,5 +1,5 @@
 app
-    .controller('aboutMeController', function() {
+    .controller('hobbyCircleController', function() {
     
     var self = this;
     
