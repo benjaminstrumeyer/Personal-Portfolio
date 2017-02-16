@@ -26,23 +26,12 @@ html, body {
     min-height: 100vh;
 }
 
-#personal-pic-section {
-/*    background-color: hsl(28,52%,65%);*/
-    height: 50.2vh;
-}
-
-#personal-pic-section h1 {
-    margin: 0;
-    padding: 20px;
-}
-
-#about-me-section {
-    min-height: 50.2vh;
-}
-
-#about-me-section h1 {
-    margin: 0;
-    padding: 20px;
+.about-me-section {
+    background-color: hsl(242,50%,31%);
+    position: relative;
+    top: -10px;
+    bottom: 10px;
+    box-shadow: 0 -5px 20px 5px hsl(242,50%,31%);;
 }
 
 
