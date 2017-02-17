@@ -3,6 +3,13 @@ app.directive('hobbyDirective', function() {
        restrict: 'E',
        templateUrl: 'app/components/home/about/hobbyDirective/hobby.html',
        controller: 'app/components/home/about/hobbyDirective/hobbyController.js',
-       controllerAs: '$ctrl'
+       controllerAs: '$ctrl',
+       scope: {
+           x: '=',
+           y: '='
+       },
+       link: function(scope, elem, attr) {
+           //Use the css function to pass the x and y coordinates. 
+       }
    } 
 });
