@@ -1,1 +1,1 @@
-var app = angular.module('portfolio', ['ui.router', 'ngAnimate']);
+var app = angular.module('portfolio', ['ui.router', 'ngAnimate', 'ngSanitize']);
