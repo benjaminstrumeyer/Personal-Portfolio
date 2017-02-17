@@ -392,6 +392,7 @@ html, body {
 
 .contact-container {
     background-color: rgba(255,255,255,0.1);
+    margin-right: 0;
 }
 
 .contact-information-container ul {
@@ -405,10 +406,6 @@ html, body {
 .contact-container p {
     font-size: 2em;
     font-style: italic;
-}
-
-.contact-container .row {
-    margin-right: 0;
 }
 
 .contact-container .contact-information-container {
@@ -445,3 +442,45 @@ html, body {
     left: 1.5px;
     margin-right: 5px;
 }
+
+.hobby-circle-parent-container {
+    height: 94vh;
+    width: 94vh;
+    border: 2px solid white;
+    margin: 3vh auto 0 auto;
+    position: relative;
+}
+
+.y-axis {
+    height: 100%;
+    position: absolute;
+    left: 47vh;
+    border: 1px solid white;
+    width: 0px;
+}
+
+.x-axis {
+    height: 0px;
+    width: 100%;
+    position: absolute;
+    top: 47vh;
+    border: 1px solid white;
+}
+
+.center {
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    left: 46.5vh;
+    top: 46.5vh;
+    background: white;
+}
+
+.circle {
+    height: 20px;
+    width: 20px;
+    background: white;
+    border-radius: 50px;
+    position: absolute;
+}
+
