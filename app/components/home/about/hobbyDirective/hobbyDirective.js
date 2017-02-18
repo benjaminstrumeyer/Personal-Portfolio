@@ -10,6 +10,10 @@ app.directive('hobbyDirective', function() {
        },
        link: function(scope, elem, attr) {
             //Use the css function to pass the x and y coordinates. 
+           elem.css({
+                'top': scope.x + 'px',
+                'left': scope.y + 'px'
+           });
        }
    } 
 });
