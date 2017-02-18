@@ -9,12 +9,20 @@ app.directive('hobbyDirective', function() {
            y: '='
        },
        link: function(scope, elem, attr) {
-            //Use the css function to pass the x and y coordinates. 
            
+            //Use the css function to pass the x and y coordinates. 
            var myEl = angular.element(elem[0].querySelector('.circle'));
+           var widthOffset = myEl.prop('offsetHeight')/2;
+           var heightOffset = myEl.prop('offsetWidth')/2;
+           
+           var xPosition = scope.x - widthOffset;
+           var yPosition = scope.y - heightOffset;
+           
+           console.log('x, y: ', xPosition, yPosition);
+           
            myEl.css({
-                'top': scope.x + 'px',
-                'left': scope.y + 'px'
+                'top': xPosition + 'px',
+                'left': yPosition + 'px'
            });
        }
    } 
