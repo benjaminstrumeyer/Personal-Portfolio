@@ -1,4 +1,4 @@
-app.controller('hobbyDirective', function() {
+app.controller('hobbyController', function() {
     var self = this;
     
 });
