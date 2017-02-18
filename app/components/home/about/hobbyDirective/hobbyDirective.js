@@ -10,7 +10,9 @@ app.directive('hobbyDirective', function() {
        },
        link: function(scope, elem, attr) {
             //Use the css function to pass the x and y coordinates. 
-           elem.css({
+           
+           var myEl = angular.element(elem[0].querySelector('.circle'));
+           myEl.css({
                 'top': scope.x + 'px',
                 'left': scope.y + 'px'
            });
