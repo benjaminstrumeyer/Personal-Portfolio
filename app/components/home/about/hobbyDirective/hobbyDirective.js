@@ -18,7 +18,7 @@ app.directive('hobbyDirective', function() {
            var xPosition = scope.x - widthOffset;
            var yPosition = scope.y - heightOffset;
            
-           console.log('x, y: ', xPosition, yPosition);n b
+           console.log('x, y: ', xPosition, yPosition);
            
            myEl.css({
                 'top': xPosition + 'px',

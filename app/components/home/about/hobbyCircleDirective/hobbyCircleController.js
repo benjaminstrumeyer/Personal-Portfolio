@@ -1,7 +1,12 @@
 app
-    .controller('hobbyCircleController', function($scope) {
+    .controller('hobbyCircleController', function($scope, hobbyService) {
     
         var self = this;
+        
+        var hobbyInformation = hobbyService.getHobbyInfo();
+    
+        console.log(hobbyInformation);
+    
     
         var radius = 400;
         var angle = 0;
