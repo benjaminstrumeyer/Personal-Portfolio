@@ -23,9 +23,10 @@ app.directive('hobbyCircleDirective', function() {
 //                    elem.parent().append(transEl);
 //                });
                 
-                transclude(function(clone) {
-                    elem.append(clone);
-                });
+//                transclude(function(clone) {
+//                    elem.append(clone);
+//                });
+//                elem.find('.hobbies').append(transclude());
                 
             });
         }

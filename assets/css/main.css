@@ -1,6 +1,8 @@
 html, body {
 /*    background-color: hsl(28,52%,82%);*/
-    background-color: hsl(15,98%,90%);
+/*    background-color: hsl(15,98%,90%);*/
+    background-color: hsl(242,50%,21%);
+    color: white;
 }
 
 #landing-screen {
@@ -58,6 +60,9 @@ html, body {
     font-size: 2.2em;
 }
 
+.projects-view {
+/*    box-shadow: 0 -5px 20px 5px hsl(242,50%,21%);*/
+}
 .projects-container {
     width: 80%;
     padding: 2.5vh;
@@ -74,7 +79,7 @@ html, body {
 .project-container {
     height: 41%;
     border: 2px solid black;
-    box-shadow: 4px 4px 4px #888888;
+    box-shadow: 4px 4px 4px hsl(242,50%,21%);
     position: relative;
     overflow: hidden;
     margin: 15px 0;
@@ -140,10 +145,11 @@ html, body {
 .expanded-project-container {
     margin-top: 3vh;
     border: 2px solid black;
-    box-shadow: 4px 4px 4px #888888;
+    box-shadow: 4px 4px 4px hsl(242,50%,21%);
     width: 78%;
     padding: 10px;
     min-width: 200px;
+    background-color: hsl(242,50%,31%);
 }
 
 .expanded-project-container h1 {
@@ -166,9 +172,9 @@ html, body {
     min-width: 4vw;
     border: 2px solid black;
     color: black;
-    background-color: transparent;
+    background-color: hsl(182,82%,55%);
     padding: 0 2px 0 0;
-    box-shadow: 1px 1px 1px #888888;
+    box-shadow: 1px 1px 1px  background-color: hsl(182,82%,55%);
 }
 
 .expanded-project-container .github-link-container {
@@ -391,7 +397,7 @@ html, body {
 
 
 .contact-container {
-    background-color: rgba(255,255,255,0.1);
+    background-color: hsl(242,50%,31%);
     margin-right: 0;
 }
 
