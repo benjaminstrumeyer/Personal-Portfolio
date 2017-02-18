@@ -14,10 +14,10 @@ app
 
         var circleAngleIncrements = (2*Math.PI)/hobbyLength;
 
-        //Offset it if hobbyLength is even to ensure even placemment. 
-        //            if (hobbyLength % 2 === 0) {
-        //                angle += circleAngleIncrements/2;
-        //            }
+//        Offset it if hobbyLength is odd to ensure even placemment. 
+        if (hobbyLength % 2 === 1) {
+            angle += circleAngleIncrements/2;
+        }
 
         var width = $('.hobby-circle-parent-container').width();
         var height = $('.hobby-circle-parent-container').height();
