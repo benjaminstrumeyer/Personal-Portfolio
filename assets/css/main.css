@@ -482,8 +482,10 @@ html, body {
 }
 
 .circle {
-    height: 160px;
-    width: 160px;
+    height: 15vh;
+    width: 15vh;
+    min-height: 5vh;
+    min-width: 5vh;
     background: white;
     border-radius: 50px;
     position: absolute;

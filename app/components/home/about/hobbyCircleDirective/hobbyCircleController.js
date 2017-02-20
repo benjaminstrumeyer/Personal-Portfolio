@@ -19,7 +19,9 @@ app
         if ($scope.hobbyLength % 2 === 1) {
             angle += circleAngleIncrements/2;
         }
-
+        
+    
+        //TODO: $watch this and calculate appropriate radius to make the circle responsive. 
         var width = $('.hobby-circle-parent-container').width();
         var height = $('.hobby-circle-parent-container').height();
 
