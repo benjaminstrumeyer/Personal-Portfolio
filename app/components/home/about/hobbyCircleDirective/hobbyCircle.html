@@ -4,5 +4,5 @@
     <div class="x-axis"></div>
     <div class="center"></div>
 -->
-    <hobby-directive ng-repeat="circle in testArray" x="XValues[$index]" y="YValues[$index]" index="$index"></hobby-directive>
+    <hobby-directive ng-repeat="circle in getHobbyLength(hobbyLength) track by $index" x="XValues[$index]" y="YValues[$index]" index="$index"></hobby-directive>
 </div>

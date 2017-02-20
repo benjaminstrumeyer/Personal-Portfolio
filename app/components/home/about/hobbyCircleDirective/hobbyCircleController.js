@@ -1,5 +1,5 @@
 app
-    .controller('hobbyCircleController', function($scope) {
+    .controller('hobbyCircleController', function($scope, hobbyService) {
     
         var self = this;
     
@@ -7,16 +7,16 @@ app
         var radius = 400;
         var angle = 0;
 
-        $scope.testArray = [1, 2, 3, 4];
-        var hobbyLength = $scope.testArray.length;
+//        $scope.testArray = [1, 2, 3, 4];
+        $scope.hobbyLength = 7;
 
         $scope.XValues = [];
         $scope.YValues = [];
 
-        var circleAngleIncrements = (2*Math.PI)/hobbyLength;
+        var circleAngleIncrements = (2*Math.PI)/$scope.hobbyLength;
 
 //        Offset it if hobbyLength is odd to ensure even placemment. 
-        if (hobbyLength % 2 === 1) {
+        if ($scope.hobbyLength % 2 === 1) {
             angle += circleAngleIncrements/2;
         }
 
@@ -24,12 +24,25 @@ app
         var height = $('.hobby-circle-parent-container').height();
 
         //Append directives to hobbyCircles with different values all at once with a single ng-html binding. 
-        $scope.testArray.forEach(function() {
+//        $scope.testArray.forEach(function() {
+//            let x = Math.round(width/2 + (radius * Math.cos(angle)));
+//            let y = Math.round(height/2 + (radius * Math.sin(angle)));
+//
+//            $scope.XValues.push(x);
+//            $scope.YValues.push(y);
+//            angle += circleAngleIncrements;
+//        });
+    
+        for (let i = 0; i < $scope.hobbyLength; i++) {
             let x = Math.round(width/2 + (radius * Math.cos(angle)));
-            let y = Math.round(height/2 + (radius * Math.sin(angle)));
+                let y = Math.round(height/2 + (radius * Math.sin(angle)));
 
-            $scope.XValues.push(x);
-            $scope.YValues.push(y);
-            angle += circleAngleIncrements;
-        });
+                $scope.XValues.push(x);
+                $scope.YValues.push(y);
+                angle += circleAngleIncrements;
+        }
+    
+        $scope.getHobbyLength = function(num) {
+            return new Array(num);   
+        }
 });

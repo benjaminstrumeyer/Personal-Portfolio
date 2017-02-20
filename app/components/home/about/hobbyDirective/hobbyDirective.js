@@ -1,4 +1,4 @@
-app.directive('hobbyDirective', function(hobbyService) {
+app.directive('hobbyDirective', function(hobbyService, $rootScope) {
    return {
        restrict: 'E',
        templateUrl: 'app/components/home/about/hobbyDirective/hobby.html',
@@ -28,6 +28,8 @@ app.directive('hobbyDirective', function(hobbyService) {
            
            //Put the hobby object on the scope
            scope.hobby = hobbyService.hobbies[scope.index];
+           
+           $rootScope.numHobbies = hobbyService.hobbies.length;
        }
    } 
 });
