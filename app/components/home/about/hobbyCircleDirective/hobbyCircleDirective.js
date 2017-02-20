@@ -6,6 +6,8 @@ app.directive('hobbyCircleDirective', function() {
         },
         templateUrl: 'app/components/home/about/hobbyCircleDirective/hobbyCircle.html',
         controller: 'hobbyCircleController',
-        controllerAs: '$ctrl'
+        controllerAs: '$ctrl',
+        link: function(scope, elem, attr) {
         }
+    }
 });

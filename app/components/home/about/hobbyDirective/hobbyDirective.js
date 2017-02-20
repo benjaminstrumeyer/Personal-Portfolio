@@ -1,4 +1,4 @@
-app.directive('hobbyDirective', function() {
+app.directive('hobbyDirective', function(hobbyService) {
    return {
        restrict: 'E',
        templateUrl: 'app/components/home/about/hobbyDirective/hobby.html',
@@ -6,24 +6,28 @@ app.directive('hobbyDirective', function() {
        controllerAs: '$ctrl',
        scope: {
            x: '=',
-           y: '='
+           y: '=', 
+           index: "="
        },
        link: function(scope, elem, attr) {
            
             //Use the css function to pass the x and y coordinates. 
-           var myEl = angular.element(elem[0].querySelector('.circle'));
-           var widthOffset = myEl.prop('offsetHeight')/2;
-           var heightOffset = myEl.prop('offsetWidth')/2;
-           
-           var xPosition = scope.x - widthOffset;
-           var yPosition = scope.y - heightOffset;
-           
-           console.log('x, y: ', xPosition, yPosition);
-           
-           myEl.css({
+            var myEl = angular.element(elem[0].querySelector('.circle'));
+            var widthOffset = myEl.prop('offsetHeight')/2;
+            var heightOffset = myEl.prop('offsetWidth')/2;
+
+            var xPosition = scope.x - widthOffset;
+            var yPosition = scope.y - heightOffset;
+
+            console.log('x, y: ', xPosition, yPosition);
+
+            myEl.css({
                 'top': xPosition + 'px',
                 'left': yPosition + 'px'
-           });
+            });
+           
+           //Put the hobby object on the scope
+           scope.hobby = hobbyService.hobbies[scope.index];
        }
    } 
 });
