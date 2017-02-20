@@ -452,8 +452,7 @@ html, body {
 .hobby-circle-parent-container {
     height: 94vh;
     width: 94vh;
-    border: 2px solid white;
-    margin: 3vh auto 0 auto;
+    margin: 4vh auto 0 auto;
     position: relative;
 }
 
@@ -483,8 +482,8 @@ html, body {
 }
 
 .circle {
-    height: 20px;
-    width: 20px;
+    height: 160px;
+    width: 160px;
     background: white;
     border-radius: 50px;
     position: absolute;

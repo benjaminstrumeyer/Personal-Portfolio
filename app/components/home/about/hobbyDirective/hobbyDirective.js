@@ -28,8 +28,6 @@ app.directive('hobbyDirective', function(hobbyService, $rootScope) {
            
            //Put the hobby object on the scope
            scope.hobby = hobbyService.hobbies[scope.index];
-           
-           $rootScope.numHobbies = hobbyService.hobbies.length;
        }
    } 
 });
