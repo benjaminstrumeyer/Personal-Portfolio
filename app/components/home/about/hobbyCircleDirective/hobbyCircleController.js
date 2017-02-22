@@ -2,8 +2,7 @@ app
     .controller('hobbyCircleController', function($scope, hobbyService) {
     
         var self = this;
-    
-    
+
         var radius = 400;
         var angle = 0;
 
@@ -20,29 +19,40 @@ app
             angle += circleAngleIncrements/2;
         }
         
-    
         //TODO: $watch this and calculate appropriate radius to make the circle responsive. 
         var width = $('.hobby-circle-parent-container').width();
         var height = $('.hobby-circle-parent-container').height();
+    
+        $scope.$watch(function() {
+            return $scope.radius;
+        },
+        function(newVal, oldVal) {
+            
+            //Clear the current X and Y values;
+            $scope.XValues = [];
+            $scope.YValues = [];
+            
+            for (let i = 0; i < $scope.hobbyLength; i++) {
+                let x = Math.round(width/2 + (newVal * Math.cos(angle)));
+                let y = Math.round(height/2 + (newVal * Math.sin(angle)));
 
-        //Append directives to hobbyCircles with different values all at once with a single ng-html binding. 
-//        $scope.testArray.forEach(function() {
-//            let x = Math.round(width/2 + (radius * Math.cos(angle)));
-//            let y = Math.round(height/2 + (radius * Math.sin(angle)));
+                $scope.XValues.push(x);
+                $scope.YValues.push(y);
+
+                console.log('My X: ',$scope.XValues);
+                angle += circleAngleIncrements;
+        }
+        });
+//
+//        for (let i = 0; i < $scope.hobbyLength; i++) {
+//            console.log('The radius is: ', $scope.radius);
+//            let x = Math.round(width/2 + ($scope.radius * Math.cos(angle)));
+//            let y = Math.round(height/2 + ($scope.radius * Math.sin(angle)));
 //
 //            $scope.XValues.push(x);
 //            $scope.YValues.push(y);
 //            angle += circleAngleIncrements;
-//        });
-    
-        for (let i = 0; i < $scope.hobbyLength; i++) {
-            let x = Math.round(width/2 + (radius * Math.cos(angle)));
-                let y = Math.round(height/2 + (radius * Math.sin(angle)));
-
-                $scope.XValues.push(x);
-                $scope.YValues.push(y);
-                angle += circleAngleIncrements;
-        }
+//        }
     
         $scope.getHobbyLength = function(num) {
             return new Array(num);   
