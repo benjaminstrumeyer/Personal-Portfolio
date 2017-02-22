@@ -16,10 +16,6 @@ app.directive('hobbyDirective', function(hobbyService, $rootScope, $interval) {
             var widthOffset = myEl.prop('offsetHeight')/2;
             var heightOffset = myEl.prop('offsetWidth')/2;
            
-           console.log('heightOffset', heightOffset);
-           
-           console.log('YVals: ', scope.y);
-           
             var setRadius = function() {
                 var xPosition = scope.x - widthOffset;
                 var yPosition = scope.y - heightOffset;
@@ -32,7 +28,7 @@ app.directive('hobbyDirective', function(hobbyService, $rootScope, $interval) {
                 });
            } 
            
-           $interval(setRadius, 1000);
+           $interval(setRadius, 500);
 
 //           scope.$watchGroup([scope.x, scope.y], 
 //                function(newVals, oldVals) {

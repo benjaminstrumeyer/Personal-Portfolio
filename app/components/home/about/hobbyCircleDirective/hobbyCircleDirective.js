@@ -19,7 +19,7 @@ app.directive('hobbyCircleDirective', function($interval) {
 //                console.log(scope.radius);
             }
             
-            $interval(checkSize, 1000);
+            $interval(checkSize, 500);
             
 //            checkSize();
 //            console.log('width', scope.checkWidth);
