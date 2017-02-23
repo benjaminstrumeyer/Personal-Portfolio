@@ -454,7 +454,7 @@ html, body {
     width: 94vh;
     margin: 4vh auto 0 auto;
     position: relative;
-    border: 2px solid white;
+/*    border: 2px solid white;*/
 }
 
 .y-axis {
@@ -488,6 +488,20 @@ html, body {
     min-height: 5vh;
     min-width: 5vh;
     background: white;
-    border-radius: 50px;
+    border-radius: 300px;
     position: absolute;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.center-circle-container {
+    height: 64%;
+    width: 64%;
+    border-radius: 300px;
+    border: 2px solid white;
+    position: relative;
+    top: 16.5vh;
+    margin: auto;
 }

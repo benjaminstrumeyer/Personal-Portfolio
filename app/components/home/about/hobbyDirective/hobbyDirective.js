@@ -23,6 +23,7 @@ app.directive('hobbyDirective', function(hobbyService, $rootScope, $interval) {
 //                console.log('yPos: ', yPosition);
 
                 myEl.css({
+                    'overflow': 'hidden',
                     'top': xPosition + 'px',
                     'left': yPosition + 'px'
                 });
