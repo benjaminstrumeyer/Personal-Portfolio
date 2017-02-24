@@ -3,7 +3,7 @@ app
         $urlRouterProvider
             .otherwise('/');
     
-        $stateProvider 
+        $stateProvider
             .state('viewProject', {
                 url: '/project/:name',
                 template: "<project-information-directive></project-information-directive>",
@@ -12,9 +12,5 @@ app
             .state('mainProjectPage', {
                 url: '/',
                 template: "<projects-component></projects-component>"
-            })
-            .state('viewHobby', {
-                url:'/hobby/:name',
-                template: "<center-circle-component></center-circle-component>"
             });
     });

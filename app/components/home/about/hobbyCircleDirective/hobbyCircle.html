@@ -4,12 +4,8 @@
     <div class="x-axis"></div>
     <div class="center"></div>
 -->
-<!-- Outer circles-->
+    <!-- Outer circles-->
     <hobby-directive ng-repeat="circle in getHobbyLength(hobbyLength) track by $index" x="XValues[$index]" y="YValues[$index]" index="$index"></hobby-directive>
     
-    <center-circle-component></center-circle-component>
-    
-    <div class="center-circle-container">
-    </div>
-    
+    <center-circle-directive></center-circle-directive>
 </div>
