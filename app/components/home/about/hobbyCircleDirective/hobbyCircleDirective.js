@@ -9,17 +9,18 @@ app.directive('hobbyCircleDirective', function($interval) {
         controllerAs: '$ctrl',
         link: function(scope, elem, attr) {
             
-//            $interval(console.log('test'), 1000);
             var checkSize = function() {
                 scope.checkWidth = $('.hobby-circle-parent-container').width();
                 scope.checkHeight = $('.hobby-circle-parent-container').height();
-
-                // Take sqrt of width^2 + height^2 
-                scope.radius = Math.pow(Math.pow(scope.checkWidth, 2) + Math.pow(scope.checkHeight, 2), (1/2.4));
-//                console.log(scope.radius);
+                
+                scope.radius = Math.min(scope.checkWidth/2.3, scope.checkHeight/2.3);
             }
             
-            $interval(checkSize, 500);
+            //Call it on page load
+            checkSize();
+            
+            // Update radius values for responsive design
+            $interval(checkSize, 1000);
             
 //            checkSize();
 //            console.log('width', scope.checkWidth);

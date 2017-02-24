@@ -1,7 +1,7 @@
 [
     {
         "name": "Music",
-        "description": "I play guitar and will sing anywhere within 3 feet of a shower. Anyway here's wonderwall.",
+        "description": "I play the guitar, saxaphone, ukulele and will sing anywhere within 3 feet of a shower. Anyway here's wonderwall.",
         "imgSrc": ""
     },
     {
@@ -10,7 +10,7 @@
         "imgSrc": ""
     },
     {
-        "name": "Web Development",
+        "name": "Web Dev",
         "description": "Brainstorming an idea and spending the next 12 hours banging your head against the wall until it works is my addiction. It's because then you can say you've created something of your own (or at least have a very compelling story of why it didn't work out).",
         "imgSrc": ""
     },
