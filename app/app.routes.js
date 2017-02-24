@@ -12,5 +12,9 @@ app
             .state('mainProjectPage', {
                 url: '/',
                 template: "<projects-component></projects-component>"
+            })
+            .state('viewHobby', {
+                url:'/hobby/:name',
+                template: "<center-circle-component></center-circle-component>"
             });
     });
