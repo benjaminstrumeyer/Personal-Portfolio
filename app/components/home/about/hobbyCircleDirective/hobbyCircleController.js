@@ -1,9 +1,9 @@
 app
-    .controller('hobbyCircleController', function($scope, hobbyService) {
+    .controller('hobbyCircleController', function($scope, $timeout, hobbyService) {
     
         var self = this;
     
-        $scope.currentHobby;
+        $scope.isHovered = false;
 
         var radius = 400;
         var angle = 0;
@@ -50,9 +50,28 @@ app
             return new Array(num);   
         }
         
-        $scope.setCurrentHobby = function(currentHobby) {
-            $scope.currentHobby = currentHobby;
-            console.log('test', $scope.currentHobby);
+        $scope.setCurrentHobby = function(currentHobbyName) {
+            
+            let currentHobby = hobbyService.hobbies.filter(hobby => currentHobbyName === hobby.name);
+            
+            $scope.currentHobbyName = currentHobby.name;
+            $scope.currentHobbyDescription = currentHobby.description;
+            $scope.currentHobbyImgSrc = currentHobby.imgSrc;
+            
+            $scope.isTempHovered = true;
+            $scope.isHovered = true;
             return;
         }
+        $scope.setDefault() {
+            
+            $scope.isTempHovered = false;
+            
+            $timeout(function() {
+                if ($scope.isTempHovered === false) {
+                    $scope.isHovered = false;
+                }
+            }, 3000);
+        }
+    
+        var 
 });
