@@ -30,28 +30,6 @@ app.directive('hobbyDirective', function(hobbyService, $rootScope, $interval) {
            } 
            
            $interval(setRadius, 500);
-
-//           scope.$watchGroup([scope.x, scope.y], 
-//                function(newVals, oldVals) {
-//                    var xPosition = newVals[0] - widthOffset;
-//                    var yPosition = newVals[1] - heightOffset;
-//                
-//
-//                    myEl.css({
-//                        'top': xPosition + 'px',
-//                        'left': yPosition + 'px'
-//                    });
-//                });
-           
-//            var xPosition = scope.x - widthOffset;
-//            var yPosition = scope.y - heightOffset;
-//
-//            console.log('x, y: ', xPosition, yPosition);
-//
-//            myEl.css({
-//                'top': xPosition + 'px',
-//                'left': yPosition + 'px'
-//            });
            
            //Put the hobby object on the scope
            scope.hobby = hobbyService.hobbies[scope.index];

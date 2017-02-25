@@ -2,10 +2,14 @@
 <!--
     <div class="y-axis"></div>
     <div class="x-axis"></div>
+ 
     <div class="center"></div>
 -->
+    
     <!-- Outer circles-->
-    <hobby-directive ng-repeat="circle in getHobbyLength(hobbyLength) track by $index" x="XValues[$index]" y="YValues[$index]" index="$index"></hobby-directive>
+    <div class="hobby-wrapper">
+        <hobby-directive ng-repeat="circle in getHobbyLength(hobbyLength) track by $index" x="XValues[$index]" y="YValues[$index]" index="$index"></hobby-directive>
+    </div>
     
     <!--    TODO: Pass in all hobbies hobby-->
     <center-circle-directive test="currentHobby"></center-circle-directive>

@@ -2,6 +2,9 @@ app
     .controller('hobbyCircleController', function($scope, hobbyService) {
     
         var self = this;
+    
+        $scope.currentHobby = null;
+        $scope.booleanTest = false;
 
         var radius = 400;
         var angle = 0;
@@ -43,18 +46,14 @@ app
                 angle += circleAngleIncrements;
         }
         });
-//
-//        for (let i = 0; i < $scope.hobbyLength; i++) {
-//            console.log('The radius is: ', $scope.radius);
-//            let x = Math.round(width/2 + ($scope.radius * Math.cos(angle)));
-//            let y = Math.round(height/2 + ($scope.radius * Math.sin(angle)));
-//
-//            $scope.XValues.push(x);
-//            $scope.YValues.push(y);
-//            angle += circleAngleIncrements;
-//        }
-    
+
         $scope.getHobbyLength = function(num) {
             return new Array(num);   
+        }
+        
+        $scope.setBooleanTest = function(newVal) {
+            $scope.booleanTest = newVal;
+            console.log('test', $scope.booleanTest);
+            return;
         }
 });
