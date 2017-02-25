@@ -3,8 +3,7 @@ app
     
         var self = this;
     
-        $scope.currentHobby = null;
-        $scope.booleanTest = false;
+        $scope.currentHobby;
 
         var radius = 400;
         var angle = 0;
@@ -51,9 +50,9 @@ app
             return new Array(num);   
         }
         
-        $scope.setBooleanTest = function(newVal) {
-            $scope.booleanTest = newVal;
-            console.log('test', $scope.booleanTest);
+        $scope.setCurrentHobby = function(currentHobby) {
+            $scope.currentHobby = currentHobby;
+            console.log('test', $scope.currentHobby);
             return;
         }
 });
