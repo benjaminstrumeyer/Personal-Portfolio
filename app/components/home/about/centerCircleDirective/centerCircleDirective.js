@@ -1,7 +1,11 @@
-app.directive('centerCircleDirective', function () {
-    return {
-        restrict: 'E',
-        templateUrl: 'app/components/home/about/centerCircleDirective/centerCircle.html',
-        controller: 'app/components/home/about/centerCircleDirective/centerCircleController.js'   
-    }
+app
+    .directive('centerCircleDirective', function() {
+        return {
+            restrict: 'E',
+            scope: {
+                currentHobby: '='
+            },
+            templateUrl: 'app/components/home/about/centerCircleDirective/centerCircle.html',
+            controller: 'centerCircleController'
+        }
 });

@@ -7,5 +7,6 @@
     <!-- Outer circles-->
     <hobby-directive ng-repeat="circle in getHobbyLength(hobbyLength) track by $index" x="XValues[$index]" y="YValues[$index]" index="$index"></hobby-directive>
     
-    <center-circle-directive></center-circle-directive>
+    <!--    TODO: Pass in all hobbies hobby-->
+    <center-circle-directive test="currentHobby"></center-circle-directive>
 </div>
