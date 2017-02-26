@@ -43,7 +43,7 @@ app
 
                 console.log('My X: ',$scope.XValues);
                 angle += circleAngleIncrements;
-        }
+            }
         });
 
         $scope.getHobbyLength = function(num) {
@@ -62,7 +62,8 @@ app
             $scope.isHovered = true;
             return;
         }
-        $scope.setDefault() {
+        
+        $scope.setDefault = function() {
             
             $scope.isTempHovered = false;
             
@@ -70,8 +71,6 @@ app
                 if ($scope.isTempHovered === false) {
                     $scope.isHovered = false;
                 }
-            }, 3000);
+            }, 5000);
         }
-    
-        var 
 });
