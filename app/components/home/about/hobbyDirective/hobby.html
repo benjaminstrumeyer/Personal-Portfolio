@@ -1,9 +1,13 @@
 <div class="hobby-wrapper">
-    <div class="circle" ng-mouseover="$parent.setCurrentHobby(hobby.name)" ng-mouseleave="$parent.setDefault()">
-        <div class=hobby-icon-container>
-        </div>
-        <div class="hobby-title text-center">
-            {{hobby.name}}
+    <div class="circle-wrapper">
+        <div class="circle" ng-mouseover="$parent.setCurrentHobby(hobby.name)" ng-mouseleave="$parent.setDefault()">
+            <div class=hobby-icon-container>
+            </div>
+            <div class="title-container">
+                <div class="title text-center">
+                    {{hobby.name}}
+                </div>
+            </div>
         </div>
     </div>
 </div>

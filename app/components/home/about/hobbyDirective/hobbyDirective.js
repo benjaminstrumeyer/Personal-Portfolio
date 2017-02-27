@@ -12,8 +12,8 @@ app.directive('hobbyDirective', function(hobbyService, $rootScope, $interval) {
        link: function(scope, elem, attr) {
            
             //Use the css function to pass the x and y coordinates. 
-            var myEl = angular.element(elem[0].querySelector('.circle'));
-            var widthOffset = myEl.prop('offsetHeight')/2;
+            var myEl = angular.element(elem[0].querySelector('.circle-wrapper'));
+            var widthOffset = myEl.prop('offsetHeight')/2; 
             var heightOffset = myEl.prop('offsetWidth')/2;
            
             var setRadius = function() {
@@ -27,7 +27,7 @@ app.directive('hobbyDirective', function(hobbyService, $rootScope, $interval) {
                     'top': xPosition + 'px',
                     'left': yPosition + 'px'
                 });
-           } 
+           }
            
            $interval(setRadius, 500);
            

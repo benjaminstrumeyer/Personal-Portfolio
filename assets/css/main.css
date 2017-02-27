@@ -482,22 +482,32 @@ html, body {
     background: white;
 }
 
-.hobby-wrapper .circle {
-    height: 15.5vh;
-    width: 15.5vh;
-    min-height: 5vh;
-    min-width: 5vh;
-    background: white;
+.hobby-wrapper .circle-wrapper {
+    height: 30vh;
+    width: 30vh;
     border-radius: 300px;
     position: absolute;
     color: black;
 }
 
+.hobby-wrapper .circle {
+    margin: 7vh auto 0 auto;
+    height: 50%;
+    width: 50%;
+    min-height: 5vh;
+    min-width: 5vh;
+    background-color: hsl(242,50%,61%);
+    border-radius: 300px;
+}
+
 .hobby-icon-container  {
     height: 60%;
     width:  60%;
-    margin: 2vh auto 0 auto;
-    border: 2px solid black;
+/*    margin: 2vh auto 0 auto;*/
+    margin: auto;
+/*    border: 2px solid black;*/
+    position: relative;
+    top: 2vh;
 }
 
 .hobby-title {
@@ -516,4 +526,17 @@ html, body {
     position: relative;
     top: 16.5vh;
     margin: auto;
+}
+
+.hobby-wrapper .title-container  {
+    position: relative;
+    top: 1vh;
+    height: 20%;
+    width: 100%;
+    background: white;
+    border-radius: 50px;
+}
+
+.hobby-wrapper .title {
+/*    line-height: 200%;*/
 }
