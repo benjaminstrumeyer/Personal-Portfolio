@@ -541,8 +541,11 @@ html, body {
     width: 100%;
     background: white;
     border-radius: 50px;
+    display: table;
 }
 
+
 .hobby-wrapper .title {
-    line-height: 200%;
+    display: table-cell;
+    vertical-align: middle;
 }
