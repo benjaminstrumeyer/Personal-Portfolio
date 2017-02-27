@@ -485,9 +485,12 @@ html, body {
 .hobby-wrapper .circle-wrapper {
     height: 30vh;
     width: 30vh;
-    border-radius: 300px;
     position: absolute;
     color: black;
+/*
+    border: 2px solid white;
+    bottom: -5vh;
+*/
 }
 
 .hobby-wrapper .circle {
@@ -502,15 +505,15 @@ html, body {
 }
 
 .hobby-icon-container  {
-    height: 60%;
-    width:  60%;
+    height: 57%;
+    width:  57%;
 /*    margin: 2vh auto 0 auto;*/
     margin: auto;
 /*    border: 2px solid black;*/
     position: relative;
     top: 2vh;
+    margin-bottom: 1vh;
 /*    background-color: hsl(242,50%,21%);*/
-    background-color: hsl(182,82%,55%);
 }
 
 .hobby-title {

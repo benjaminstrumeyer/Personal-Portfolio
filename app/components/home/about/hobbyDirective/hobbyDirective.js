@@ -33,6 +33,7 @@ app.directive('hobbyDirective', function(hobbyService, $rootScope, $interval) {
            
            //Put the hobby object on the scope
            scope.hobby = hobbyService.hobbies[scope.index];
+           console.log('This hobby img: ', scope.hobby.imgSrc);
        }
    } 
 });
