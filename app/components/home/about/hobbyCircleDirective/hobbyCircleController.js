@@ -52,11 +52,14 @@ app
         
         $scope.setCurrentHobby = function(currentHobbyName) {
             
-            let currentHobby = hobbyService.hobbies.filter(hobby => currentHobbyName === hobby.name);
+            let currentHobby = hobbyService.hobbies.find(hobby => currentHobbyName === hobby.name);
             
             $scope.currentHobbyName = currentHobby.name;
             $scope.currentHobbyDescription = currentHobby.description;
             $scope.currentHobbyImgSrc = currentHobby.imgSrc;
+            console.log("currentHobbyImgSrc: ", $scope.currentHobbyImgSrc);
+            
+            console.log("current hobby", currentHobby);
             
             $scope.isTempHovered = true;
             $scope.isHovered = true;

@@ -2,43 +2,43 @@
     {
         "name": "Music",
         "description": "I play the guitar, saxaphone, ukulele and will sing anywhere within 3 feet of a shower. Anyway here's wonderwall.",
-        "imgSrc": "", 
+        "imgSrc": "assets/img/Hobby_backgrounds/music.jpg", 
         "iconSrc": "assets/img/Hobby_icons/music.png"
     },
     {
         "name": "Surfing",
         "description": "There's no better feeling than getting that perfect wave and actually not wiping out. I've had some of my best memories and faced my biggest challenges in the water.",
-        "imgSrc": "", 
+        "imgSrc": "assets/img/Hobby_backgrounds/surfing.jpg", 
         "iconSrc": "assets/img/Hobby_icons/surfing.png"
     },
     {
         "name": "Web Dev",
         "description": "Brainstorming an idea and spending the next 12 hours banging your head against the wall until it works is my addiction. It's because then you can say you've created something of your own (or at least have a very compelling story of why it didn't work out).",
-        "imgSrc": "", 
+        "imgSrc": "assets/img/Hobby_backgrounds/webdev.png", 
         "iconSrc": "assets/img/Hobby_icons/webdev.png"
     },
     {
         "name": "Dogs",
         "description": "The one on the left is Buster, and the one on the right is Eddie. They're my Chiweenies!",
-        "imgSrc": "", 
+        "imgSrc": "assets/img/Hobby_backgrounds/dogs.jpg", 
         "iconSrc": "assets/img/Hobby_icons/dogs.png"
     },
     {
         "name": "Tennis",
         "description": "I've been playing for a while now, so if there's one thing tennis has taught me, it's to never give up. That, and if you hit a bad lob at the net.. you duck.",
-        "imgSrc": "", 
+        "imgSrc": "assets/img/Hobby_backgrounds/tennis.png", 
         "iconSrc": "assets/img/Hobby_icons/tennis.png"
     },
     {
         "name": "Skateboarding",
         "description": "I've picked up a lot of scars through the years, but each one comes with an equally rewarding success story. Except the time I \"credit carded.\" That's when you call it a day.",
-        "imgSrc": "", 
+        "imgSrc": "assets/img/Hobby_backgrounds/skateboarding.jpg", 
         "iconSrc": "assets/img/Hobby_icons/skateboarding.png"
     },
     {
         "name": "Manga",
         "description": "I like to read, but only if the book has pictures. Naturally, reading the newest releases every Thursday morning is tradition.",
-        "imgSrc": "", 
+        "imgSrc": "assets/img/Hobby_backgrounds/manga.jpg", 
         "iconSrc": "assets/img/Hobby_icons/manga.png"
     }
 ]
