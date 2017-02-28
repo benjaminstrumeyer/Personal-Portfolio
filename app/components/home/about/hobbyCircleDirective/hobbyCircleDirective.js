@@ -22,20 +22,22 @@ app.directive('hobbyCircleDirective', function($interval) {
             // Update radius values for responsive design
             $interval(checkSize, 1000);
             
-//            scope.$watch(function() {
-//                return scope.currentHobbyImgSrc;
-//            },
-//            function(newVal, oldVal) {
-//                console.log('newVal: ', newVal);
-//
-//                var myEl = angular.element(elem[0].querySelector('.current-hobby-container'));
-//
-//                myEl.css({
-//                    'background-image': 'url(' + newVal +')',
-//                    'background-size' : 'cover'
-//                });
-//               
-//            });
+            scope.$watch(function() {
+                return scope.currentHobbyImgSrc;
+            },
+            function(newVal, oldVal) {
+                console.log('newVal: ', newVal);
+
+                var myEl = angular.element(elem[0].querySelector('.current-hobby-container'));
+
+                myEl.css({
+                    'background-image': 'url(\'/' + newVal + '\')',
+                    'background-size': '178%',
+                    'background-repeat':  'no-repeat',
+                    'background-position': 'center'
+                });
+               
+            });
         }
     }
 });
