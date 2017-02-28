@@ -549,3 +549,7 @@ html, body {
     display: table-cell;
     vertical-align: middle;
 }
+
+.current-hobby-container {
+    background-image: url("assets/img/Hobby_backgrounds/music.jpg");
+}

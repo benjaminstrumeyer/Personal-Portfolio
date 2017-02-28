@@ -59,7 +59,7 @@ app
             $scope.currentHobbyImgSrc = currentHobby.imgSrc;
             console.log("currentHobbyImgSrc: ", $scope.currentHobbyImgSrc);
             
-            console.log("current hobby", currentHobby);
+//            console.log("current hobby", currentHobby);
             
             $scope.isTempHovered = true;
             $scope.isHovered = true;
