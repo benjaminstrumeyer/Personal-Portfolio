@@ -550,14 +550,6 @@ html, body {
     vertical-align: middle;
 }
 
-.current-hobby-center-container .content-container {
-    height: 100%;
-    width: 100%;
-    border-radius: 300px;
-    position: absolute;
-    top: 0;
-}
-
 .current-hobby-center-container .background-container {
     height: 100%;
     width: 100%;
@@ -577,8 +569,22 @@ html, body {
     
 }
 
-.current-hobby-center-container .content-container .hobby-description {
-    margin-top: 30vh;
+.current-hobby-center-container .content-container {
+    height: 100%;
+    width: 80%;
+    border-radius: 300px;
+    position: absolute;
+    left: 10%;
+    margin: auto;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+
+.current-hobby-center-container .hobby-description {
+    position: absolute;
     text-shadow: #000 0 0 5px;
 }
 
