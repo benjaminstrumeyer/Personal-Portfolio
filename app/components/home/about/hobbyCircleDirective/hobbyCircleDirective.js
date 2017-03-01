@@ -28,13 +28,10 @@ app.directive('hobbyCircleDirective', function($interval) {
             function(newVal, oldVal) {
                 console.log('newVal: ', newVal);
 
-                var myEl = angular.element(elem[0].querySelector('.current-hobby-container'));
+                var myEl = angular.element(elem[0].querySelector('.background-container'));
 
                 myEl.css({
-                    'background-image': 'url(\'/' + newVal + '\')',
-                    'background-size': '178%',
-                    'background-repeat':  'no-repeat',
-                    'background-position': 'center'
+                    'background-image': 'url(\'/' + newVal + '\')'
                 });
                
             });

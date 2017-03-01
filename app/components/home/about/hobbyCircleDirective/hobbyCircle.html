@@ -14,14 +14,20 @@
 <!--    Template this with the current hobby -->
 <div class="center-circle-container">
     <div ng-show="!isHovered">
-        <h1 class="text-center">
-            !isHovered
-        </h1>
-    </div>
-    <div ng-show="isHovered">
-        <div class="current-hobby-container">
-            
+        <div class="default-center-container">
         </div>
+    </div>
+    <div class="current-hobby-center-container" ng-show="isHovered">
+            <!--        -->
+            <div class="tint-overlay"></div>
+            <!-- Interpolated background requires separate div -->
+            <div class="background-container"></div>
+
+            <div class="content-container">
+                <h1 class="text-center quote">
+                   {{currentHobbyDescription}}
+                </h1>
+            </div>
     </div>
 </div>
 

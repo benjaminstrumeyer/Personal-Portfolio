@@ -550,9 +550,44 @@ html, body {
     vertical-align: middle;
 }
 
-.current-hobby-container {
-/*    background-image: url('/assets/img/Hobby_backgrounds/music.jpg');*/
+.current-hobby-center-container .content-container {
     height: 100%;
     width: 100%;
     border-radius: 300px;
+    position: absolute;
+    top: 0;
+}
+
+.current-hobby-center-container .background-container {
+    height: 100%;
+    width: 100%;
+    border-radius: 300px;
+    position: absolute;
+    top: 0;
+    
+    background-size: 178%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    
+}
+
+.current-hobby-center-container .content-container .hobby-description {
+    margin-top: 30vh;
+    text-shadow: #000 0 0 5px;
+}
+
+.current-hobby-center-container .tint-overlay {
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    width: 100%;
+    border-radius: 300px;
+    position: absolute;
+    top: 0;
+    
 }
