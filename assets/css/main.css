@@ -548,6 +548,7 @@ html, body {
 .hobby-wrapper .title {
     display: table-cell;
     vertical-align: middle;
+    color: hsl(242,50%,21%);
 }
 
 .current-hobby-center-container .background-container {
@@ -587,14 +588,4 @@ html, body {
 .current-hobby-center-container .hobby-description {
     position: absolute;
     text-shadow: #000 0 0 15px;
-}
-
-.current-hobby-center-container .tint-overlay {
-/*    background-color: rgba(0,0,0,0.5);*/
-    height: 100%;
-    width: 100%;
-    border-radius: 300px;
-    position: absolute;
-    top: 0;
-    
 }
