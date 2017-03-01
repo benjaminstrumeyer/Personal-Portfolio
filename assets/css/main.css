@@ -561,11 +561,14 @@ html, body {
     background-repeat: no-repeat;
     background-position: center;
     
+/*
     -webkit-filter: blur(5px);
     -moz-filter: blur(5px);
     -o-filter: blur(5px);
     -ms-filter: blur(5px);
     filter: blur(5px);
+*/
+    filter: brightness(40%) contrast(70%);
     
 }
 
@@ -579,17 +582,15 @@ html, body {
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
-    
-    
 }
 
 .current-hobby-center-container .hobby-description {
     position: absolute;
-    text-shadow: #000 0 0 5px;
+    text-shadow: #000 0 0 15px;
 }
 
 .current-hobby-center-container .tint-overlay {
-    background-color: rgba(0,0,0,0.5);
+/*    background-color: rgba(0,0,0,0.5);*/
     height: 100%;
     width: 100%;
     border-radius: 300px;
