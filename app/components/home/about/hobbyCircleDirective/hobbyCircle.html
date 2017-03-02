@@ -9,7 +9,7 @@
     <!-- Outer circles-->
     <div class="hobby-wrapper">
         <hobby-directive ng-repeat="circle in getHobbyLength(hobbyLength) track by $index" x="XValues[$index]" y="YValues[$index]" index="$index"></hobby-directive>
-    </div>
+    </div> 
     
 <!--    Template this with the current hobby -->
 <div class="center-circle-container">
@@ -20,11 +20,6 @@
     </div>
 -->
     <div class="current-hobby-center-container" ng-show="true">
-            <!--        -->
-<!--
-            <div class="tint-overlay"></div>
-             Interpolated background requires separate div 
--->
             <div class="background-container"></div>
 
             <div class="content-container">
