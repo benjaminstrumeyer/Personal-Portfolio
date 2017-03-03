@@ -355,11 +355,12 @@ html, body {
 .image-viewer .carousel-container {
     min-height: 20vh;
     max-width: 59vw;
-    min-width: 500px;
+    min-width: 985px;
     margin: 2vh auto 0 auto;
     border: 1px solid black;
 }
 
+/*
 .image-Viewer .carousel-control.left {
     margin-left: -8vw;
 }
@@ -367,6 +368,7 @@ html, body {
 .image-Viewer .carousel-control.right {
     margin-right: -8vw;
 }
+*/
 
 .image-Viewer .carousel-control.left, .carousel-control.right {
     background-image: none !important;
@@ -381,7 +383,7 @@ html, body {
 .image-Viewer .project-images-container {
     display: inline-flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     padding: 32px 20px;
     margin: auto;
     width: 100%;
@@ -393,6 +395,7 @@ html, body {
     height: 175px;
     width: 300px;
     margin: 0 8px;
+    min-width: 40px;
 }
 
 .image-Viewer .project-image:hover {
