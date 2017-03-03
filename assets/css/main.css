@@ -111,7 +111,7 @@ html, body {
     padding-bottom: 15px;
     background: black;
 /*    opacity: .4;*/
-    background-color: hsl(0,0%,20%);
+    background-color: hsl(0,0%,12%);
 }
 
 .project-information-popup .technology-container .label {
