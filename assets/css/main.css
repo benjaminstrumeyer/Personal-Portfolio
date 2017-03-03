@@ -313,11 +313,11 @@ html, body {
 
 .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
     visibility: visible;
-    color: black;
+    color: hsl(0,0%,62%);
 }
 .carousel-control .glyphicon-chevron-left, .carousel-control .icon-next {
     visibility: visible;
-    color: black;
+    color: hsl(0,0%,62%);
 }
 
 .image-viewer {
@@ -337,18 +337,18 @@ html, body {
 
 .image-viewer .exit-button-container {
     position: absolute;
-    right: 1vw;
+    left: 1vw;
     top: 1.3vh;
     padding: 10px;
 }
 
 .image-viewer .exit-button {
-    background: transparent;
+    color: hsl(182,82%,55%);
     border: none;
 }
 
 .image-viewer .exit-button-container:active .exit-button {
-    color: white;
+    color: hsl(182,82%,55%);
 }
 .image-viewer .carousel-container {
     min-height: 20vh;
