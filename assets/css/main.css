@@ -175,14 +175,16 @@ html, body {
     color: black;
     background-color: hsl(182,82%,55%);
     padding: 0 2px 0 0;
-    box-shadow: 1px 1px 1px  background-color: hsl(182,82%,55%);
+    box-shadow: 1px 1px 1px;
+    
 }
 
 .expanded-project-container .github-link-container {
     position: absolute;
-    top: 9.6vh;
+    top: 1.9vh;
     right: 12vw;
     padding: 0 5px;
+    color: hsl(182,82%,55%);
 }
 
 .expanded-project-container .tools-container {
