@@ -4,6 +4,13 @@ app.directive('navbarDirective', function () {
         templateUrl: 'app/components/home/navbar/navbar.html',
         controller: 'navbarController',
         link: function(scope, elem, attr) {
+            
+            $(elem).affix({
+                offset: { 
+                    top: 1000
+                }
+            });
+            
         }
     }
 });

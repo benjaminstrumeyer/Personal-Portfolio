@@ -47,6 +47,36 @@ html, body {
     vertical-align: middle;
 }
 
+#nav-tabs-bootstrap-override {
+    border: none;
+    display: fixed;
+}
+
+.affixed-navbar {
+    width: 10%;
+    border: 2px solid white;
+    position: absolute;
+}
+
+.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.affix-top {
+  width: 100%;
+}
+
+.affix-bottom {
+  position: absolute;
+  width: 100%;  
+}
+
+.fixed-navbar li {
+    height: 50px;
+}
+
 .job-title-container  {
     position: relative;
     top: 4vh;
@@ -83,7 +113,6 @@ html, body {
     position: relative;
     overflow: hidden;
     margin: 15px 0;
-    width: 103%;
 }
 
 .projects-container .odd-project {
@@ -389,7 +418,7 @@ html, body {
     font-size: 33px;
 }
 
-.image-Viewer .project-images-container {
+.image-Viewer .project-images-container{
     display: inline-flex;
     justify-content: center;
     flex-wrap: nowrap;
