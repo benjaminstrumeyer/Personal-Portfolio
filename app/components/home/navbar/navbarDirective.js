@@ -7,7 +7,7 @@ app.directive('navbarDirective', function () {
             
             $(elem).affix({
                 offset: { 
-                    top: 1000
+                    top: 970
                 }
             });
             

@@ -56,16 +56,21 @@ html, body {
     width: 10%;
     border: 2px solid white;
     position: absolute;
+/*    right: 5%;*/
+    left: 86.5%;
+    top: 30%;
 }
 
 .affix {
     position: fixed;
-    top: 0;
+    top: 30%;
+    right: .05%;
     width: 100%;
 }
 
 .affix-top {
   width: 100%;
+  
 }
 
 .affix-bottom {
