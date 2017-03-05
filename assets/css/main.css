@@ -12,6 +12,8 @@ html, body {
     background-size: 100% 100%;
 /*    background-attachment: fixed;*/
     background-repeat:no-repeat;
+    position: relative;
+    z-index: 5;
 }
 
 .section-container {
@@ -47,24 +49,35 @@ html, body {
     vertical-align: middle;
 }
 
-#nav-tabs-bootstrap-override {
-    border: none;
-    display: fixed;
+.nav {
+    display:table;
+    width:100%;
+    margin: 0;
+    
 }
 
-.affixed-navbar {
-    width: 10%;
-    border: 2px solid white;
+.navbar {
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+    z-index: 5;
+}
+
+.nav > li{
+    float:none;
+    width: auto;
+    display:table-cell;
+    text-align: center;
+}
+
+.affixed-navbar-wrapper {
     position: absolute;
-/*    right: 5%;*/
-    left: 86.5%;
-    top: 30%;
+    width: 100%;
+    margin-top: 77vh;
 }
 
 .affix {
     position: fixed;
-    top: 30%;
-    right: .05%;
     width: 100%;
 }
 
@@ -76,10 +89,6 @@ html, body {
 .affix-bottom {
   position: absolute;
   width: 100%;  
-}
-
-.fixed-navbar li {
-    height: 50px;
 }
 
 .job-title-container  {
