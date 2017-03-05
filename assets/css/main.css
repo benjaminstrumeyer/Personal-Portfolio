@@ -73,12 +73,13 @@ html, body {
 .affixed-navbar-wrapper {
     position: absolute;
     width: 100%;
-    margin-top: 77vh;
+    margin-top: 79vh;
 }
 
 .affix {
     position: fixed;
     width: 100%;
+    top: -79vh;
 }
 
 .affix-top {
