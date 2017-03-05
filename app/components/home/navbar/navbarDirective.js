@@ -10,7 +10,6 @@ app.directive('navbarDirective', function () {
                     top: 920
                 }
             });
-            
         }
     }
 });

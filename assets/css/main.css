@@ -5,6 +5,10 @@ html, body {
     color: white;
 }
 
+body {
+    position: relative;
+}
+
 #landing-screen {
     margin-top: -20px;
     background-image: url('/assets/img/Dusk_purple.jpg')
@@ -78,6 +82,11 @@ html, body {
     width: 100%;
     margin-top: 79vh;
 }
+
+.navbar-nav > .active a {
+    background: blue;
+}
+
 
 .affix {
     position: fixed;
