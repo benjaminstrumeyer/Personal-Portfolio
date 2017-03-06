@@ -209,14 +209,14 @@ body {
 }
 
 .expanded-project-container {
-    margin-top: 3vh;
+    margin-top: 8vh;
     border: 2px solid black;
     box-shadow: 4px 4px 4px hsl(242,50%,21%);
     width: 78%;
     padding: 10px;
     min-width: 200px;
     background-color: hsl(242,50%,31%);
-    height: 90vh;
+    height: 86vh;
 }
 
 .expanded-project-container h1 {
