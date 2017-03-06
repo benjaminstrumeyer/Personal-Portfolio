@@ -9,11 +9,6 @@ body {
     position: relative;
 }
 
-.scrollspy-wrapper {
-    height: 200vh;
-    position: relative;
-}
-
 #landing-screen {
     margin-top: -20px;
     background-image: url('/assets/img/Dusk_purple.jpg')
@@ -534,7 +529,7 @@ body {
 .hobby-circle-parent-container {
     height: 94vh;
     width: 94vh;
-    margin: 4vh auto 0 auto;
+    margin: 10vh auto 0 auto;
     position: relative;
 /*    border: 2px solid white;*/
 }

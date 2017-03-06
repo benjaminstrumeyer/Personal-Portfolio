@@ -13,7 +13,7 @@ app.directive('hobbyCircleDirective', function($interval) {
                 scope.checkWidth = $('.hobby-circle-parent-container').width();
                 scope.checkHeight = $('.hobby-circle-parent-container').height();
                 
-                scope.radius = Math.min(scope.checkWidth/2.3, scope.checkHeight/2.3);
+                scope.radius = Math.min(scope.checkWidth/2.5, scope.checkHeight/2.5);
             }
             
             //Call it on page load
