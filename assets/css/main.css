@@ -9,6 +9,11 @@ body {
     position: relative;
 }
 
+.scrollspy-wrapper {
+    height: 200vh;
+    position: relative;
+}
+
 #landing-screen {
     margin-top: -20px;
     background-image: url('/assets/img/Dusk_purple.jpg')

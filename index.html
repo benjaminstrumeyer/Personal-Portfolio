@@ -1,3 +1,4 @@
+<!doctype html>
 <head>
     <title>Ben's Personal Portfolio</title>
     
@@ -8,12 +9,7 @@
 <!-- endbower --> 
 </head>
 
-<body scroll-spy-directive ng-app="portfolio">
-<!--
-    <div data-spy="scroll">
-        <navbar-directive data-target="#myNavBar"></navbar-directive>
-    <div>
--->
+<body scroll-spy-directive data-spy="scroll" ng-app="portfolio">
     <div id="landing-screen" class="full-screen section-container">
         <div>
             <h1 id="title" class="text-center">Benjamin Strumeyer</h1>
@@ -23,21 +19,19 @@
         </div>
         <navbar-directive></navbar-directive>
     </div>
-    
+
     <div id="about" class="container-fluid full-screen about-me-section">
         <about-me-component></about-me-component>
     </div>
-    
+
     <div id="projects" class="project-section full-screen section-container">
         <div class="projects-view" ui-view>
             <projects-component></projects-component>
         </div>
     </div>
-    
+
     <div id="contact" class="section-container-alt">
         <contact-component></contact-component>
-    </div>
-</div>
     </div>
     
 
