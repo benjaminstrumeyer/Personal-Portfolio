@@ -121,6 +121,7 @@ body {
 /*    box-shadow: 0 -5px 20px 5px hsl(242,50%,21%);*/
 }
 .projects-container {
+    margin-top: 4vh;
     width: 80%;
     padding: 2.5vh;
 }
