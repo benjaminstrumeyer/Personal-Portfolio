@@ -350,7 +350,6 @@ body {
 
 .project-carousel-container .carousel-image {
     min-height: 40vh;
-    height: 55% !important;
 }
 
 .project-carousel-container .carousel-control.left, .carousel-control.right {
@@ -466,7 +465,6 @@ body {
 .image-Viewer .project-image:hover {
     border: 2px solid white;
 }
-
 
 .contact-container {
     background-color: hsl(242,50%,31%);
