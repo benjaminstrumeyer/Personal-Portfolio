@@ -1,5 +1,5 @@
 <div class="project-container" ng-mouseenter="projectInfo = true" ng-mouseleave="projectInfo = false" 
-     ui-sref="viewProject({ name: $ctrl.project.name})">
+     ui-sref="viewProject({ name: $ctrl.project.name})" ng-click="scrollTop()">
     
     <img class="project-first-image" ng-src="{{$ctrl.project.imgSrcs[0]}}"/>
     <div class="project-information-popup" ng-show="projectInfo">
