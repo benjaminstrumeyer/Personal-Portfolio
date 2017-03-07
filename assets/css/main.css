@@ -119,9 +119,9 @@ body {
 
 .projects-view {
 /*    box-shadow: 0 -5px 20px 5px hsl(242,50%,21%);*/
+    padding-top: 4vh;
 }
 .projects-container {
-    margin-top: 4vh;
     width: 80%;
     padding: 2.5vh;
 }
@@ -209,7 +209,7 @@ body {
 }
 
 .expanded-project-container {
-    margin-top: 8vh;
+    margin-top: 4vh;
     border: 2px solid black;
     box-shadow: 4px 4px 4px hsl(242,50%,21%);
     width: 78%;
