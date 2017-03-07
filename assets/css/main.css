@@ -389,6 +389,7 @@ body {
 }
 
 .image-viewer {
+    padding-top: 8vh;
     position: absolute;
     top: -2vh;
     right: 0;
@@ -446,7 +447,7 @@ body {
     font-size: 33px;
 }
 
-.image-Viewer .project-images-container{
+.image-viewer .project-images-container{
     display: inline-flex;
     justify-content: center;
     flex-wrap: nowrap;
@@ -456,7 +457,7 @@ body {
     background-color: hsl(242,50%,21%);
 }
 
-.image-Viewer .project-image {
+.image-viewer .project-image {
     border: 1px solid black;
     height: 175px;
     width: 300px;
@@ -464,7 +465,7 @@ body {
     min-width: 40px;
 }
 
-.image-Viewer .project-image:hover {
+.image-viewer .project-image:hover {
     border: 2px solid white;
 }
 
