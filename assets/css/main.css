@@ -407,7 +407,7 @@ body {
 .image-viewer .exit-button-container {
     position: absolute;
     left: 1vw;
-    top: 1.3vh;
+    top: 9.2vh;
     padding: 10px;
 }
 
@@ -476,7 +476,7 @@ body {
 
 .contact-container .row {
     margin-left: 0;
-    margin-right: 0;
+    margin-right: 15px;
 }
 
 .contact-information-container ul {
