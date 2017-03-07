@@ -495,7 +495,7 @@ body {
 .contact-container .contact-information-container {
     position: relative;
     left: 30%;
-    margin: 3vh 26vw 0 0;
+    margin: 3vh 28vw 0 0;
 }
 
 .contact-container .contact-text {
@@ -561,8 +561,8 @@ body {
 }
 
 .hobby-wrapper .circle-wrapper {
-    height: 30vh;
-    width: 30vh;
+    height: 22vh;
+    width: 22vh;
     position: absolute;
     color: black;
 /*
@@ -572,9 +572,9 @@ body {
 }
 
 .hobby-wrapper .circle {
-    margin: 7vh auto 0 auto;
-    height: 50%;
-    width: 50%;
+    margin: 2.65vh auto 0 auto;
+    height: 68%;
+    width: 68%;
     min-height: 5vh;
     min-width: 5vh;
 /*    background-color: hsl(242,50%,61%);*/
@@ -608,7 +608,7 @@ body {
     border-radius: 300px;
     border: 2px solid white;
     position: relative;
-    top: 18.7vh;
+    top: 18.4vh;
     margin: auto;
 }
 
