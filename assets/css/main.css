@@ -248,7 +248,7 @@ body {
 
 .expanded-project-container .github-link-container {
     position: absolute;
-    top: 1.9vh;
+    top: 10.4vh;
     right: 12vw;
     padding: 0 5px;
     color: hsl(182,82%,55%);
