@@ -40,6 +40,7 @@ body {
     top: -10px;
     bottom: 10px;
     box-shadow: 0 -5px 20px 5px hsl(242,50%,31%);;
+    padding-top: 8.5vh;
 }
 
 
@@ -528,7 +529,7 @@ body {
 .hobby-circle-parent-container {
     height: 94vh;
     width: 94vh;
-    margin: 10vh auto 0 auto;
+    margin: 0 auto 0 auto;
     position: relative;
 /*    border: 2px solid white;*/
 }
@@ -601,12 +602,12 @@ body {
 }
 
 .center-circle-container {
-    height: 57%;
-    width: 57%;
+    height: 60%;
+    width: 60%;
     border-radius: 300px;
     border: 2px solid white;
     position: relative;
-    top: 20.5vh;
+    top: 18.7vh;
     margin: auto;
 }
 
