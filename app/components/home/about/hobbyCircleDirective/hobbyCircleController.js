@@ -1,5 +1,5 @@
 app
-    .controller('hobbyCircleController', function($scope, $interval, hobbyService) {
+    .controller('hobbyCircleController', function($scope, $timeout, hobbyService) {
     
         var self = this;
     
@@ -62,27 +62,17 @@ app
             $scope.currentHobbyImgSrc = currentHobby.imgSrc;
             
             $scope.isHovered = true;
-            
-            $scope.timer = 10;
+            if ($scope.timer) {
+                console.log('Canceling timer');
+                $timeout.cancel($scope.timer);
+            }
             return;
         }
         
         $scope.setDefault = function() {
-            
-            $scope.isHovered = false;
-            
-//            let interval = 10;
-//            
-//            let hobbyTimer = new $interval(function() {
-//                console.log(interval);
-//                interval--;
-////                if ($scope.isHovered && $scope.timer < 5) {
-////                    $interval.cancel(hobbyTimer);
-////                }
-//                if (interval < 0) {
-//                    $scope.isHovered = false;
-//                    $interval.cancel(hobbyTimer);
-//                }
-//            }, 1000);
+            $scope.timer = $timeout(function() {
+                console.log("new timer");
+                $scope.isHovered = false;
+            }, 7000);
         }
 });
