@@ -11,13 +11,15 @@
 
 <body scroll-spy-directive data-spy="scroll" ng-app="portfolio">
     <div id="landing-screen" class="full-screen section-container">
-                <navbar-directive></navbar-directive>
         <div>
             <h1 id="title" class="text-center">Benjamin Strumeyer</h1>
         </div>
         <div class="job-title-container text-center">
             <h1 id="job-title">Web Developer</h1>
         </div>
+	<div class="affixed-navbar-relative-wrapper>
+		<navbar-directive></navbar-directive>
+	</div>
     </div>
 
     <div id="about" class="container-fluid full-screen about-me-section">

@@ -11,8 +11,7 @@ body {
 
 #landing-screen {
     margin-top: -20px;
-    background-image: url('/assets/img/Dusk_purple.jpg')
-        ;
+    background-image: url('/assets/img/Dusk_purple.jpg');
     background-size: 100% 100%;
 /*    background-attachment: fixed;*/
     background-repeat:no-repeat;
@@ -78,10 +77,11 @@ body {
     text-align: center;
 }
 
-.affixed-navbar-wrapper {
-    position: absolute;
+.fixed-navbar-wrapper {
     width: 100%;
-    margin-top: 79vh;
+    position: relative;
+    position: fixed;
+/*    padding-top: 47.8%;*/
 }
 
 .navbar-nav > .active a {
@@ -89,10 +89,11 @@ body {
 }
 
 
+/*
 .affix {
     position: fixed;
     width: 100%;
-    top: -79vh;
+    top: -97.5vh;
 }
 
 .affix-top {
@@ -104,6 +105,7 @@ body {
   position: absolute;
   width: 100%;  
 }
+*/
 
 .job-title-container  {
     position: relative;
