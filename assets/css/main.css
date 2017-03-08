@@ -226,7 +226,10 @@ body {
     background-color: hsl(182,82%,55%);
     padding: 0 2px 0 0;
     box-shadow: 1px 1px 1px;
-    
+}
+
+.expanded-project-container .back-button:hover .fa-long-arrow-left{
+    color: white;
 }
 
 .expanded-project-container .github-link-container {
@@ -234,7 +237,15 @@ body {
     top: 10.4vh;
     right: 12vw;
     padding: 0 5px;
+    z-index: 5;
+}
+
+.expanded-project-container .github-link {
     color: hsl(182,82%,55%);
+}
+
+.expanded-project-container .github-link:hover {
+    color: white;
 }
 
 .expanded-project-container .tools-container {
