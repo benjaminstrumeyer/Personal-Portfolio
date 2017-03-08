@@ -11,7 +11,7 @@ app
         
         var init = function() {
             self.descriptionClass = getDescriptionClass();
-            self.notificationMessage = "Click for Fullscreen View";
+            self.notificationMessage = "Click to Expand Image";
             self.carouselNotification = false;
         }
         
