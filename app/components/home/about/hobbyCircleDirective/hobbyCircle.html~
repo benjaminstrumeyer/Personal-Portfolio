@@ -21,7 +21,7 @@
             <div class="background-container"></div>
 
             <div class="content-container">
-		    <p class="content text-center">
+		    <p class="content">
 			    {{currentHobbyDescription}}
 		    </p>
             </div>

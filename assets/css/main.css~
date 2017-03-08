@@ -40,6 +40,7 @@ body {
     top: -10px;
     bottom: 10px;
     box-shadow: 0 -5px 20px 5px hsl(242,50%,31%);;
+    padding-top: 8.5vh;
 }
 
 
@@ -84,7 +85,7 @@ body {
 }
 
 .navbar-nav > .active a {
-    text-decoration: underline;
+    background: blue;
 }
 
 
@@ -119,9 +120,9 @@ body {
 
 .projects-view {
 /*    box-shadow: 0 -5px 20px 5px hsl(242,50%,21%);*/
+    padding-top: 4vh;
 }
 .projects-container {
-    margin-top: 4vh;
     width: 80%;
     padding: 2.5vh;
 }
@@ -209,7 +210,7 @@ body {
 }
 
 .expanded-project-container {
-    margin-top: 8vh;
+    margin-top: 4vh;
     border: 2px solid black;
     box-shadow: 4px 4px 4px hsl(242,50%,21%);
     width: 78%;
@@ -247,7 +248,7 @@ body {
 
 .expanded-project-container .github-link-container {
     position: absolute;
-    top: 1.9vh;
+    top: 10.4vh;
     right: 12vw;
     padding: 0 5px;
     color: hsl(182,82%,55%);
@@ -388,6 +389,7 @@ body {
 }
 
 .image-viewer {
+    padding-top: 8vh;
     position: absolute;
     top: -2vh;
     right: 0;
@@ -405,7 +407,7 @@ body {
 .image-viewer .exit-button-container {
     position: absolute;
     left: 1vw;
-    top: 1.3vh;
+    top: 9.2vh;
     padding: 10px;
 }
 
@@ -445,7 +447,7 @@ body {
     font-size: 33px;
 }
 
-.image-Viewer .project-images-container{
+.image-viewer .project-images-container{
     display: inline-flex;
     justify-content: center;
     flex-wrap: nowrap;
@@ -455,7 +457,7 @@ body {
     background-color: hsl(242,50%,21%);
 }
 
-.image-Viewer .project-image {
+.image-viewer .project-image {
     border: 1px solid black;
     height: 175px;
     width: 300px;
@@ -463,18 +465,20 @@ body {
     min-width: 40px;
 }
 
-.image-Viewer .project-image:hover {
+.image-viewer .project-image:hover {
     border: 2px solid white;
 }
 
 .contact-container {
     background-color: hsl(242,50%,31%);
     margin-right: 0;
+    min-height: 40vh;
+
 }
 
 .contact-container .row {
     margin-left: 0;
-    margin-right: 0;
+    margin-right: 15px;
 }
 
 .contact-information-container ul {
@@ -493,7 +497,7 @@ body {
 .contact-container .contact-information-container {
     position: relative;
     left: 30%;
-    margin: 3vh 26vw 0 0;
+    margin: 3vh 28vw 0 0;
 }
 
 .contact-container .contact-text {
@@ -528,7 +532,7 @@ body {
 .hobby-circle-parent-container {
     height: 94vh;
     width: 94vh;
-    margin: 10vh auto 0 auto;
+    margin: 0 auto 0 auto;
     position: relative;
 /*    border: 2px solid white;*/
 }
@@ -559,8 +563,8 @@ body {
 }
 
 .hobby-wrapper .circle-wrapper {
-    height: 30vh;
-    width: 30vh;
+    height: 22vh;
+    width: 22vh;
     position: absolute;
     color: black;
 /*
@@ -570,9 +574,9 @@ body {
 }
 
 .hobby-wrapper .circle {
-    margin: 7vh auto 0 auto;
-    height: 50%;
-    width: 50%;
+    margin: 2.65vh auto 0 auto;
+    height: 68%;
+    width: 68%;
     min-height: 5vh;
     min-width: 5vh;
 /*    background-color: hsl(242,50%,61%);*/
@@ -601,12 +605,12 @@ body {
 }
 
 .center-circle-container {
-    height: 57%;
-    width: 57%;
+    height: 60%;
+    width: 60%;
     border-radius: 300px;
     border: 2px solid white;
     position: relative;
-    top: 20.5vh;
+    top: 18.4vh;
     margin: auto;
 }
 
@@ -660,6 +664,11 @@ body {
     flex-direction: column;
     justify-content: center;
 }
+
+.current-hobby-center-container .content {
+	font-size: 1.7em;
+}
+
 
 .current-hobby-center-container .hobby-description {
     position: absolute;

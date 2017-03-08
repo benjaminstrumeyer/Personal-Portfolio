@@ -1,7 +1,10 @@
 app
-    .controller('hobbyCircleController', function($scope, $timeout, hobbyService) {
+    .controller('hobbyCircleController', function($scope, $interval, hobbyService) {
     
         var self = this;
+    
+        $scope.numHobbiesHovered = 0;
+        $scope.timer = 0;
     
         $scope.isHovered = false;
 
@@ -57,23 +60,29 @@ app
             $scope.currentHobbyName = currentHobby.name;
             $scope.currentHobbyDescription = currentHobby.description;
             $scope.currentHobbyImgSrc = currentHobby.imgSrc;
-            console.log("currentHobbyImgSrc: ", $scope.currentHobbyImgSrc);
             
-//            console.log("current hobby", currentHobby);
-            
-            $scope.isTempHovered = true;
             $scope.isHovered = true;
+            
+            $scope.timer = 10;
             return;
         }
         
         $scope.setDefault = function() {
             
-            $scope.isTempHovered = false;
+            $scope.isHovered = false;
             
-            $timeout(function() {
-                if ($scope.isTempHovered === false) {
-                    $scope.isHovered = false;
-                }
-            }, 5000);
+//            let interval = 10;
+//            
+//            let hobbyTimer = new $interval(function() {
+//                console.log(interval);
+//                interval--;
+////                if ($scope.isHovered && $scope.timer < 5) {
+////                    $interval.cancel(hobbyTimer);
+////                }
+//                if (interval < 0) {
+//                    $scope.isHovered = false;
+//                    $interval.cancel(hobbyTimer);
+//                }
+//            }, 1000);
         }
 });
