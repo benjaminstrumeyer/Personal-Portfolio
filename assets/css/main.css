@@ -60,11 +60,20 @@ body {
     margin: 0;
 }
 
+.fixed-navbar-wrapper {
+    width: 100%;
+    position: relative;
+    position: fixed; 
+    background-color: black;
+}
+
 .navbar {
     background-color: transparent;
     background: transparent;
     border-color: transparent;
     z-index: 5;
+    width: 46%;
+    margin-left: 23%;
 }
 
 .navbar li > a {
@@ -76,13 +85,6 @@ body {
     width: auto;
     display:table-cell;
     text-align: center;
-}
-
-.fixed-navbar-wrapper {
-    width: 100%;
-    position: relative;
-    position: fixed;
-/*    padding-top: 47.8%;*/
 }
 
 .navbar-nav > .active a {
