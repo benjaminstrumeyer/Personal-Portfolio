@@ -106,7 +106,7 @@ body {
     background-color: hsl(242,47%,31%);
 }
 
-.navbar-nav>li>a {
+.navbar-nav > li > a {
     padding: 10px;
 }
 
@@ -114,10 +114,6 @@ body {
     border-radius: 10px;
     box-shadow: inset 0px 0 10px hsl(242,47%,21%), 0px 0 10px white;
     background-color: transparent;
-}
-
-.nav>li>a:focus {
-    background-color: none;
 }
 
 .job-title-container  {
