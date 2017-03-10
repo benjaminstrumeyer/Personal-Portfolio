@@ -111,9 +111,8 @@ body {
 }
 
 .nav>li>a:hover {
-    border-radius: 10px;
+    border-radius: 30px;
     box-shadow: inset 0px 0 10px hsl(242,47%,21%), 0px 0 10px white;
-    background-color: transparent;
 }
 
 .job-title-container  {
