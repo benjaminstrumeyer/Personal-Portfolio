@@ -55,16 +55,8 @@ body {
 }
 
 .nav {
-    display:table;
     width:100%;
     margin: 0;
-}
-
-.fixed-navbar-wrapper {
-    width: 100%;
-    position: relative;
-    position: fixed; 
-    background-color: black;
 }
 
 .navbar {
@@ -72,24 +64,47 @@ body {
     background: transparent;
     border-color: transparent;
     z-index: 5;
-    width: 46%;
-    margin-left: 23%;
+    width: 100%;
+    margin-top: 2vh;
+    position: fixed;
+}
+
+.navbar .container-fluid {
+    padding: 0;
+}
+
+.nav-container {
+    white-space: nowrap;
+    margin: auto;
+    background-color: black;
 }
 
 .navbar li > a {
     color: white;
 }
 
-.nav > li{
+.nav > li {
     float:none;
     width: auto;
+    display: inline-block;
+    padding: 0 30px;
+    white-space: nowrap;
+/*
     display:table-cell;
     text-align: center;
+*/
 }
+/*
+
+.nav > li:nth-child(1) {
+    margin-left: 20%;
+}
+*/
 
 .navbar-nav > .active a {
     background: blue;
 }
+
 
 .job-title-container  {
     position: relative;

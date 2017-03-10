@@ -5,11 +5,11 @@ app.directive('navbarDirective', function () {
         controller: 'navbarController',
         link: function(scope, elem, attr) {
             
-            $(elem).affix({
-                offset: { 
-                    top: 920
-                }
-            });
+//            $(elem).affix({
+//                offset: { 
+//                    top: 920
+//                }
+//            });
         }
     }
 });
