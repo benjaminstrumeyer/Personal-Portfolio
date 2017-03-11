@@ -1,5 +1,5 @@
 app.
-    controller('contactController', function() {
+    controller('contactController', function($filter) {
     
     var self = this;
     
@@ -8,5 +8,7 @@ app.
     self.email = "benjamin.strumeyer@gmail.com";
     self.github = "benstrumeyer";
     self.resume = "Resume";
+    
+    self.date = $filter('date')(new Date(), 'yyyy');
     
 });
