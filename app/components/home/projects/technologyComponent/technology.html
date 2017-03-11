@@ -1,0 +1,12 @@
+<div class="technology-container">
+    <span class="label label-primary label-{{$ctrl.cssClass}}">
+        <span ng-show="{{$ctrl.image}}">
+            <img class="technology-icon" ng-src="/assets/img/technology-icons/{{$ctrl.technology}}.png" height="30px" width="30px"/>
+        </span>
+        <span class="technology-text-container">
+            <span class="technology-text text-center">
+                {{$ctrl.technology}}
+            </span>
+        </span>
+    </span>
+</div>

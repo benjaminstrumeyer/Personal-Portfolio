@@ -1,0 +1,25 @@
+/*
+.project-container.ng-enter {
+    transition: 0.4s linear all;
+    opacity: 0;
+}
+
+.project-container.ng-enter-active {
+    transition: 0.4s linear all;
+    opacity: 1;
+}*/
+
+
+.project-information-popup.ng-hide-add {
+    animation: fadeOutDown .135s;
+}
+
+.project-information-popup.ng-hide-remove {
+    animation: fadeInUp .135s;
+}
+
+
+.carousel-popup-container-parent.ng-hide-remove {
+    animation: fadeInDown .135s;
+}
+

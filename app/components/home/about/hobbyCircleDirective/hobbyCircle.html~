@@ -1,0 +1,31 @@
+<div class="hobby-circle-parent-container">
+<!--
+    <div class="y-axis"></div>
+    <div class="x-axis"></div>
+ 
+    <div class="center"></div>
+-->
+    
+    <!-- Outer circles-->
+    <div class="hobby-wrapper">
+        <hobby-directive ng-repeat="circle in getHobbyLength(hobbyLength) track by $index" x="XValues[$index]" y="YValues[$index]" index="$index"></hobby-directive>
+    </div> 
+    
+<!--    Template this with the current hobby -->
+<div class="center-circle-container">
+    <div ng-show="!isHovered">
+        <div class="default-center-container">
+        </div>
+    </div>
+    <div class="current-hobby-center-container" ng-show="true">
+            <div class="background-container"></div>
+
+            <div class="content-container">
+		    <p class="content">
+			    {{currentHobbyDescription}}
+		    </p>
+            </div>
+    </div>
+</div>
+
+</div>

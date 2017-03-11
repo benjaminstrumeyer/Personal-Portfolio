@@ -1,0 +1,31 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Simple website to display some projects.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjaminstrumeyer/Personal-Portfolio.git"
+  },
+  "author": "Benjamin Strumeyer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjaminstrumeyer/Personal-Portfolio/issues"
+  },
+  "homepage": "https://github.com/benjaminstrumeyer/Personal-Portfolio#readme",
+  "devDependencies": {
+    "angular-sanitize": "^1.6.2",
+    "bower": "^1.7.2",
+    "gulp": "^3.9.1",
+    "gulp-inject": "^4.1.0",
+    "wiredep": "^4.0.0"
+  },
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "gulp-inject": "^4.1.0",
+    "wiredep": "^4.0.0"
+  }
+}

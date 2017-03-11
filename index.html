@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+    <title>Ben's Personal Portfolio</title>
+    
+<!-- bower:css -->
+<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css" />
+<link rel="stylesheet" href="bower_components/animate.css/animate.css"/>
+<!-- endbower --> 
+</head>
+
+<body scroll-spy-directive data-spy="scroll" ng-app="portfolio">
+    <div id="landing-screen" class="full-screen section-container">
+                <navbar-directive></navbar-directive>
+        <div class="name-container">
+            <h1 id="name" class="text-center">Ben Strumeyer</h1>
+        </div>
+        <div class="job-title-container text-center">
+            <h1 id="job-title">Web Developer</h1>
+        </div>
+    </div>
+
+    <div id="about" class="container-fluid full-screen about-me-section">
+        <about-me-component></about-me-component>
+    </div>
+
+    <div id="projects" class="project-section full-screen section-container">
+        <div class="projects-view" ui-view>
+            <projects-component></projects-component>
+        </div>
+    </div>
+
+    <div id="contact" class="section-container-alt">
+        <contact-component></contact-component>
+    </div>
+    
+
+<!--bower:js-->
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script src="bower_components/angular-animate/angular-animate.min.js"></script>
+<script src="node_modules/angular-sanitize/angular-sanitize.min.js"></script>
+<!--endbower-->
+    
+<!-- css -->
+<link rel="stylesheet" href="assets/css/main.css"/>
+<link rel="stylesheet" href="assets/css/animations.css"/>
+    
+<!-- angularJS -->
+<script src="app/app.module.js"></script>
+<script src="app/app.routes.js"></script>
+    
+<!-- Services -->
+<script src="app/shared/projectService.js"></script>
+<script src="app/shared/hobbyService.js"></script>
+    
+<script src="app/components/home/projects/projectsDirective/projectsController.js"></script>    
+<script src="app/components/home/projects/projectComponent/projectController.js"></script>
+<script src="app/components/home/projects/technologyComponent/technologyController.js"></script>
+<script src="app/components/home/projects/projectInformationDirective/projectInformationController.js"></script>
+<script src="app/components/home/about/aboutMeComponent/aboutMeController.js"></script>
+<script src="app/components/home/about/hobbyCircleDirective/hobbyCircleController.js"></script>
+<script src="app/components/home/about/hobbyDirective/hobbyController.js"></script>
+<script src="app/components/home/contact/contactController.js"></script>
+<script src="app/components/home/navbar/navbarController.js"></script>
+    
+<script src="app/components/home/navbar/scrollSpyDirective.js"></script>
+<script src="app/components/home/projects/projectsDirective/projectsDirective.js"></script>
+<script src="app/components/home/projects/projectComponent/projectComponent.js"></script>
+<script src="app/components/home/projects/technologyComponent/technologyComponent.js"></script>
+<script src="app/components/home/projects/projectInformationDirective/projectInformationDirective.js"></script>
+<script src="app/components/home/about/aboutMeComponent/aboutMeComponent.js"></script>
+<script src="app/components/home/about/hobbyCircleDirective/hobbyCircleDirective.js"></script>
+<script src="app/components/home/about/hobbyDirective/hobbyDirective.js"></script>
+<script src="app/components/home/contact/contactComponent.js"></script>
+<script src="app/components/home/navbar/navbarDirective.js"></script>
+<script src="app/components/home/projects/imageSelectorDirective/imageSelectorDirective.js"></script>
+
+</body>
+

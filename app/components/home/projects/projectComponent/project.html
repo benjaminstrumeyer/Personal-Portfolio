@@ -1,0 +1,17 @@
+<div class="project-container" ng-mouseenter="projectInfo = true" ng-mouseleave="projectInfo = false" 
+     ui-sref="viewProject({ name: $ctrl.project.name})" ng-click="scrollTop()">
+    
+    <img class="project-first-image" ng-src="{{$ctrl.project.imgSrcs[0]}}"/>
+    <div class="project-information-popup" ng-show="projectInfo">
+        <div class="project-information-container">
+            <div class="project-name">
+                <h1>{{$ctrl.project.name}}</h1>
+            </div>
+            <div class="technologies-container">
+                <span ng-repeat="technology in $ctrl.project.technologies">
+                    <technology-component technology="{{technology}}" image="false"></technology-component>
+                </span>
+            </div>
+        </div>
+    </div> 
+</div>

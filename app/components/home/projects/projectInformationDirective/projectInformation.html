@@ -1,0 +1,117 @@
+<div class="expanded-project-container container bounce" ng-show="!imageViewer">
+    <span class="back-button-container" ui-sref="mainProjectPage">
+        <span class="btn btn-default back-button">
+            <i class="fa fa-long-arrow-left fa-2x" aria-hidden="true"></i>
+        </span>
+    </span> 
+    <span class="github-link-container" ng-show="hasGitHubLink">
+        <a class="github-link" ng-href="{{project.link}}">
+            <i class="fa fa-github fa-3x contact-icon" aria-hidden="true"></i>
+        </a>
+    </span>
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="project-title-container">
+                <h1 class="text-center">{{project.name}}</h1>
+            </div>
+            <div class="carousel-popup-container-parent" ng-show="carouselNotification">
+                <div class="carousel-popup-container">
+                    <div class="carousel-popup">
+                        {{$ctrl.notificationMessage}}
+                    </div>
+                </div>
+            </div>
+            <div class="project-carousel-container">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+                      <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li ng-repeat="imageSrc in project.imgSrcs" ng-class="{active:$first}" data-target="imageViewer-myCarousel" data-slide-to="$index"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox" ng-click="imageViewer = !imageViewer" ng-mouseover="carouselNotification = true" ng-mouseleave="carouselNotification = false">                          
+                            <div ng-repeat="imageSrc in project.imgSrcs" ng-class="{active:$first}" class="item">
+                              <img class="carousel-image" ng-src="{{imageSrc}}">
+                            </div>
+                        </div>
+
+                      <!-- Left and right controls -->
+                      <a class="left carousel-control" role="button">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                      </a>
+                      <a class="right carousel-control" role="button">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                      </a>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-12">
+                <div class="tools-container">
+                    <span ng-repeat="technology in project.technologies">
+                        <technology-component technology="{{technology}}" image="true"></technology-component>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 project-description-container">
+                <div class="project-description" ng-class="$ctrl.descriptionClass">
+                    {{project.description}}
+                </div>
+            </div>
+        </div>
+</div>
+<div class="image-viewer container-fluid" ng-show="imageViewer">
+    <div class="row">
+        <div class="col-xs-12 text-center project-title-container">
+            <div class="project-title">
+                <h1>{{project.name}}</h1>
+            </div>
+        </div>
+        <div class="exit-button-container pull-right" ng-click="imageViewer = !imageViewer">
+            <span class="glyphicon glyphicon-remove exit-button"></span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="carousel-container">
+                <div id="imageViewer-myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li ng-repeat="imageSrc in project.imgSrcs" ng-class="{active:$first}" data-target="imageViewer-myCarousel" data-slide-to="$index"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">                          
+                        <div ng-repeat="imageSrc in project.imgSrcs" ng-class="{active:$first}" class="item">
+                          <img class="carousel-image" ng-src="{{imageSrc}}">
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" role="button">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" role="button">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="project-images-container">
+                
+                <img image-selector-directive ng-repeat="imgSrc in project.imgSrcs" index="{{$index}}" ng-src="{{imgSrc}}" class="project-image"/>
+                
+<!--
+                    <image-selector-directive imgSrc="{{imgSrc}}" index="{{$index}}" ng-repeat="imgSrc in project.imgSrcs">
+                    </image-selector-directive>
+-->
+            </div>
+        </div>
+    </div>
+</div>
