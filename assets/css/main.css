@@ -486,7 +486,6 @@ body {
     background-color: hsl(242,47%,31%);
     margin-right: 0;
     min-height: 40vh;
-
 }
 
 .contact-container .row {
@@ -686,4 +685,12 @@ body {
 .current-hobby-center-container .hobby-description {
     position: absolute;
     text-shadow: #000 0 0 15px;
+}
+
+.copyright-container {
+    margin-top: 4%;
+}
+
+.contact-information-content-container {
+    margin-top: 6%;
 }
