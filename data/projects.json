@@ -26,7 +26,7 @@
     {
         "name": "Personal Portfolio",
         "description": "Simple angular app to display projects.",
-        "imgSrcs": [],
+        "imgSrcs": ["assets/img/Personal_Portfolio/home.png"],
         "technologies": ["HTML5", "CSS3", "Javascript", "AngularJS"],
         "members": 1,
         "link": "https://github.com/benstrumeyer/Personal-Portfolio"
