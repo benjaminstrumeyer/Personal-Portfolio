@@ -446,19 +446,28 @@ body {
 
 .image-viewer .exit-button-container {
     position: absolute;
-    left: 1vw;
+    left: 12vw;
     top: 9.2vh;
     padding: 10px;
 }
 
 .image-viewer .exit-button {
-    color: hsl(182,82%,55%);
-    border: none;
+    min-width: 4vw;
+    border: 2px solid black;
+    color: black;
+    background-color: hsl(182,82%,55%);
+    padding: 0 2px 0 0;
+    box-shadow: 1px 1px 1px;
 }
 
 .image-viewer .exit-button-container:active .exit-button {
     color: hsl(182,82%,55%);
 }
+
+.image-viewer .exit-button:hover .fa-long-arrow-left{
+    color: white;
+}
+
 .image-viewer .carousel-container {
     min-height: 20vh;
     max-width: 59vw;
