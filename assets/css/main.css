@@ -679,6 +679,7 @@ body {
     display: table-cell;
     vertical-align: middle;
     color: hsl(242,47%,21%);
+    font-size:  19px;
 }
 
 .current-hobby-center-container .background-container {
