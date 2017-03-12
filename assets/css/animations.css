@@ -13,7 +13,7 @@
 
 @keyframes grow {    
     50% {
-        transform: scale(1.05);
+        transform: scale(1.1);
     }
     
     100% {
@@ -42,7 +42,7 @@
 }
 
 .hobby-wrapper .circle:hover {
-     animation: grow .2s;
+     animation: grow .3s;
 }
 
 /*

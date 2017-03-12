@@ -7,7 +7,7 @@ app
         $scope.timer = 0;
     
         $scope.isHovered = false; 
-        $scope.newCircleHovered = false;
+        $scope.isDefault = true;
 
         var radius = 400;
         var angle = 0;
@@ -63,7 +63,8 @@ app
             $scope.currentHobbyDescription = currentHobby.description;
             $scope.currentHobbyImgSrc = currentHobby.imgSrc;
             
-            
+            // Resets the variable that triggers the ng-hide animation 
+            // This is so the animation can be repeated each time a user hovers over each individual circle
             $scope.isHovered = false;
             $timeout(function() {
                $scope.isHovered = true; 
@@ -81,6 +82,7 @@ app
                 console.log("new timer");
                 
                 $scope.isHovered = false;
+                $scope.isDefault = true;
                 // Set default image to true. 
             }, 7000);
         }
