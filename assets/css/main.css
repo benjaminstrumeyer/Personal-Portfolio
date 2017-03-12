@@ -147,18 +147,6 @@ body {
     border: none;
 }
 
-.job-title-container  {
-    position: relative;
-    margin-top: 2vh;
-}
-#job-title {
-    font-size: 2.2em;
-}
-#name {
-    padding-top: 77vh;
-    font-size: 5em;
-}
-
 .projects-view {
 /*    box-shadow: 0 -5px 20px 5px hsl(242,50%,21%);*/
     padding-top: 4vh;
