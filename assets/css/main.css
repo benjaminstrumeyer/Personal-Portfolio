@@ -557,6 +557,10 @@ body {
     margin-bottom: 13px;
 }
 
+.contact-container .email-icon-set {
+    width: 208%;
+}
+
 .contact-information-container .fa-envelope-o:before {
     position: relative;
     top: 2px;
