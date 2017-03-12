@@ -60,18 +60,22 @@
     animation: fadeIn .7s;
 }
 
-/*
-.circle-animation {
-   -webkit-animation: fadeIn 1s;
-    -moz-animation: fadeIn 1s;
-    -o-animation:fadeIn 1s;
-    animation: fadeIn 1s;
+.name-container {
+    -webkit-animation: rollIn .7s;
+    -moz-animation: rollIn .7s;
+    -o-animation:rollIn .7s;
+    animation: rollIn .7s;
 }
-*/
 
-/*
-
-.current-hobby-center-container .circle-animation {
-    animation: fadeIn 1s;
+.job-title-container {
+    -webkit-animation: tada .7s;
+    -moz-animation: tada .7s;
+    -o-animation:tada .7s;
+    animation: tada .7s;
+    
+    -webkit-animation-delay: .8s;
+    -moz-animation-delay: .8s;
+    -o-animation-delay  .8s;
+    animation-delay : .8s;
 }
-*/
+
