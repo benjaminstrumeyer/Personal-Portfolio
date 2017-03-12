@@ -11,14 +11,9 @@
     animation: fadeInDown .135s;
 }
 
-@keyframes grow {
-/*
-    from {transform: scale(1);}
-    to {transform: scale(1.1);}
-*/
-    
+@keyframes grow {    
     50% {
-        transform: scale(1.1);
+        transform: scale(1.05);
     }
     
     100% {
@@ -26,6 +21,57 @@
     }
 }
 
-.hobby-wrapper .circle:hover {
-     animation: grow .3s ease;
+/*
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
+*/
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.hobby-wrapper .circle:hover {
+     animation: grow .2s;
+}
+
+/*
+.current-hobby-center-container.ng-hide-remove {
+    animation: fadeIn 1s ease;
+}
+*/
+
+.current-hobby-center-container.ng-hide-remove {
+/*    animation: fadeIn 1s ease;*/
+    
+    -webkit-animation: fadeIn .7s;
+    -moz-animation: fadeIn .7s;
+    -o-animation:fadeIn .7s;
+    animation: fadeIn .7s;
+}
+
+/*
+.circle-animation {
+   -webkit-animation: fadeIn 1s;
+    -moz-animation: fadeIn 1s;
+    -o-animation:fadeIn 1s;
+    animation: fadeIn 1s;
+}
+*/
+
+/*
+
+.current-hobby-center-container .circle-animation {
+    animation: fadeIn 1s;
+}
+*/

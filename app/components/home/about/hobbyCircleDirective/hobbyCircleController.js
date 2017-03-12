@@ -6,13 +6,15 @@ app
         $scope.numHobbiesHovered = 0;
         $scope.timer = 0;
     
-        $scope.isHovered = false;
+        $scope.isHovered = false; 
+        $scope.newCircleHovered = false;
 
         var radius = 400;
         var angle = 0;
 
 //        $scope.testArray = [1, 2, 3, 4];
         $scope.hobbyLength = 7;
+    
 
         $scope.XValues = [];
         $scope.YValues = [];
@@ -61,7 +63,12 @@ app
             $scope.currentHobbyDescription = currentHobby.description;
             $scope.currentHobbyImgSrc = currentHobby.imgSrc;
             
-            $scope.isHovered = true;
+            
+            $scope.isHovered = false;
+            $timeout(function() {
+               $scope.isHovered = true; 
+            });
+            
             if ($scope.timer) {
                 console.log('Canceling timer');
                 $timeout.cancel($scope.timer);
@@ -72,7 +79,9 @@ app
         $scope.setDefault = function() {
             $scope.timer = $timeout(function() {
                 console.log("new timer");
+                
                 $scope.isHovered = false;
+                // Set default image to true. 
             }, 7000);
         }
 });
