@@ -119,7 +119,7 @@ body {
 
 .header-container {
     padding-top: 79vh;
-    font-size: 40px;
+    font-size: 45px;
 }
 
 .header-container p {
@@ -128,7 +128,7 @@ body {
 
 .header-container p:nth-child(1)::first-letter,
 .header-container p:nth-child(2)::first-letter {
-    font-size: 60px;
+    font-size: 65px;
     color: hsl(182,82%,55%);
 }
 
