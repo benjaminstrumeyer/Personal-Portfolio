@@ -12,7 +12,6 @@ app
         var radius = 400;
         var angle = 0;
 
-//        $scope.testArray = [1, 2, 3, 4];
         $scope.hobbyLength = 7;
     
 
