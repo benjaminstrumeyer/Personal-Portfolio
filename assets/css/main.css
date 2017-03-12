@@ -117,6 +117,25 @@ body {
     box-shadow: inset 0px 0 5px hsl(242,47%,21%), 0px 0 5px white;
 }
 
+.header-container {
+    padding-top: 70vh;
+    font-size: 30px;
+}
+
+.header-container p {
+    display: inline-block;
+}
+
+.header-container p:nth-child(1)::first-letter,
+.header-container p:nth-child(2)::first-letter {
+    font-size: 50px;
+    color: red;
+}
+
+.header > p:nth-child(3) {
+    color: red;
+}
+
 .job-title-container  {
     position: relative;
     margin-top: 2vh;
