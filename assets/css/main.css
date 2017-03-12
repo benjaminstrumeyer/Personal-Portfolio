@@ -117,7 +117,7 @@ body {
 }
 
 .header-container {
-    padding-top: 40.3%;
+    padding-top: 79vh;
     font-size: 40px;
 }
 
@@ -135,6 +135,17 @@ body {
     font-family: monospace;
     color: hsl(182,82%,55%);
 }
+
+.about-me-scroll-button {
+    border-radius: 300px;
+    color: hsl(182,82%,55%);
+    background: transparent;
+}
+
+.about-me-scroll-button-container > button {
+    border: none;
+}
+
 
 .job-title-container  {
     position: relative;
