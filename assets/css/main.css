@@ -117,8 +117,8 @@ body {
 }
 
 .header-container {
-    padding-top: 70vh;
-    font-size: 30px;
+    padding-top: 40.3%;
+    font-size: 40px;
 }
 
 .header-container p {
@@ -127,12 +127,13 @@ body {
 
 .header-container p:nth-child(1)::first-letter,
 .header-container p:nth-child(2)::first-letter {
-    font-size: 50px;
-    color: red;
+    font-size: 60px;
+    color: hsl(182,82%,55%);
 }
 
 .header > p:nth-child(3) {
-    color: red;
+    font-family: monospace;
+    color: hsl(182,82%,55%);
 }
 
 .job-title-container  {
