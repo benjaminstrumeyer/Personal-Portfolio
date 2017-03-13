@@ -558,23 +558,38 @@ body {
 }
 
 .contact-information-container .fa-envelope-o:before {
+    color: hsl(182,82%,55%);
     position: relative;
     top: 2px;
     margin-right: 2px;
 }
 
+.contact-information-container .email-container:hover .fa-envelope-o:before {
+    color: white;
+}
+
 .contact-information-container .fa-github:before {
+    color: hsl(182,82%,55%);
     position: relative;
     top: 2.5px;
     left: 1.5px;
     margin-right: 5px;
 }
 
+.contact-information-container .github-container:hover .fa-github:before {
+    color: white;
+}
+
 .contact-information-container .fa-file-text-o:before {
+    color: hsl(182,82%,55%);
     position: relative;
     top: 3px;
     left: 1.5px;
     margin-right: 5px;
+}
+
+.contact-information-container .resume-container:hover .fa-file-text-o:before {
+    color: white;
 }
 
 .hobby-circle-parent-container {

@@ -13,7 +13,7 @@ app.
     
     self.viewResume = function() {
         $window.open('assets/docs/Resume.pdf');
-    }
+    };
     
     
     
