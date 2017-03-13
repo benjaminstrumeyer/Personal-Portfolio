@@ -15,6 +15,10 @@ app.
         $window.open('assets/docs/Resume.pdf');
     };
     
+    self.viewGithub = function() {
+        $window.open('https://github.com/benstrumeyer');
+    }
+    
     
     
 });
