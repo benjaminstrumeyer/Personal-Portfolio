@@ -7,7 +7,7 @@
     },
     {
         "name": "Surfing",
-        "description": "There's no better feeling than getting that perfect wave because you paddled as if your life depended on it.",
+        "description": "It sounds silly, but spending an entire day in the water just for a six second wave reaps an incredible feeling of accomplishment, and the journey is just as addicting. ",
         "imgSrc": "assets/img/Hobby_backgrounds/surfing.jpg", 
         "iconSrc": "assets/img/Hobby_icons/surfing.png"
     },
@@ -19,7 +19,7 @@
     },
     {
         "name": "Dogs",
-        "description": "The one on the left is Buster, and the one on the right is Eddie. They're Chiweenies!",
+        "description": "The one on the left is Buster, and the one on the right is Eddie. They're my Chiweenies!",
         "imgSrc": "assets/img/Hobby_backgrounds/pups.jpg",
         "iconSrc": "assets/img/Hobby_icons/dogs.png"
     },
