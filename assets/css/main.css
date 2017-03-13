@@ -137,6 +137,11 @@ body {
     color: hsl(182,82%,55%);
 }
 
+.header-container p:nth-child(1) span:nth-child(2), 
+.header-container p:nth-child(2) span:nth-child(2) {
+    margin-left: -10px;
+}
+
 .about-me-scroll-button {
     border-radius: 300px;
     color: hsl(182,82%,55%);

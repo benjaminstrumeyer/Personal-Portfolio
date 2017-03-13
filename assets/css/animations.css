@@ -24,7 +24,8 @@
     animation: fadeIn 1s ease .7s forwards;
 }
 
-.header-suffix {
+.header-container p:nth-child(1) span:nth-child(2),
+.header-container p:nth-child(2) span:nth-child(2) {
     opacity: 0;
     
     -webkit-animation: fadeIn 1s ease 1.25s forwards;
