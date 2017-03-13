@@ -1,5 +1,5 @@
 app
-    .controller('ProjectInformationController', function($stateParams) {
+    .controller('ProjectInformationController', function($scope, $stateParams) {
         
         var self = this;
     
@@ -13,6 +13,10 @@ app
             self.descriptionClass = getDescriptionClass();
             self.notificationMessage = "Click to Expand Image";
             self.carouselNotification = false;
+        }
+        
+        $scope.scrollTop = function() {
+            $('html, body').scrollTop($('#projects').position().top);  
         }
         
         init();
