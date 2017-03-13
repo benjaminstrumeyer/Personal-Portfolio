@@ -405,14 +405,6 @@ body {
     outline: 0;
 }
 
-.project-carousel-container .carousel-control.left {
-    margin-left: -6vw;
-}
-
-.project-carousel-container .carousel-control.right {
-    margin-right: -6vw;
-}
-
 .project-carousel-container #myCarousel .carousel-indicators {
     z-index: 1;
 }
