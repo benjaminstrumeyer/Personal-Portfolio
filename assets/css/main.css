@@ -467,8 +467,7 @@ body {
 
 .image-viewer .carousel-container {
     min-height: 20vh;
-    max-width: 59vw;
-    min-width: 985px;
+    max-width: 1150px;
     margin: 2vh auto 0 auto;
     border: 1px solid black;
 }
