@@ -29,7 +29,7 @@
                         </ol>
 
                         <!-- Wrapper for slides -->
-                        <div class="carousel-inner" role="listbox" ng-click="imageViewer = !imageViewer" ng-mouseover="carouselNotification = true" ng-mouseleave="carouselNotification = false">                          
+                        <div class="carousel-inner" role="listbox" ng-click="imageViewer = !imageViewer; scrollTop()" ng-mouseover="carouselNotification = true" ng-mouseleave="carouselNotification = false">                          
                             <div ng-repeat="imageSrc in project.imgSrcs" ng-class="{active:$first}" class="item">
                               <img class="carousel-image" ng-src="{{imageSrc}}">
                             </div>
