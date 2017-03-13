@@ -1,5 +1,5 @@
 app.
-    controller('contactController', function($filter) {
+    controller('contactController', function($filter, $window) {
     
     var self = this;
     
@@ -10,5 +10,11 @@ app.
     self.resume = "Resume";
     
     self.date = $filter('date')(new Date(), 'yyyy');
+    
+    self.viewResume = function() {
+        $window.open('assets/docs/Resume.pdf');
+    }
+    
+    
     
 });
