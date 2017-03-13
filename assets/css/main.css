@@ -3,7 +3,7 @@ html, body {
 /*    background-color: hsl(15,98%,90%);*/
     background-color: hsl(242,47%,21%);
     color: white;
-            overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 body {
@@ -12,9 +12,9 @@ body {
 
 #landing-screen {
     background-image: url('/assets/img/Dusk_purple.jpg');
-/*    background-size: 100% 100%;*/
+    background-size: cover;
 /*    background-attachment: fixed;*/
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-position: center;
     position: relative;
     z-index: 5;
@@ -356,7 +356,7 @@ body {
 }
 
 .expanded-project-container .project-description {
-    font-size: 200%;
+    font-size: calc(12px + 1.3vh);
     text-indent: 30px;
 }
 
