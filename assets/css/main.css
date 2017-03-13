@@ -702,7 +702,7 @@ body {
     position: absolute;
     top: 0;
     
-    background-size: 178%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     
@@ -715,11 +715,6 @@ body {
 */
     filter: brightness(40%) contrast(70%);
     
-}
-
-.dogs-background-cover {
-    background-size: cover !important;
-    font-size: calc(12px + .5vh);
 }
 
 .current-hobby-center-container .content-container {

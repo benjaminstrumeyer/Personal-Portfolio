@@ -13,14 +13,14 @@
     },
     {
         "name": "Web Dev",
-        "description": "I recently overcame an embarrassing moment where my friend found me nitpicking half pixels in my CSS file.. It needed to be that way.",
+        "description": "I recently overcame an embarrassing moment where a friend found me nitpicking half pixels in my CSS file.. It needed to be that way.",
         "imgSrc": "assets/img/Hobby_backgrounds/webdev.png", 
         "iconSrc": "assets/img/Hobby_icons/webdev.png"
     },
     {
         "name": "Dogs",
         "description": "The one on the left is Buster, and the one on the right is Eddie. They're Chiweenies!",
-        "imgSrc": "assets/img/Hobby_backgrounds/pups.jpg", 
+        "imgSrc": "assets/img/Hobby_backgrounds/pups.jpg",
         "iconSrc": "assets/img/Hobby_icons/dogs.png"
     },
     {
