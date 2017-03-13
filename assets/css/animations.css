@@ -1,8 +1,36 @@
-.header-container {
-    -webkit-animation: rollIn .7s;
-    -moz-animation: rollIn .7s;
-    -o-animation: rollIn .7s;
-    animation: rollIn .7s;
+.header-container p:nth-child(1) span:nth-child(1) {
+    -webkit-animation: fadeIn 1s ease forwards;
+    -moz-animation: fadeIn 1s ease forwards;
+    -o-animation: fadeIn 1s ease forwards;
+    animation: fadeIn 1s ease forwards;
+}
+
+.header-container p:nth-child(2) span:nth-child(1)  {
+    opacity: 0;
+    
+    -webkit-animation: fadeIn 1s ease .35s forwards;
+    -moz-animation: fadeIn 1s ease .35s forwards;
+    -o-animation: fadeIn 1s ease .35s forwards;
+    animation: fadeIn 1s ease .35s forwards;
+    
+}
+
+.header-container p:nth-child(3) {
+    opacity: 0;
+    
+    -webkit-animation: fadeIn 1s ease .7s forwards;
+    -moz-animation: fadeIn 1s ease .7s forwards;
+    -o-animation: fadeIn 1s ease .7s forwards;
+    animation: fadeIn 1s ease .7s forwards;
+}
+
+.header-suffix {
+    opacity: 0;
+    
+    -webkit-animation: fadeIn 1s ease 1.25s forwards;
+    -moz-animation: fadeIn 1s ease 1.25s forwards;
+    -o-animation: fadeIn 1s ease 1.25s forwards;
+    animation: fadeIn 1s ease 1.25s forwards;
 }
 
 @keyframes float {
@@ -18,11 +46,6 @@
     animation: float 1s infinite;
 }
 
-@keyframes grow {
-    50% {
-        transform: scale(1.1);
-    }
-}
 
 .hobby-wrapper .circle:hover {
      animation: grow .3s;
