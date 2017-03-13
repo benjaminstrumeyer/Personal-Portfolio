@@ -252,7 +252,7 @@ body {
     padding: 10px;
     min-width: 200px;
     background-color: hsl(242,47%,31%);
-    height: 86vh;
+    min-height: 86vh;
 }
 
 .expanded-project-container h1 {
@@ -352,7 +352,6 @@ body {
 }
 
 .expanded-project-container .project-description-container {
-    min-height: 23%;
     padding: 10px 20px 0 20px;
 }
 
