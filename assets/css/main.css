@@ -356,7 +356,7 @@ body {
 }
 
 .expanded-project-container .project-description {
-    font-size: 23px;
+    font-size: 200%;
     text-indent: 30px;
 }
 
