@@ -21,23 +21,9 @@
     }
 }
 
-/*
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-*/
-
-@keyframes fadeOut {
-    0% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
+@keyframes float {
+    50% {
+        transform: translateY(-8px);
     }
 }
 
@@ -45,15 +31,8 @@
      animation: grow .3s;
 }
 
-/*
-.current-hobby-center-container.ng-hide-remove {
-    animation: fadeIn 1s ease;
-}
-*/
 
 .current-hobby-center-container.ng-hide-remove {
-/*    animation: fadeIn 1s ease;*/
-    
     -webkit-animation: fadeIn .7s;
     -moz-animation: fadeIn .7s;
     -o-animation:fadeIn .7s;
@@ -67,15 +46,9 @@
     animation: rollIn .7s;
 }
 
-.job-title-container {
-    -webkit-animation: tada .7s;
-    -moz-animation: tada .7s;
-    -o-animation:tada .7s;
-    animation: tada .7s;
-    
-    -webkit-animation-delay: .8s;
-    -moz-animation-delay: .8s;
-    -o-animation-delay  .8s;
-    animation-delay : .8s;
+.about-me-scroll-button {
+    -webkit-animation: float 1s infinite;
+    -moz-animation: float 1s infinite;
+    -o-animation: float 1s infinite;
+    animation: float 1s infinite;
 }
-
