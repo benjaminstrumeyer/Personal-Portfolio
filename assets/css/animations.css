@@ -1,17 +1,24 @@
-.project-information-popup.ng-hide-add {
-    animation: fadeOutDown .135s;
+.header-container {
+    -webkit-animation: rollIn .7s;
+    -moz-animation: rollIn .7s;
+    -o-animation: rollIn .7s;
+    animation: rollIn .7s;
 }
 
-.project-information-popup.ng-hide-remove {
-    animation: fadeInUp .135s;
+@keyframes float {
+    50% {
+        transform: translateY(-8px);
+    }
 }
 
-
-.carousel-popup-container-parent.ng-hide-remove {
-    animation: fadeInDown .135s;
+.about-me-scroll-button {
+    -webkit-animation: float 1s infinite;
+    -moz-animation: float 1s infinite;
+    -o-animation: float 1s infinite;
+    animation: float 1s infinite;
 }
 
-@keyframes grow {    
+@keyframes grow {
     50% {
         transform: scale(1.1);
     }
@@ -21,16 +28,9 @@
     }
 }
 
-@keyframes float {
-    50% {
-        transform: translateY(-8px);
-    }
-}
-
 .hobby-wrapper .circle:hover {
      animation: grow .3s;
 }
-
 
 .current-hobby-center-container.ng-hide-remove {
     -webkit-animation: fadeIn .7s;
@@ -39,16 +39,24 @@
     animation: fadeIn .7s;
 }
 
-.name-container {
-    -webkit-animation: rollIn .7s;
-    -moz-animation: rollIn .7s;
-    -o-animation:rollIn .7s;
-    animation: rollIn .7s;
+.project-information-popup.ng-hide-add {
+    -webkit-animation: fadeOutDown .135s;
+    -moz-animation: fadeOutDown .135s;
+    -o-animation: fadeOutDown .135s;
+    animation: fadeOutDown .135s;
 }
 
-.about-me-scroll-button {
-    -webkit-animation: float 1s infinite;
-    -moz-animation: float 1s infinite;
-    -o-animation: float 1s infinite;
-    animation: float 1s infinite;
+.project-information-popup.ng-hide-remove {
+    -webkit-animation: fadeInUp .135s;
+    -moz-animation: fadeInUp .135s;
+    -o-animation: fadeInUp .135s;
+    animation: fadeInUp .135s;
+}
+
+
+.carousel-popup-container-parent.ng-hide-remove {
+    -webkit-animation: fadeInDown .135s;
+    -moz-animation: fadeInDown .135s;
+    -o-animation: fadeInDown .135s;
+    animation: fadeInDown .135s;
 }
