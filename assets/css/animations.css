@@ -47,6 +47,12 @@
     animation: float 1s infinite;
 }
 
+@keyframes grow {
+    50% {
+        transform: scale(1.1);
+    }
+}
+
 
 .hobby-wrapper .circle:hover {
      animation: grow .3s;
