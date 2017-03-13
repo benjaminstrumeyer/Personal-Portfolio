@@ -593,8 +593,8 @@ body {
 }
 
 .hobby-circle-parent-container {
-    height: 94vh;
-    width: 94vh;
+    height: 94%;
+    width: 94%;
     margin: 0 auto 0 auto;
     position: relative;
 /*    border: 2px solid white;*/
@@ -638,8 +638,8 @@ body {
 
 .hobby-wrapper .circle {
     margin: 2.65vh auto 0 auto;
-    height: 68%;
-    width: 68%;
+    min-height: 10%;
+    min-width: 10%;
     min-height: 5vh;
     min-width: 5vh;
 /*    background-color: hsl(242,50%,61%);*/
@@ -668,13 +668,14 @@ body {
 }
 
 .center-circle-container {
-    height: 60%;
-    width: 60%;
-    border-radius: 300px;
+    height: auto;
+    width: 35%;
+    border-radius: 50%;
     border: 2px solid white;
     position: relative;
     top: 18.4vh;
     margin: auto;
+    padding-top: 35%;
 }
 
 .hobby-wrapper .title-container  {
