@@ -85,4 +85,11 @@ app
                 // Set default image to true. 
             }, 7000);
         }
+        
+        $scope.isDogBackground = function() {
+            if ($scope.currentHobbyName === 'Dogs') {
+                return true;
+            }
+            return false;
+        }
 });

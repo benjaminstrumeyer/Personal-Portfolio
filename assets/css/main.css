@@ -717,6 +717,11 @@ body {
     
 }
 
+.dogs-background-cover {
+    background-size: cover !important;
+    font-size: calc(12px + .5vh);
+}
+
 .current-hobby-center-container .content-container {
     height: 100%;
     width: 80%;
