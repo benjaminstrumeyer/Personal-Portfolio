@@ -13,7 +13,7 @@
     },
     {
         "name": "Web Dev",
-        "description": "Brainstorming an idea and spending the next 12 hours banging your head against the wall until it works is my addiction. It's because then you can say you've created something of your own (or at least have a very compelling story of why it didn't work out).",
+        "description": "I recently overcame an embarrassing moment where my friend found me nitpicking half pixels in my CSS file.. It needed to be that way.",
         "imgSrc": "assets/img/Hobby_backgrounds/webdev.png", 
         "iconSrc": "assets/img/Hobby_icons/webdev.png"
     },
