@@ -37,11 +37,8 @@ body {
 .about-me-section {
     background-color: hsl(242,47%,31%);
     position: relative;
-    top: -10px;
-    bottom: 10px;
-    box-shadow: 0 -5px 20px 5px hsl(242,47%,31%);;
-    padding-top: 8.5vh;
-    
+    box-shadow: 0 -5px 20px 5px hsl(242,47%,31%);
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -673,13 +670,13 @@ body {
 
 .center-circle-container {
     height: 0;
-    width: 38%;
+    width: 34%;
     border-radius: 50%;
     border: 2px solid white;
     position: relative;
-    top: 40%;
+/*    top: 40%;*/
     margin: 0 auto;
-    padding: calc(300px + 2%) calc(300px + 2%);
+    padding: calc(250px + 3%) calc(250px + 3%);
 }
 
 .hobby-wrapper .title-container  {
