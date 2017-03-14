@@ -39,8 +39,8 @@ app
             $scope.YValues = [];
             
             for (let i = 0; i < $scope.hobbyLength; i++) {
-                let x = Math.round(width + (newVal * Math.cos(angle)));
-                let y = Math.round(height + (newVal * Math.sin(angle)));
+                let x = Math.round(width/2 + (newVal * Math.cos(angle)));
+                let y = Math.round(height/2 + (newVal * Math.sin(angle)));
                 
 //                console.log("Height: ", height);
 //                console.log('Radius: ', newVal);
