@@ -38,10 +38,7 @@ body {
     background-color: hsl(242,47%,31%);
     position: relative;
     box-shadow: 0 -5px 20px 5px hsl(242,47%,31%);
-    padding-top: calc(-30px + 5%);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    padding: 0;
 }
 
 
@@ -594,11 +591,17 @@ body {
 }
 
 .hobby-circle-parent-container {
+/*
     height: 94%;
     width: 94%;
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
     position: relative;
-/*    border: 2px solid white;*/
+*/
+    height: 94%;
+    width: 94%;
+    position: absolute;
+    border: 2px solid white;
+    margin-left: 40%;
 }
 
 .y-axis {
@@ -629,7 +632,7 @@ body {
 .hobby-wrapper .circle-wrapper {
     height: 22vh;
     width: 22vh;
-    position: absolute;
+    position: relative;
     color: black;
 /*
     border: 2px solid white;
@@ -666,6 +669,18 @@ body {
 
 .hobby-wrapper {
     position: relative;
+    margin: auto;
+}
+
+.center-circle-container-wrapper {
+    position: relative;
+    padding-top: calc(-30px + 5%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid pink;
+    height: 100%;
+    width: 100%;
 }
 
 .center-circle-container {
