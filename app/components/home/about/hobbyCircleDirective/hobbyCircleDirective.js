@@ -12,7 +12,7 @@ app.directive('hobbyCircleDirective', function($interval) {
             var checkSize = function() {
                 scope.checkHeight = $('.center-circle-container').prop('offsetHeight'); 
                 
-                scope.radius = scope.checkHeight/1.6;
+                scope.radius = scope.checkHeight/1.5;
 //                console.log('radius', scope.radius);
             }
             
