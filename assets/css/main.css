@@ -720,7 +720,7 @@ body {
     border-radius: 300px;
     position: absolute;
     top: 0;
-    
+    left: 0;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
