@@ -652,11 +652,10 @@ body {
     height: calc(85px + 2%);
     width:  calc(85px + 2%);
 /*    margin: 2vh auto 0 auto;*/
-    margin: auto;
+    margin: 0 auto;
+    padding: 27% 0;
 /*    border: 2px solid black;*/
     position: relative;
-    top: 2vh;
-    margin-bottom: 1vh;
 /*    background-color: hsl(242,50%,21%);*/
 }
 
