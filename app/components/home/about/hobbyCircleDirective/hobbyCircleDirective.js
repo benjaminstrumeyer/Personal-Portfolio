@@ -10,10 +10,10 @@ app.directive('hobbyCircleDirective', function($interval) {
         link: function(scope, elem, attr) {
             
             var checkSize = function() {
-                scope.checkWidth = $('.hobby-circle-parent-container').width();
-                scope.checkHeight = $('.hobby-circle-parent-container').height();
+                scope.checkHeight = $('.center-circle-container').prop('offsetHeight'); 
                 
-                scope.radius = Math.min(scope.checkWidth/2, scope.checkHeight/2);
+                scope.radius = scope.checkHeight/1.6;
+//                console.log('radius', scope.radius);
             }
             
             //Call it on page load
