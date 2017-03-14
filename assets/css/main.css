@@ -651,30 +651,26 @@ body {
 .hobby-icon-container  {
     height: calc(85px + 2%);
     width:  calc(85px + 2%);
-/*    margin: 2vh auto 0 auto;*/
-    margin: 0 auto;
-    padding: 27% 0;
-/*    border: 2px solid black;*/
+/*    margin: 0 auto;*/
+    margin: auto;
+    padding: 24% 0;
     position: relative;
-/*    background-color: hsl(242,50%,21%);*/
+}
+
+.hobby-icon-container img {
+    position: absolute;
+    bottom: 0;
 }
 
 .hobby-title {
     margin: auto;
 }
 
-/*
-.hobby-wrapper {
-    position: relative;
-}
-*/
-
 .center-circle-container-wrapper {
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
-/*    border: 2px solid pink;*/
     height: 100%;
     width: 100%;
 }
@@ -692,8 +688,8 @@ body {
 
 .hobby-wrapper .title-container  {
     position: relative;
-    top: 1vh;
-    height: 20%;
+/*    top: 17vh;*/
+    height: 17%;
     width: 100%;
     background-color: hsl(242,47%,91%);
     border-radius: 50px;
