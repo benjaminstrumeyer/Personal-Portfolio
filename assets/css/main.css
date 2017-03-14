@@ -597,9 +597,10 @@ body {
     margin: 0 auto;
     position: relative;
 */
-    height: 94%;
-    width: 94%;
+    height: 94vh;
+    width: 94vh;
     position: absolute;
+    margin: auto;
     border: 5px solid white;
 }
 
@@ -631,15 +632,13 @@ body {
 .hobby-wrapper .circle-wrapper {
     height: 22vh;
     width: 22vh;
-    position: relative;
+    position: absolute;
     color: black;
-/*
     border: 2px solid white;
     bottom: -5vh;
-*/
 }
 
-.hobby-wrapper .circle {
+.circle-wrapper .circle {
     margin: 2.65vh auto 0 auto;
     min-height: 10%;
     min-width: 10%;
@@ -648,6 +647,7 @@ body {
 /*    background-color: hsl(242,50%,61%);*/
     background-color: hsl(242,47%,21%);
     border-radius: 300px;
+    position: relative;
 }
 
 .hobby-icon-container  {
@@ -666,10 +666,11 @@ body {
     margin: auto;
 }
 
+/*
 .hobby-wrapper {
     position: relative;
-    margin: auto;
 }
+*/
 
 .center-circle-container-wrapper {
     position: relative;
