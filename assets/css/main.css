@@ -634,12 +634,22 @@ body {
     background: white;
 }
 
-.hobby-wrapper .circle-wrapper {
+.outside-hobby-circles-wrapper {
+    position: absolute;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    
+}
+
+.outside-hobby-circles-wrapper .circle-wrapper {
     height: 16%;
     width: 16%;
     position: absolute;
     color: black;
-/*    bottom: -5vh;*/
+    top: 50%;
 }
 
 .circle-wrapper .circle {
@@ -673,7 +683,7 @@ body {
 }
 
 .center-circle-container-wrapper {
-    position: relative;
+    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -692,9 +702,8 @@ body {
     padding: calc(190px + 3.5%) calc(190px + 3.5%);
 }
 
-.hobby-wrapper .title-container  {
+.outside-hobby-circles-wrapper .title-container  {
     position: relative;
-/*    top: 17vh;*/
     height: 17%;
     width: 100%;
     background-color: hsl(242,47%,91%);
@@ -703,7 +712,7 @@ body {
 }
 
 
-.hobby-wrapper .title {
+.outside-hobby-circles-wrapper .title {
     display: table-cell;
     vertical-align: middle;
     color: hsl(242,47%,21%);
