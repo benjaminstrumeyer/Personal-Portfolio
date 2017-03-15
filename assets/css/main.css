@@ -634,8 +634,8 @@ body {
 }
 
 .hobby-wrapper .circle-wrapper {
-    height: 18%;
-    width: 18%;
+    height: 16%;
+    width: 16%;
     position: absolute;
     color: black;
 /*    bottom: -5vh;*/
@@ -646,7 +646,7 @@ body {
     background-color: hsl(242,47%,21%);
     border-radius: 100%;
     position: relative;
-    padding-top: calc(4px + 17%)
+    padding-top: 10%;
 }
 
 .hobby-icon-container  {
@@ -661,6 +661,10 @@ body {
 .hobby-icon-container img {
     position: absolute;
     bottom: 0;
+    width: 88%;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 .hobby-title {
