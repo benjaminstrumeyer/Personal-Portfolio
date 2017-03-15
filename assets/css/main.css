@@ -38,7 +38,7 @@ body {
     background-color: hsl(242,47%,31%);
     position: relative;
     box-shadow: 0 -5px 20px 5px hsl(242,47%,31%);
-    padding: calc(-30px + 5%) 0 0 0;
+    padding: calc(-30px + 4%) 0 0 0;
 }
 
 
@@ -677,13 +677,13 @@ body {
 
 .center-circle-container {
     height: 0;
-    width: 28%;
+    width: 26%;
     border-radius: 50%;
     border: 2px solid white;
     position: relative;
 /*    top: 40%;*/
     margin: 0 auto;
-    padding: calc(220px + 2%) calc(220px + 2%);
+    padding: calc(190px + 3.5%) calc(190px + 3.5%);
 }
 
 .hobby-wrapper .title-container  {
