@@ -646,7 +646,7 @@ body {
     background-color: hsl(242,47%,21%);
     border-radius: 100%;
     position: relative;
-    padding-top: calc(31px + 3%);
+    padding-top: calc(4px + 17%)
 }
 
 .hobby-icon-container  {
