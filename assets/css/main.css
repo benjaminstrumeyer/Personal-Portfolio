@@ -645,19 +645,20 @@ body {
 }
 
 .outside-hobby-circles-wrapper .circle-wrapper {
-    height: 16%;
-    width: 16%;
     position: absolute;
     color: black;
-    top: 50%;
+    
 }
 
 .circle-wrapper .circle {
-    height: 100%;
+    height: 0;
+    width: 0%;
     background-color: hsl(242,47%,21%);
     border-radius: 100%;
     position: relative;
-    padding-top: 10%;
+    padding: calc(75px + 3.5%) calc(75px + 3.5%);
+    margin-left: 21%;
+    
 }
 
 .hobby-icon-container  {
