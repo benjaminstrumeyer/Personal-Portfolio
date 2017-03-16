@@ -719,7 +719,8 @@ body {
 .outside-hobby-circles-wrapper .title-container  {
     position: relative;
     height: 17%;
-    width: 100%;
+    width: 180%;
+    margin-left: -37.5%;
     background-color: hsl(242,47%,91%);
     border-radius: 50px;
     display: table;
