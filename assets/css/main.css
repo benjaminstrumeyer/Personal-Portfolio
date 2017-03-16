@@ -657,8 +657,21 @@ body {
     border-radius: 100%;
     position: relative;
     padding: calc(75px + 3.5%) calc(75px + 3.5%);
-    margin-left: 21%;
-    
+    margin-left: -5%;
+}
+
+.individual-hobby-circle-content-container-wrapper {
+    position: absolute;
+    margin: auto;
+    height: 60%;
+    width: 60%;
+    top: 34%;
+    left: 20%;
+}
+
+.individual-hobby-circle-content-container {
+    position: relative;
+    margin: auto;
 }
 
 .hobby-icon-container  {
