@@ -55,7 +55,7 @@
 
 
 .outside-hobby-circles-wrapper .circle:hover {
-     animation: grow .3s;
+     animation: grow .2s;
 }
 
 .current-hobby-center-container.ng-hide-remove {
