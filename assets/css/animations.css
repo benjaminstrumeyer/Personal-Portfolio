@@ -54,7 +54,7 @@
 }
 
 
-.hobby-wrapper .circle:hover {
+.outside-hobby-circles-wrapper .circle:hover {
      animation: grow .3s;
 }
 
