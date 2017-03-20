@@ -73,6 +73,7 @@ app
             // Resets the variable that triggers the ng-hide animation 
             // This is so the animation can be repeated each time a user hovers over each individual circle
             $scope.isHovered = false;
+            $scope.isDefault = false;
             $timeout(function() {
                $scope.isHovered = true; 
             });
