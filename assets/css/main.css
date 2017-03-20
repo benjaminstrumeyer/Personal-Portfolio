@@ -758,7 +758,7 @@ body {
     
 }
 
-.current-hobby-center-container .content-container {
+.center-circle-container .content-container {
     height: 100%;
     width: 80%;
     border-radius: 300px;
@@ -772,7 +772,7 @@ body {
     justify-content: center;
 }
 
-.current-hobby-center-container .content {
+.center-circle-container .content {
 	font-size: 1.9em;
 }
 

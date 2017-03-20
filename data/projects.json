@@ -1,7 +1,7 @@
 [
     {
         "name": "NLP Steam Reviews",
-        "description": "Natural Language Processing Steam Reviews is a sentiment analyzing web app created as a final project for the NLP elective at Stony Brook University. My partner and I scrape ~75,000 reviews from the Steam website along with the reviewer's boolean recommendation rating. We use a modified version of the Turney algorithm to pinpoint phrases that express sentiments and assign them positive/negative polarity values. This allows us to parse new reviews and predict whether or not the reviewer recommends the game and generate statistics accordingly.",
+        "description": "Natural Language Processing Steam Reviews is a sentiment analyzing web app created as a final project for the NLP elective at Stony Brook University. My partner and I scrape ~75,000 reviews from the Steam website along with the reviewer's boolean recommendation rating. We use a modified version of the Turney algorithm to pinpoint phrases that express sentiments and assign them positive/negative polarity values. This allows us to parse new reviews, predict if the reviewer recommends the game, and generate statistics accordingly.",
         "imgSrcs": ["assets/img/NLP_Steam_Reviews/Homepage.png", "assets/img/NLP_Steam_Reviews/DBX_Rating.png", "assets/img/NLP_Steam_Reviews/Sample_Review.png"],
         "technologies": ["HTML5", "CSS3", "Javascript", "AngularJS", "NodeJS", "MongoDB"],
         "members": 2,
@@ -9,7 +9,7 @@
     },
     {
         "name": "Startpage",
-        "description": "Personal homepage created to quickly navigate to frequently visited websites more easily. Hotkeys can be viewed by hovering on each of the 8 icon categories. Pressing a hotkey will queue the corresponding website and 'Enter' will open websites in order. 'Backspace' removes all hotkeys from the queue.",
+        "description": "Personal homepage created to quickly navigate to frequently visited websites more easily. Hotkeys can be viewed by hovering on each of the 8 icon categories. Pressing a hotkey will queue the corresponding website, and 'Enter' will open websites in order. 'Backspace' removes all hotkeys from the queue.",
         "imgSrcs": ["assets/img/Startpage/home.png","assets/img/Startpage/hotkeys.png", "assets/img/Startpage/Opened%20Windows.png"],
         "technologies": ["HTML5", "CSS3", "Javascript", "AngularJS"],
         "members": 1,
