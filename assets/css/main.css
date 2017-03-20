@@ -64,12 +64,17 @@ body {
     z-index: 5;
     width: 100%;
     position: fixed;
-        min-height: 50px;
+    min-height: 50px;
 }
 
 .navbar .container-fluid {
     padding: 0;
 }
+
+.navbar .nav {
+    padding: calc(30px - 2%);
+}
+
 
 .navbar .logo {
     height:  60px;
