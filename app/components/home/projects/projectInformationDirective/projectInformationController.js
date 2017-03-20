@@ -15,9 +15,15 @@ app
             self.carouselNotification = false;
         }
         
+        $scope.viewGithubLink = function(link) { 
+            $window.open(link);
+        };
+        
         $scope.scrollTop = function() {
             $('html, body').scrollTop($('#projects').position().top);  
         }
+    
+    }
         
         init();
 });
