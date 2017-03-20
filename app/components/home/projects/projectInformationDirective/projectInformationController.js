@@ -1,5 +1,5 @@
 app
-    .controller('ProjectInformationController', function($scope, $stateParams) {
+    .controller('ProjectInformationController', function($scope, $stateParams, $window) {
         
         var self = this;
     
@@ -16,14 +16,13 @@ app
         }
         
         $scope.viewGithubLink = function(link) { 
+            console.log('Link', link);
             $window.open(link);
         };
         
         $scope.scrollTop = function() {
             $('html, body').scrollTop($('#projects').position().top);  
         }
-    
-    }
         
         init();
 });
