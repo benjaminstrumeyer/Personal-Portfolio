@@ -196,6 +196,7 @@ body {
 
 .project-container .technology-text {
     line-height: 35px;
+    color: hsl(0, 0%, 2%);
 }
 
 .project-container .project-first-image {
@@ -214,13 +215,15 @@ body {
     right: 0;
     z-index: 1; 
     padding-bottom: 15px;
-    background: black;
+/*    background: black;*/
 /*    opacity: .4;*/
-    background-color: hsl(0,0%,12%);
+    background-color: hsl(0,0%,6%);
 }
 
 .project-information-popup .technology-container .label {
     padding: 7px 4.5px 6px 4.5px;
+    border: 2px solid hsl(0, 0%, 6%);
+    border-radius: 8%;
 }
 
 .project-container-wrapper {
@@ -245,6 +248,19 @@ body {
 
 .project-information-container .technology-text {
     font-size: 1.5em;
+}
+
+.expanded-project-container .technology-text {
+    font-size: 17px;
+}
+
+.expanded-project-container .technology-container .label {
+    padding: 8.5px 5px 5px 2px;
+    border-radius: 7%;
+}
+
+.technology-text {
+    color: hsl(0, 0%, 6%);
 }
 
 .expanded-project-container {
@@ -316,6 +332,10 @@ body {
     line-height: 45px;
 }
 
+.expanded-project-container .technology-container img {
+    padding-bottom: 8px;
+}
+
 .technology-container .label-HTML5 {
 /*    background: hsl(12,90%,32%);*/
     background: hsl(30,90%,50%);
@@ -359,7 +379,7 @@ body {
 }
 
 .expanded-project-container .project-description {
-    font-size: calc(12px + 1.3vh);
+    font-size: calc(10px + 1.3vh);
     text-indent: 30px;
 }
 
