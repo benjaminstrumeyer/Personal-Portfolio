@@ -133,12 +133,15 @@ body {
 .header-container p:nth-child(1)::first-letter,
 .header-container p:nth-child(2)::first-letter {
     font-size: 65px;
-    color: hsl(182,82%,55%);
+/*    color: hsl(182,82%,55%);*/
+    color: #379bf4;
 }
 
 .header > p:nth-child(3) {
     font-family: monospace;
-    color: hsl(182,82%,55%);
+/*    color: hsl(182,82%,55%);*/
+/*    color: hsl(242,  90%, 61%);*/
+    color: #379bf4;
 }
 
 .header-container p:nth-child(1) span:nth-child(2), 
@@ -148,7 +151,8 @@ body {
 
 .about-me-scroll-button {
     border-radius: 300px;
-    color: hsl(182,82%,55%);
+/*    color: hsl(182,82%,55%);*/
+    color: #379bf4;
     background: transparent;
 }
 
