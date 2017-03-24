@@ -734,16 +734,28 @@ body {
     width: 100%;
 }
 
+/*
 .center-circle-container {
     height: 0;
     width: 26%;
     border-radius: 50%;
     border: 2px solid white;
     position: relative;
-/*    top: 40%;*/
     margin: 0 auto;
     padding: calc(190px + 3.5%) calc(190px + 3.5%);
 }
+*/
+
+.center-circle-container {
+    height: 0;
+    width: 22%;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: relative;
+    margin: 0 auto;
+    padding: calc(255px + 0.5vh) calc(255px + 0.5vh);
+/*    padding: 260px 260px;*/
+} 
 
 .outside-hobby-circles-wrapper .title-container  {
     position: relative;
