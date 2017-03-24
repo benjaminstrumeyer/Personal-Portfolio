@@ -19,13 +19,14 @@
         <hobby-directive ng-repeat="circle in getHobbyLength(hobbyLength) track by $index" x="XValues[$index]" y="YValues[$index]" index="$index"></hobby-directive>
     </div> 
     <div class="center-circle-container">
-        <div ng-show="isDefault">     
-                <div id="default-circle-background-container"></div>    
-                <div class="content-container">
-                    <p class="content text-center">
-                        I'm a web developer, but that's not all I am. Click the outer circles to peek() into my life.
-                    </p>
-                </div>
+        <div ng-show="isDefault" class="default-circle-container">     
+            <div id="default-circle-background-container"></div>   
+            
+            <div class="content-container">
+                <p class="content text-center">
+                    I'm a web developer, but that's not all I am. Click the outer circles to peek() into my life.
+                </p>
+            </div>
         </div>
         <div class="current-hobby-center-container" ng-show="isHovered">
             <div id="circle-background-container" class="background-container"></div>

@@ -803,7 +803,23 @@ body {
     
 }
 
-.center-circle-container .content-container {
+.default-circle-container {
+/*
+    position: absolute;
+    top: 0;
+    left: 0;
+*/
+}
+
+.default-circle-container .content-container {
+    height: 100%;
+    width: 80%;
+    position: absolute;
+    top: 47%;
+    left: 10%;
+}
+
+.current-hobby-center-container .content-container {
     height: 100%;
     width: 80%;
     border-radius: 300px;
