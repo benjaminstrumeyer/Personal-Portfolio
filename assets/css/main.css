@@ -763,6 +763,27 @@ body {
     font-size:  19px;
 }
 
+#default-circle-background-container {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-image: url('/assets/img/Personal_Picture.jpg');
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    -webkit-filter: brightness(66%) contrast(70%);
+    -moz-filter: brightness(66%) contrast(70%);
+    -o-filter: brightness(66%) contrast(70%);
+    -ms-filter: brightness(66%) contrast(70%);
+    filter: brightness(66%) contrast(70%);
+}
+
 .current-hobby-center-container .background-container {
     height: 100%;
     width: 100%;
@@ -794,6 +815,8 @@ body {
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
+    
+    text-shadow: .6px .6px #000000;
 }
 
 .center-circle-container .content {
