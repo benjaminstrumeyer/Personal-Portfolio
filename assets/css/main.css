@@ -322,6 +322,7 @@ body {
 
 .expanded-project-container .github-link:hover {
     color: white;
+        cursor: pointer;
 }
 
 .expanded-project-container .tools-container {
@@ -425,6 +426,7 @@ body {
 
 .project-carousel-container .carousel-image {
     min-height: 40vh;
+    cursor: pointer;
 }
 
 .project-carousel-container .carousel-control.left, .carousel-control.right {
@@ -608,6 +610,10 @@ body {
     color: white;
 }
 
+.contact-information-container .github-container:hover {
+    cursor: pointer;
+}
+
 .contact-information-container .fa-file-text-o:before {
     color: hsl(182,82%,55%);
     position: relative;
@@ -618,6 +624,10 @@ body {
 
 .contact-information-container .resume-container:hover .fa-file-text-o:before {
     color: white;
+}
+
+.contact-information-container .resume-container:hover {
+    cursor: pointer;
 }
 
 .hobby-circle-parent-container {
