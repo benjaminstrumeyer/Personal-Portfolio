@@ -60,11 +60,12 @@ body {
 .navbar {
     background-color: transparent;
     background: transparent;
-    border-color: transparent;
+/*    border-color: transparent;*/
     z-index: 5;
     width: 100%;
     position: fixed;
     min-height: 50px;
+    border: none;
 }
 
 .navbar .container-fluid {
