@@ -41,19 +41,10 @@ app
             for (let i = 0; i < $scope.hobbyLength; i++) {
                 let x = Math.round(width/2 + (newVal * Math.cos(angle)));
                 let y = Math.round(height/2 + (newVal * Math.sin(angle)));
-                
-//                console.log("Height: ", height);
-//                console.log('Radius: ', newVal);
-//                console.log('Angle: ', angle);
-//                console.log('Math.cos(angle): ',Math.cos(angle));
-                console.log('newVal * Math.sin Angle', Math.sin(angle) * newVal);
-                console.log('newVal * Math.cos Angle', Math.cos(angle) * newVal);
 
                 $scope.XValues.push(x);
                 $scope.YValues.push(y);
-
-                console.log('My X: ',$scope.XValues);
-                console.log('My Y:', $scope.YValues);
+                
                 angle += circleAngleIncrements;
             }
         });
@@ -79,7 +70,6 @@ app
             });
             
             if ($scope.timer) {
-                console.log('Canceling timer');
                 $timeout.cancel($scope.timer);
             }
             return;
@@ -87,11 +77,9 @@ app
         
         $scope.setDefault = function() {
             $scope.timer = $timeout(function() {
-                console.log("new timer");
                 
                 $scope.isHovered = false;
                 $scope.isDefault = true;
-                // Set default image to true. 
             }, 7000);
         }
         

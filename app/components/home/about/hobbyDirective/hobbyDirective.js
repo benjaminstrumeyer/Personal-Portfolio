@@ -19,8 +19,6 @@ app.directive('hobbyDirective', function(hobbyService, $rootScope, $interval) {
             var setRadius = function() {
                 var xPosition = scope.x - widthOffset;
                 var yPosition = scope.y - heightOffset;
-//                console.log('xPos: ', xPosition);
-//                console.log('yPos: ', yPosition);
 
                 myEl.css({
                     'top': xPosition + 'px',
@@ -32,7 +30,6 @@ app.directive('hobbyDirective', function(hobbyService, $rootScope, $interval) {
            
            //Put the hobby object on the scope
            scope.hobby = hobbyService.hobbies[scope.index];
-           console.log('This hobby img: ', scope.hobby.imgSrc);
        }
    } 
 });

@@ -7,7 +7,6 @@ app.directive('projectInformationDirective', function (projectService, $statePar
         link: function(scope, elem, attr) {
             scope.project = projectService.projects.find(project => project.name === $stateParams.name);
             scope.hasGitHubLink = scope.project.link != "" ? true : false;
-            console.log(scope.hasGitHubLink);
             
             $('.carousel-control.left').click(function() {
                 $('#myCarousel').carousel('prev');

@@ -5,7 +5,6 @@ app.directive('projectsComponent', function(projectService) {
         templateUrl: 'app/components/home/projects/projectsDirective/projects.html',
         link: function(scope, elem, attrs) {                
             scope.projects = projectService.projects;
-            console.log(scope.projects);
         }   
     }
 });

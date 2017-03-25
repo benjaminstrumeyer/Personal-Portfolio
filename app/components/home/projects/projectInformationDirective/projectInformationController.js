@@ -16,7 +16,6 @@ app
         }
         
         $scope.viewGithubLink = function(link) { 
-            console.log('Link', link);
             $window.open(link);
         };
         

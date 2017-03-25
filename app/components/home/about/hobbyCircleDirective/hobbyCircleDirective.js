@@ -13,7 +13,6 @@ app.directive('hobbyCircleDirective', function($interval) {
                 scope.checkHeight = $('.center-circle-container').prop('offsetHeight'); 
                 
                 scope.radius = scope.checkHeight/1.38;
-//                console.log('radius', scope.radius);
             }
             
             //Call it on page load
@@ -26,8 +25,6 @@ app.directive('hobbyCircleDirective', function($interval) {
                 return scope.currentHobbyImgSrc;
             },
             function(newVal, oldVal) {
-                console.log('newVal: ', newVal);
-
                 var myEl = angular.element(elem[0].querySelector('#circle-background-container'));
 
                 myEl.css({
