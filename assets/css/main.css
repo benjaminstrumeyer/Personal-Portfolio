@@ -118,7 +118,8 @@ body {
 
 .nav>li>a:hover {
     border-radius: 30px;
-    box-shadow: inset 0px 0 5px hsl(242,47%,21%), 0px 0 5px white;
+    box-shadow: inset 0px 0 2px hsl(242,47%,21%), 0px 0 2px white;
+/*    border: 3px solid hsl(242,47%,31%);*/
 }
 
 .header-container {
