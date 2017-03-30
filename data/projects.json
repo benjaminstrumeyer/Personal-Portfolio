@@ -2,7 +2,7 @@
     {
         "name": "NLP Steam Reviews",
         "description": "Natural Language Processing Steam Reviews is a sentiment analyzing web app created as a final project for the NLP elective at Stony Brook University. My partner and I scrape ~75,000 reviews from the Steam website along with the reviewer's boolean recommendation rating. We use a modified version of the Turney algorithm to pinpoint phrases that express sentiments and assign them positive/negative polarity values. This allows us to parse new reviews, predict if the reviewer recommends the game, and generate statistics accordingly.",
-        "imgSrcs": ["assets/img/NLP_Steam_Reviews/Homepage.png", "assets/img/NLP_Steam_Reviews/DBX_Rating.png", "assets/img/NLP_Steam_Reviews/Sample_Review.png"],
+        "imgSrcs": ["/assets/img/NLP_Steam_Reviews/Homepage.png", "/assets/img/NLP_Steam_Reviews/DBX_Rating.png", "/assets/img/NLP_Steam_Reviews/Sample_Review.png"],
         "technologies": ["HTML5", "CSS3", "Javascript", "AngularJS", "NodeJS", "MongoDB"],
         "members": 2,
         "link": "https://github.com/cypherix93/nlp-steam-reviews-analysis"
@@ -10,7 +10,7 @@
     {
         "name": "Startpage",
         "description": "Personal homepage created to quickly navigate to frequently visited websites more easily. Hotkeys can be viewed by hovering on each of the 8 icon categories. Pressing a hotkey will queue the corresponding website, and 'Enter' will open websites in order. 'Backspace' removes all hotkeys from the queue.",
-        "imgSrcs": ["assets/img/Startpage/home.png","assets/img/Startpage/hotkeys.png", "assets/img/Startpage/Opened%20Windows.png"],
+        "imgSrcs": ["/assets/img/Startpage/home.png","/assets/img/Startpage/hotkeys.png", "/assets/img/Startpage/Opened%20Windows.png"],
         "technologies": ["HTML5", "CSS3", "Javascript", "AngularJS"],
         "members": 1,
         "link": "https://github.com/benstrumeyer/Startpage"
@@ -18,7 +18,7 @@
     {
         "name": "Hero HQ",
         "description": "Hero Headquarters is a \"Create Your Own Adventure\" themed comic book web app created to fulfill a semester-long team project in Stony Brook University's Software Engineering course. You can browse the site in a number of ways to read comics published by other users, and even design your own comics using our own content creator. We also include a Google sign in feature, which lets us tailor your custom homepage based on your comic history, and subscriptions of your choice.",
-        "imgSrcs": ["assets/img/Hero%20HQ/Front%20Page%201.png"],
+        "imgSrcs": ["/assets/img/Hero%20HQ/Front%20Page%201.png"],
         "technologies": ["HTML5", "CSS3", "Javascript", "JQuery", "Spring", "Cloud Datastore"],
         "members": 4,
         "link": ""
@@ -26,7 +26,7 @@
     {
         "name": "Personal Portfolio",
         "description": "Simple angular app to display projects.",
-        "imgSrcs": ["assets/img/Personal_Portfolio/home.png", "assets/img/Personal_Portfolio/projects.png"],
+        "imgSrcs": ["/assets/img/Personal_Portfolio/home.png", "/assets/img/Personal_Portfolio/projects.png"],
         "technologies": ["HTML5", "CSS3", "Javascript", "AngularJS"],
         "members": 1,
         "link": "https://github.com/benstrumeyer/Personal-Portfolio"
