@@ -1,7 +1,7 @@
 html, body {
 /*    background-color: hsl(28,52%,82%);*/
 /*    background-color: hsl(15,98%,90%);*/
-    background-color: hsl(242,47%,21%);
+    background-color: hsl(242,40%,21%);
     color: white;
     overflow-x: hidden;
 }
@@ -35,9 +35,9 @@ body {
 }
 
 .about-me-section {
-    background-color: hsl(242,47%,31%);
+    background-color: hsl(242,40%,31%);
     position: relative;
-    box-shadow: 0 -5px 20px 5px hsl(242,47%,31%);
+    box-shadow: 0 -5px 20px 5px hsl(242,40%,31%);
     padding: calc(-30px + 4%) 0 0 0;
 }
 
@@ -110,7 +110,7 @@ body {
 
 .navbar-nav > .active a {
     border-radius: 30px;
-    background-color: hsl(242,47%,31%);
+    background-color: hsl(242,40%,31%);
 }
 
 .navbar-nav > li > a {
@@ -119,8 +119,7 @@ body {
 
 .nav>li>a:hover {
     border-radius: 30px;
-    box-shadow: inset 0px 0 2px hsl(242,47%,21%), 0px 0 2px white;
-/*    border: 3px solid hsl(242,47%,31%);*/
+    box-shadow: inset 0px 0 2px hsl(242,40%,21%), 0px 0 2px white;
 }
 
 .header-container {
@@ -182,7 +181,7 @@ body {
 .project-container {
     height: 41%;
     border: 2px solid black;
-    box-shadow: 4px 4px 4px hsl(242,47%,21%);
+    box-shadow: 4px 4px 4px hsl(242,40%,21%);
     position: relative;
     overflow: hidden;
     margin: 15px 0;
@@ -272,11 +271,11 @@ body {
 .expanded-project-container {
     margin-top: 4vh;
     border: 2px solid black;
-    box-shadow: 4px 4px 4px hsl(242,47%,21%);
+    box-shadow: 4px 4px 4px hsl(242,40%,21%);
     width: 78%;
     padding: 10px;
     min-width: 200px;
-    background-color: hsl(242,47%,31%);
+    background-color: hsl(242,40%,31%);
     min-height: 86vh;
 }
 
@@ -463,7 +462,7 @@ body {
     right: 0;
     left: 0;
     bottom: 0;
-    background-color: hsl(242,47%,21%);
+    background-color: hsl(242,40%,21%);
     z-index: 2;
 }
 
@@ -530,7 +529,7 @@ body {
     padding: 32px 20px;
     margin: auto;
     width: 100%;
-    background-color: hsl(242,47%,21%);
+    background-color: hsl(242,40%,21%);
 }
 
 .image-viewer .project-image {
@@ -546,8 +545,7 @@ body {
 }
 
 .contact-container {
-/*    background-color: hsl(242,47%,31%);*/
-    background-color: hsl(242,47%,11%);
+    background-color: hsl(242,40%,11%);
     margin-right: 0;
     min-height: 28vh;
 }
@@ -695,7 +693,7 @@ body {
 .circle-wrapper .circle {
     height: 0;
     width: 0%;
-    background-color: hsl(242,47%,21%);
+    background-color: hsl(242,40%,21%);
     border-radius: 100%;
     position: relative;
     padding: calc(75px + 3.5%) calc(75px + 3.5%);
@@ -775,7 +773,7 @@ body {
     height: 17%;
     width: 180%;
     margin-left: -37.5%;
-    background-color: hsl(242,47%,91%);
+    background-color: hsl(242,40%,91%);
     border-radius: 50px;
     display: table;
 }
@@ -784,7 +782,7 @@ body {
 .outside-hobby-circles-wrapper .title {
     display: table-cell;
     vertical-align: middle;
-    color: hsl(242,47%,21%);
+    color: hsl(242,40%,21%);
     font-size:  19px;
 }
 
