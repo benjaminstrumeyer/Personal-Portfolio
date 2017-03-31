@@ -339,7 +339,7 @@ body {
 }
 
 .expanded-project-container .technology-container img {
-    padding-bottom: 8px;
+    padding-bottom: 5px;
 }
 
 .technology-container .label-HTML5 {
@@ -347,37 +347,89 @@ body {
     background: hsl(30,90%,50%);
 }
 
+.label-HTML5 img {
+    height: 60px;
+    width: 50px;
+}
 
 .technology-container .label-CSS3 {
     background-color: hsl(200,90%,45%);
+}
+
+.label-CSS3 img {
+    height: 60px;
+    width: 50px;
+    padding-left: 2px;
 }
 
 .technology-container .label-Javascript {
      background-color: hsl(40,90%,50%);
 }
 
+.label-Javascript img {
+    height: 48px;
+    width: 43px;
+    padding-left: 5px;
+}
+
 .technology-container .label-JQuery {
     background-color: hsl(180,90%,33%);
+}
+
+.label-JQuery img {
+    height: 53px;
+    width: 53px;
+    padding-left: 6px;
 }
 
 .technology-container .label-Spring {
     background-color: hsl(100,90%,22%);
 }
 
+.label-Spring img {
+    height: 47px;
+    width: 47px;
+    padding-left: 6px;
+}
+
 .technology-container .label-CloudDatastore {
     background: hsl(0,90%,40%);
+}
+
+.label-CloudDatastore img {
+    height: 50px;
+    width: 50px;
+    padding-left: 4px;
 }
 
 .technology-container .label-AngularJS {
     background: hsl(0,90%,37%);
 }
 
+.label-AngularJS img {
+    height: 53px;
+    width: 53px;
+    padding-left: 4px;
+}
+
 .technology-container .label-NodeJS {
     background-color: hsl(135,90%,18%);
 }
 
+.label-NodeJS img {
+    height: 50px;
+    width: 50px;
+    padding-left: 6px;
+}
+
 .technology-container .label-MongoDB {
      background-color: hsl(28,35%,18%);
+}
+
+.label-MongoDB img {
+    height: 50px; 
+    width: 50px;
+    padding-left: 4px;
 }
 
 .expanded-project-container .project-description-container {
