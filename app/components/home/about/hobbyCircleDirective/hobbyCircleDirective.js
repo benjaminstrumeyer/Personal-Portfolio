@@ -11,15 +11,39 @@ app.directive('hobbyCircleDirective', function($interval) {
             
             var checkSize = function() {
                 scope.checkHeight = $('.center-circle-container').prop('offsetHeight'); 
+                scope.checkWidth = $('.center-circle-container').prop('offsetWidth'); 
                 
-                scope.radius = scope.checkHeight/1.38;
+                scope.radius = Math.min(scope.checkHeight/1.38, scope.checkWidth/1.38);
+//                scope.radius = scope.checkHeight/1.38;
             }
+            
+            // Update main circle size here
+            var updateCenterCircle = function() {
+//                var aboutSectionHeight = $('#about').prop('offsetHeight'); 
+                var windowWidth = $(window).width();
+                var windowHeight = $(window).height();
+                
+                var smallestEdge = Math.min(windowWidth, windowHeight);
+                
+                var adjustedWidth = smallestEdge < 500 ? 500 : smallestEdge;
+                
+                console.log('AdjustedWidth: ', adjustedWidth);
+                $('.center-circle-container').css({
+                   'padding': adjustedWidth/4 + 'px'
+                });
+                
+            }
+            
+            updateCenterCircle();
+            
+            
             
             //Call it on page load
             checkSize();
             
             // Update radius values for responsive design
             $interval(checkSize, 1000);
+            $interval(updateCenterCircle, 1000);
             
             scope.$watch(function() {
                 return scope.currentHobbyImgSrc;

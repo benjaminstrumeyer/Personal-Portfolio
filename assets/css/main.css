@@ -34,11 +34,16 @@ body {
     min-height: 100vh;
 }
 
+.about-test {
+    height: 1000px;
+}
+
 .about-me-section {
     background-color: hsl(242,40%,31%);
     position: relative;
     box-shadow: 0 -5px 20px 5px hsl(242,40%,31%);
     padding: calc(-30px + 4%) 0 0 0;
+    
 }
 
 
@@ -816,7 +821,7 @@ body {
     border: 2px solid white;
     position: relative;
     margin: 0 auto;
-    padding: calc(255px + 0.5vh) calc(255px + 0.5vh);
+/*    padding: calc(255px + 0.5vh) calc(255px + 0.5vh);*/
 /*    padding: 260px 260px;*/
 } 
 
