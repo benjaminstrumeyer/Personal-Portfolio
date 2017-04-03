@@ -28,7 +28,6 @@ app.directive('hobbyCircleDirective', function($interval) {
                 var smallestEdge = Math.min(windowWidth, windowHeight);
                 
                 var adjustedWidth = smallestEdge < 800 ? 800 : smallestEdge;
-                console.log('AdjustedWidth: ', adjustedWidth);
                 $('.center-circle-container').css({
                    'padding': adjustedWidth/4 + 'px'
                 });
