@@ -13,7 +13,9 @@ app.directive('hobbyCircleDirective', function($interval) {
                 scope.checkHeight = $('.center-circle-container').prop('offsetHeight'); 
                 scope.checkWidth = $('.center-circle-container').prop('offsetWidth'); 
                 
-                scope.radius = Math.min(scope.checkHeight/1.38, scope.checkWidth/1.38);
+                var smallestEdge = Math.min(scope.checkHeight/1.38, scope.checkWidth/1.38);
+                scope.radius = Math.max(285, smallestEdge);
+            
 //                scope.radius = scope.checkHeight/1.38;
             }
             
@@ -25,8 +27,7 @@ app.directive('hobbyCircleDirective', function($interval) {
                 
                 var smallestEdge = Math.min(windowWidth, windowHeight);
                 
-                var adjustedWidth = smallestEdge < 500 ? 500 : smallestEdge;
-                
+                var adjustedWidth = smallestEdge < 800 ? 800 : smallestEdge;
                 console.log('AdjustedWidth: ', adjustedWidth);
                 $('.center-circle-container').css({
                    'padding': adjustedWidth/4 + 'px'
@@ -42,8 +43,8 @@ app.directive('hobbyCircleDirective', function($interval) {
             checkSize();
             
             // Update radius values for responsive design
-            $interval(checkSize, 1000);
-            $interval(updateCenterCircle, 1000);
+            $interval(checkSize, 500);
+            $interval(updateCenterCircle, 500);
             
             scope.$watch(function() {
                 return scope.currentHobbyImgSrc;
