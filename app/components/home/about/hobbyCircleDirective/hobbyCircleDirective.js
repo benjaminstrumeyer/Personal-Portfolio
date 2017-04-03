@@ -15,8 +15,6 @@ app.directive('hobbyCircleDirective', function($interval) {
                 
                 var smallestEdge = Math.min(scope.checkHeight/1.38, scope.checkWidth/1.38);
                 scope.radius = Math.max(285, smallestEdge);
-            
-//                scope.radius = scope.checkHeight/1.38;
             }
             
             // Update main circle size here
@@ -56,6 +54,9 @@ app.directive('hobbyCircleDirective', function($interval) {
                 });
                
             });
+            
+            //Easter Egg
+            console.log("It's a hobby 'circle' because I'm well rounded!");
         }
     }
 });

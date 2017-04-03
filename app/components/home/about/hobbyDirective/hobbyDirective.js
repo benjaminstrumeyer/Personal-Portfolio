@@ -35,7 +35,6 @@ app.directive('hobbyDirective', function(hobbyService, $rootScope, $interval) {
                 //Adjust Padding
                 var smallestEdge = Math.min(windowHeight, windowWidth);
                 if (smallestEdge < 900) {
-                    console.log('Smallest edge is: ', smallestEdge);
                     $('.circle-wrapper .circle').css({
                        'padding':  'calc(70px + 3.5%) calc(70px + 3.5%)',
                         'margin-left': '-2%'
