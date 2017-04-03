@@ -39,15 +39,12 @@ app.directive('hobbyDirective', function(hobbyService, $rootScope, $interval) {
                     $('.circle-wrapper .circle').css({
                        'padding':  'calc(70px + 3.5%) calc(70px + 3.5%)',
                         'margin-left': '-2%'
-                    });
-                    
-                    // Adjust offset due to changed padding
-                    
+                    });       
                 }
                 else {
                     $('.circle-wrapper .circle').css({
                        'padding': 'calc(75px + 3.5%) calc(75px + 3.5%)',
-//                       'margin-left': '-5%'
+                       'margin-left': '-5%'
                     });
                 }
             }
