@@ -48,7 +48,6 @@ body {
     
 }
 
-
 .container-table {
     display: table;
 }
@@ -83,6 +82,13 @@ body {
     padding: calc(30px - 2%);
 }
 
+
+.logo-container {
+    position: absolute;
+    margin-left: -100px;
+    height: 100px;
+    width: 100px;
+}
 
 .navbar .logo {
     height:  60px;
