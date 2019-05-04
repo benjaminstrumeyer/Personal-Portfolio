@@ -4,7 +4,7 @@ app.
     var self = this;
     
     self.title = "Let's Get in Touch";
-    self.motiveDescription = "React and C# developer whose always up for a chat about new opportunties or the future of javascript. Shoot me an email, I promise I'm friendly!";
+    self.motiveDescription = "Hi there! I'm always up for a chat about new opportunties or tech in general. Shoot me an email, I'm friendly!";
     self.email = "ben.strumeyer@gmail.com";
     self.github = "benstrumeyer";
     self.resume = "Resume";
